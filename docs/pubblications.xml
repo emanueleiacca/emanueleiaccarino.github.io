@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Emanuele Iaccarino</title>
+<link>https://emanueleiacca.github.io/pubblications.html</link>
+<atom:link href="https://emanueleiacca.github.io/pubblications.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Sun, 30 Jun 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Deep Reinforcement Learning for Incomplete Information Card Games (BlackJack and Poker)</title>
+  <link>https://emanueleiacca.github.io/pubblications/BlackJack and Poker/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
+<p>The domain of <strong>card games</strong>, marked by complexity, uncertainty, and strategic depth, provides a fertile ground for advancing <strong>reinforcement learning (RL)</strong>. This thesis explores the use of both RL and <strong>deep reinforcement learning (DRL)</strong> algorithms in <strong>Blackjack</strong> and <strong>Poker</strong>, two games of incomplete information.</p>
+<p>Algorithms studied:<br>
+- <strong>Deep Q-Networks (DQN)</strong><br>
+- <strong>Counterfactual Regret Minimization (CFR)</strong><br>
+- <strong>Deep Monte Carlo (DMC)</strong><br>
+- <strong>Neural Fictitious Self-Play (NFSP)</strong></p>
+<hr>
+</section>
+<section id="key-contributions" class="level3">
+<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
+<ul>
+<li>Systematic evaluation of RL and DRL algorithms in incomplete-information games<br>
+</li>
+<li>Demonstrated <strong>superhuman performance</strong> in specific game configurations<br>
+</li>
+<li>Provided insights into how algorithms develop <strong>strategic learning and decision-making processes</strong><br>
+</li>
+<li>Highlighted differences in algorithm adaptability to <strong>stochasticity and hidden information</strong></li>
+</ul>
+<hr>
+</section>
+<section id="findings" class="level3">
+<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
+<ul>
+<li><strong>DQN</strong> proved effective in learning structured Blackjack strategies<br>
+</li>
+<li><strong>CFR</strong> and <strong>NFSP</strong> excelled in handling incomplete information in Poker<br>
+</li>
+<li><strong>DMC</strong> offered robust convergence in complex state spaces<br>
+</li>
+<li>Results demonstrate that DRL can replicate and surpass human strategies in competitive card games</li>
+</ul>
+<hr>
+<p><a href="https://doi.org/10.13140/RG.2.2.11939.46887" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/BlackJack and Poker/drl-poker.png" alt="Reinforcement learning agents playing Blackjack and Poker" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Deep reinforcement learning applied to Blackjack and Poker</p>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Reinforcement Learning</category>
+  <category>DeepRL</category>
+  <category>CardGames</category>
+  <category>Research</category>
+  <guid>https://emanueleiacca.github.io/pubblications/BlackJack and Poker/</guid>
+  <pubDate>Sun, 30 Jun 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/pubblications/BlackJack and Poker/drl-poker.png" medium="image" type="image/png" height="70" width="144"/>
+</item>
+<item>
+  <title>Breast Cancer Classification with Deep Learning</title>
+  <link>https://emanueleiacca.github.io/pubblications/Breast Cancer/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
+<p><strong>Mammography</strong> is a cornerstone in the early detection of breast cancer, where accurate image classification is crucial for timely diagnosis and treatment. While deep learning has shown great promise in medical imaging, the <strong>CBIS-DDSM dataset</strong>—one of the largest repositories of breast cancer mammograms—remains relatively underexplored, with limited reproducible research available.</p>
+<p>This project implements a <strong>deep learning pipeline</strong> for mammography classification, addressing preprocessing, augmentation, and training challenges in medical imaging.</p>
+<hr>
+</section>
+<section id="key-contributions" class="level3">
+<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
+<ul>
+<li>Preprocessing strategies: ROI extraction, intensity maps, and gradient magnitude transformations<br>
+</li>
+<li>Custom data augmentation: geometric transformations, ROI overlay, and blended cropping<br>
+</li>
+<li>Model development: pretrained CNNs with <strong>transfer learning</strong>, fine-tuned for CBIS mammograms<br>
+</li>
+<li>Reproducibility: publicly available code and methodology for reproducible medical ML research</li>
+</ul>
+<hr>
+</section>
+<section id="findings" class="level3">
+<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
+<ul>
+<li>Preprocessing significantly improved model convergence and accuracy<br>
+</li>
+<li>Transfer learning with fine-tuning achieved <strong>state-of-the-art performance</strong> among public baselines<br>
+</li>
+<li>Augmentation strategies reduced overfitting and improved generalization<br>
+</li>
+<li>Results demonstrate the potential of deep learning for <strong>scalable, reproducible breast cancer diagnostics</strong></li>
+</ul>
+<hr>
+<p><a href="https://doi.org/10.13140/RG.2.2.21738.43206" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/Breast Cancer/breast-cancer-classification.png" alt="Breast cancer mammogram classification with deep learning models" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Deep learning for mammogram classification using the CBIS dataset</p>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Deep Learning</category>
+  <category>Medical Imaging</category>
+  <category>Classification</category>
+  <category>Research</category>
+  <guid>https://emanueleiacca.github.io/pubblications/Breast Cancer/</guid>
+  <pubDate>Thu, 30 Nov 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/pubblications/Breast Cancer/breast-cancer-classification.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
+<item>
+  <title>Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques</title>
+  <link>https://emanueleiacca.github.io/pubblications/Unity ML Agents/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This work explores the application of <strong>reinforcement learning (RL)</strong> within Unity ML Agents environments, providing both practical tutorials and comparative analysis.</p>
+<p>Central to the study is the implementation of algorithms including <strong>Imitation Learning, PPO, SAC, and POCA</strong>, applied to Unity environments such as <em>3DBall</em>, <em>WallJump</em>, and <em>SoccerTwos</em>.</p>
+<p>Key contributions:</p>
+<ul>
+<li>Introduces Unity ML Toolkit for reinforcement learning research<br>
+</li>
+<li>Implements multiple RL algorithms with TensorBoard monitoring<br>
+</li>
+<li>Applies <strong>curriculum learning</strong> in WallJump to accelerate training<br>
+</li>
+<li>Uses <strong>self-play</strong> in SoccerTwos for competitive agent learning<br>
+</li>
+<li>Demonstrates the role of hyperparameter tuning in agent stability and performance</li>
+</ul>
+<p><strong>Findings</strong><br>
+- SAC outperformed PPO in continuous-control tasks (<em>3DBall</em>)<br>
+- Curriculum learning enabled efficient convergence in complex environments<br>
+- Self-play produced more robust agents in adversarial settings<br>
+- Hyperparameter adjustments had significant effects on model performance</p>
+<p><a href="https://www.researchgate.net/publication/377273320_Unity_ML_Agents_Wall_Jump_and_SoccerTwos_environment_using_Reinforcement_Learning_RL_tecnique" class="btn" target="_blank">Read on ResearchGate</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/Unity ML Agents/unity-rl.png" alt="Unity ML-Agents reinforcement learning environments: Wall Jump and SoccerTwos" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Unity ML-Agents environments explored: WallJump and SoccerTwos</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Reinforcement Learning</category>
+  <category>Unity</category>
+  <category>Machine Learning</category>
+  <category>Research</category>
+  <guid>https://emanueleiacca.github.io/pubblications/Unity ML Agents/</guid>
+  <pubDate>Thu, 30 Nov 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/pubblications/Unity ML Agents/unity-rl.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment</title>
+  <link>https://emanueleiacca.github.io/pubblications/Frozen Lake/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="abstract" class="level3">
+<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
+<p>This study delves into the nuances of various <strong>reinforcement learning algorithms</strong> in the context of the <strong>Frozen Lake environment</strong>, offering a comprehensive analysis of their behaviors under both deterministic and stochastic settings.</p>
+<p>Algorithms evaluated include:<br>
+- Monte Carlo<br>
+- Sarsa<br>
+- Expected Sarsa<br>
+- Q-Learning<br>
+- Double Q-Learning</p>
+<p>A significant portion of the research focuses on <strong>hyperparameter optimization</strong> using the Optuna framework, specifically targeting Q-Learning.</p>
+<hr>
+</section>
+<section id="key-contributions" class="level3">
+<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
+<ul>
+<li>Comparative evaluation of five RL algorithms in deterministic vs stochastic Frozen Lake<br>
+</li>
+<li>Analysis of learning dynamics and convergence behaviors<br>
+</li>
+<li>Hyperparameter tuning via <strong>Optuna</strong> for Q-Learning (discount rate, learning rate, exploration strategies)<br>
+</li>
+<li>Insights into how hyperparameter interactions impact efficiency and stability</li>
+</ul>
+<hr>
+</section>
+<section id="findings" class="level3">
+<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
+<ul>
+<li>Q-Learning and Double Q-Learning showed robustness in stochastic environments<br>
+</li>
+<li>Discount rate and learning rate proved critical for convergence speed and stability<br>
+</li>
+<li>Optuna-based optimization improved Q-Learning efficiency in both environments<br>
+</li>
+<li>The study provides practical guidance for RL applications in grid-world tasks</li>
+</ul>
+<hr>
+<p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/Frozen Lake/frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Exploring deterministic and stochastic Frozen Lake environments with RL</p>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Reinforcement Learning</category>
+  <category>FrozenLake</category>
+  <category>Optuna</category>
+  <category>Research</category>
+  <guid>https://emanueleiacca.github.io/pubblications/Frozen Lake/</guid>
+  <pubDate>Sat, 30 Sep 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/pubblications/Frozen Lake/frozenlake-rl.png" medium="image" type="image/png" height="94" width="144"/>
+</item>
+</channel>
+</rss>

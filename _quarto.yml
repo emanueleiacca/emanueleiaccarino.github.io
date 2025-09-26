@@ -20,8 +20,12 @@ website:
       - href: projects.qmd
         text: projects
       - posts.qmd
+      - href: pubblications.qmd
+        text: pubblications
+
       - text: get in touch!
         menu:
+      
           - icon: linkedin
             text: LinkedIn
             href: https://www.linkedin.com/in/emanuele-iaccarino-a4298b27b/

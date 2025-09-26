@@ -1,0 +1,37 @@
+---
+title: "Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques"
+description: |
+  Implementation and comparative study of reinforcement learning algorithms in Unity ML environments, with case studies on WallJump and SoccerTwos.
+date: 2023-12-01
+categories: [Reinforcement Learning, Unity, Machine Learning, Research]
+image: unity-rl.png
+draft: false
+---
+
+This work explores the application of **reinforcement learning (RL)** within Unity ML Agents environments, providing both practical tutorials and comparative analysis.  
+
+Central to the study is the implementation of algorithms including **Imitation Learning, PPO, SAC, and POCA**, applied to Unity environments such as *3DBall*, *WallJump*, and *SoccerTwos*.  
+
+Key contributions:  
+
+- Introduces Unity ML Toolkit for reinforcement learning research  
+- Implements multiple RL algorithms with TensorBoard monitoring  
+- Applies **curriculum learning** in WallJump to accelerate training  
+- Uses **self-play** in SoccerTwos for competitive agent learning  
+- Demonstrates the role of hyperparameter tuning in agent stability and performance  
+
+**Findings**  
+- SAC outperformed PPO in continuous-control tasks (*3DBall*)  
+- Curriculum learning enabled efficient convergence in complex environments  
+- Self-play produced more robust agents in adversarial settings  
+- Hyperparameter adjustments had significant effects on model performance  
+
+[Read on ResearchGate](https://www.researchgate.net/publication/377273320_Unity_ML_Agents_Wall_Jump_and_SoccerTwos_environment_using_Reinforcement_Learning_RL_tecnique){.btn target=_blank}
+
+<br>
+
+<img class="img-styling" src="unity-rl.png" alt="Unity ML-Agents reinforcement learning environments: Wall Jump and SoccerTwos" width="70%">
+
+::: {.gray-italic .center-text}
+Unity ML-Agents environments explored: WallJump and SoccerTwos
+:::

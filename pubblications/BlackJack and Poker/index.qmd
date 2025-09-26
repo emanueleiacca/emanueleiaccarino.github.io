@@ -1,0 +1,49 @@
+---
+title: "Deep Reinforcement Learning for Incomplete Information Card Games (BlackJack and Poker)"
+description: |
+  Application of RL and DRL algorithms to strategic decision-making in Blackjack and Poker, exploring uncertainty and incomplete information.
+date: 2024-07-01
+categories: [Reinforcement Learning, DeepRL, CardGames, Research]
+image: drl-poker.png
+draft: false
+---
+
+### 📄 Abstract  
+
+The domain of **card games**, marked by complexity, uncertainty, and strategic depth, provides a fertile ground for advancing **reinforcement learning (RL)**. This thesis explores the use of both RL and **deep reinforcement learning (DRL)** algorithms in **Blackjack** and **Poker**, two games of incomplete information.  
+
+Algorithms studied:  
+- **Deep Q-Networks (DQN)**  
+- **Counterfactual Regret Minimization (CFR)**  
+- **Deep Monte Carlo (DMC)**  
+- **Neural Fictitious Self-Play (NFSP)**  
+
+---
+
+### 🔑 Key Contributions  
+
+- Systematic evaluation of RL and DRL algorithms in incomplete-information games  
+- Demonstrated **superhuman performance** in specific game configurations  
+- Provided insights into how algorithms develop **strategic learning and decision-making processes**  
+- Highlighted differences in algorithm adaptability to **stochasticity and hidden information**  
+
+---
+
+### 📌 Findings  
+
+- **DQN** proved effective in learning structured Blackjack strategies  
+- **CFR** and **NFSP** excelled in handling incomplete information in Poker  
+- **DMC** offered robust convergence in complex state spaces  
+- Results demonstrate that DRL can replicate and surpass human strategies in competitive card games  
+
+---
+
+[Read full-text on ResearchGate](https://doi.org/10.13140/RG.2.2.11939.46887){.btn target=_blank}  
+
+<br>
+
+<img class="img-styling" src="drl-poker.png" alt="Reinforcement learning agents playing Blackjack and Poker" width="70%">
+
+::: {.gray-italic .center-text}
+Deep reinforcement learning applied to Blackjack and Poker
+:::

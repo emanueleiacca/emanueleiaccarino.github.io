@@ -1,0 +1,45 @@
+---
+title: "Breast Cancer Classification with Deep Learning"
+description: |
+  A deep learning pipeline for classifying mammographic images from the CBIS dataset, leveraging preprocessing and transfer learning.
+date: 2023-12-01
+categories: [Deep Learning, Medical Imaging, Classification, Research]
+image: breast-cancer-classification.png
+draft: false
+---
+
+### 📄 Abstract  
+
+**Mammography** is a cornerstone in the early detection of breast cancer, where accurate image classification is crucial for timely diagnosis and treatment. While deep learning has shown great promise in medical imaging, the **CBIS-DDSM dataset**—one of the largest repositories of breast cancer mammograms—remains relatively underexplored, with limited reproducible research available.  
+
+This project implements a **deep learning pipeline** for mammography classification, addressing preprocessing, augmentation, and training challenges in medical imaging.  
+
+---
+
+### 🔑 Key Contributions  
+
+- Preprocessing strategies: ROI extraction, intensity maps, and gradient magnitude transformations  
+- Custom data augmentation: geometric transformations, ROI overlay, and blended cropping  
+- Model development: pretrained CNNs with **transfer learning**, fine-tuned for CBIS mammograms  
+- Reproducibility: publicly available code and methodology for reproducible medical ML research  
+
+---
+
+### 📌 Findings  
+
+- Preprocessing significantly improved model convergence and accuracy  
+- Transfer learning with fine-tuning achieved **state-of-the-art performance** among public baselines  
+- Augmentation strategies reduced overfitting and improved generalization  
+- Results demonstrate the potential of deep learning for **scalable, reproducible breast cancer diagnostics**  
+
+---
+
+[Read full-text on ResearchGate](https://doi.org/10.13140/RG.2.2.21738.43206){.btn target=_blank}  
+
+<br>
+
+<img class="img-styling" src="breast-cancer-classification.png" alt="Breast cancer mammogram classification with deep learning models" width="70%">
+
+::: {.gray-italic .center-text}
+Deep learning for mammogram classification using the CBIS dataset
+:::

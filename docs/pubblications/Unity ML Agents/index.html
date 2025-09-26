@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-12-01">
+<meta name="description" content="Implementation and comparative study of reinforcement learning algorithms in Unity ML environments, with case studies on WallJump and SoccerTwos.">
 
-<title>about – Emanuele Iaccarino</title>
+<title>Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +25,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/pfp.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7ddbeacbd4737aaa27e9305d1dfb5f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/pfp.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f7ddbeacbd4737aaa27e9305d1dfb5f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,15 +80,15 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/pfp.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo light-content">
-    <img src="./images/pfp.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/pfp.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo light-content">
+    <img src="../../images/pfp.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emanuele Iaccarino</span>
     </a>
   </div>
@@ -97,21 +99,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.qmd"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
     <span class="nav-link">
 <span class="menu-text">posts.qmd</span>
     </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pubblications.html"> 
+<span class="menu-text">pubblications</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -143,106 +149,78 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">about</h1>
-            <p class="subtitle lead">a bit more about me, both inside and outside of my work</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#my-approach-soft-skills" id="toc-my-approach-soft-skills" class="nav-link active" data-scroll-target="#my-approach-soft-skills"><i class="fa-solid fa-compass-drafting" title="A drafting compass" aria-label="compass-drafting"></i> My approach (Soft Skills)</a></li>
-  <li><a href="#my-passion" id="toc-my-passion" class="nav-link" data-scroll-target="#my-passion"><i class="fa-solid fa-mug-hot" title="A mug" aria-label="mug-hot"></i> My passion</a>
-  <ul class="collapse">
-  <li><a href="#recognition" id="toc-recognition" class="nav-link" data-scroll-target="#recognition"><i class="fa-solid fa-award" title="An award" aria-label="award"></i> Recognition</a></li>
-  <li><a href="#exhibitions-of-my-artworks" id="toc-exhibitions-of-my-artworks" class="nav-link" data-scroll-target="#exhibitions-of-my-artworks"><i class="fa-solid fa-ship" title="A ship" aria-label="ship"></i> Exhibitions of my artworks</a></li>
-  <li><a href="#media" id="toc-media" class="nav-link" data-scroll-target="#media"><i class="fa-solid fa-tv" title="A television" aria-label="tv"></i> Media</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Reinforcement Learning</div>
+    <div class="quarto-category">Unity</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Research</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>Implementation and comparative study of reinforcement learning algorithms in Unity ML environments, with case studies on WallJump and SoccerTwos.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
-<section id="my-approach-soft-skills" class="level2">
-<h2 class="anchored" data-anchor-id="my-approach-soft-skills"><i class="fa-solid fa-compass-drafting" title="A drafting compass" aria-label="compass-drafting"></i> My approach (Soft Skills)</h2>
-<p>For me, data science is not just about writing code or training models — it’s about the way you approach problems. What makes me different is not a single skill, but a combination of habits and attitudes that shape the way I work.</p>
+
+<p>This work explores the application of <strong>reinforcement learning (RL)</strong> within Unity ML Agents environments, providing both practical tutorials and comparative analysis.</p>
+<p>Central to the study is the implementation of algorithms including <strong>Imitation Learning, PPO, SAC, and POCA</strong>, applied to Unity environments such as <em>3DBall</em>, <em>WallJump</em>, and <em>SoccerTwos</em>.</p>
+<p>Key contributions:</p>
 <ul>
-<li><strong>Curiosity.</strong> I don’t stop at results, I always want to know why something behaves the way it does. That’s what keeps me digging into data until the story becomes clear.<br>
+<li>Introduces Unity ML Toolkit for reinforcement learning research<br>
 </li>
-<li><strong>Clarity.</strong> Numbers only matter if people can understand them, so I put effort into making my work transparent — whether it’s through well-documented code, clear communication, or turning messy complexity into something others can actually use.<br>
+<li>Implements multiple RL algorithms with TensorBoard monitoring<br>
 </li>
-<li><strong>Creativity.</strong> Even though I was trained in statistics, I enjoy approaching problems from unexpected angles. Data science, for me, is also a creative act: finding new ways to ask questions and design solutions. In many ways, I bring the same mindset I have as an artist into my work with data.<br>
+<li>Applies <strong>curriculum learning</strong> in WallJump to accelerate training<br>
 </li>
-<li><strong>Growth.</strong> This field never stands still, and neither do I. I’m motivated by the chance to explore new ideas, test emerging tools, and push myself beyond what I already know. Learning isn’t a side activity, it’s at the heart of how I keep evolving.<br>
+<li>Uses <strong>self-play</strong> in SoccerTwos for competitive agent learning<br>
 </li>
-<li><strong>Adaptability.</strong> My background gave me the chance to move across research and applied projects, so I’m comfortable switching between rigor and creativity depending on the context.</li>
+<li>Demonstrates the role of hyperparameter tuning in agent stability and performance</li>
 </ul>
-<p>Looking ahead, I want to grow in an industry environment where these traits can translate into real impact. For me, the next step is about sharpening my skills in practice, learning from experienced teams, and contributing to work that matters beyond the notebook.</p>
-<hr>
-</section>
-<section id="my-passion" class="level2">
-<h2 class="anchored" data-anchor-id="my-passion"><i class="fa-solid fa-mug-hot" title="A mug" aria-label="mug-hot"></i> My passion</h2>
-<p>Long before I ever wrote my first line of code, I grew up surrounded by ceramics — a family tradition where patience, detail, and creativity were part of everyday life. For me, clay was never just a material: it was something alive, something that teaches you to slow down, to experiment, and to accept that not everything comes out perfect on the first try.</p>
-<p>Over time I started creating my own pieces, and that experience shaped me just as much as any formal education. Ceramics taught me that beauty and meaning come from process as much as from outcome, and that even small imperfections can add character and authenticity.</p>
-<p>That artistic background is still a big part of who I am. It keeps me connected to tradition, but also gives me perspective: the ability to see beyond function, to value form and story, and to treat what I build — in any context — as something that should carry both purpose and personality.</p>
-<p>And if you ever hire me as a data scientist, there’s a good chance you’ll also get a piece of my artwork on your desk — a small reminder that numbers and creativity aren’t so far apart after all.</p>
-<p class="center-text">
-<i class="fa-solid fa-arrow-pointer" aria-label="arrow-pointer"></i> Take a look at my work here:<br>
-<a href="https://jg1w6f-ii.myshopify.com/" target="_blank" rel="noopener">jg1w6f-ii.myshopify.com</a>
-</p>
-<hr>
-<section id="recognition" class="level3">
-<h3 class="anchored" data-anchor-id="recognition"><i class="fa-solid fa-award" title="An award" aria-label="award"></i> Recognition</h3>
-<p><strong>Regional Council of Campania — Award for Excellence in Production, 2021.</strong></p>
-<p><img class="img-styling" src="images/award.png" alt="Award plaque from Regione Campania recognizing excellence in production" width="70%"></p>
-<hr>
-</section>
-<section id="exhibitions-of-my-artworks" class="level3">
-<h3 class="anchored" data-anchor-id="exhibitions-of-my-artworks"><i class="fa-solid fa-ship" title="A ship" aria-label="ship"></i> Exhibitions of my artworks</h3>
-<p><strong>Ceramic “Vesuvian cherry tomato horn” on Abramovich’s yacht</strong><br>
-A unique piece displayed on the yacht of Roman Abramovich, former Chelsea president.</p>
-<p><img class="img-styling" src="images/corno-vesuvio.png" alt="Red ceramic Vesuvian cherry tomato horn on yacht" width="70%"></p>
-<hr>
-<p><strong>Exhibitions across the Sorrento and Amalfi Peninsula</strong><br>
-Celebrating the traditions of my homeland through ceramic works.</p>
-<p><img class="img-styling" src="images/sorrento-exhibit.png" alt="Ceramics exhibited on the Sorrento Peninsula" width="70%"></p>
-<hr>
-</section>
-<section id="media" class="level3">
-<h3 class="anchored" data-anchor-id="media"><i class="fa-solid fa-tv" title="A television" aria-label="tv"></i> Media</h3>
-<p><strong>Regional cooking shows</strong><br>
-My San Gennaro ceramic sculpture featured on local TV programs dedicated to Campania’s cuisine.</p>
-<p><img class="img-styling" src="images/san-gennaro-tv.png" alt="San Gennaro ceramic piece on regional cooking show" width="70%"></p>
-<hr>
-<p><strong>Football talk shows</strong><br>
-Bringing the color and symbolism of Naples’ tradition into national football discussions.</p>
-<p><img class="img-styling" src="images/football-talkshow.png" alt="Red San Gennaro ceramic piece on a football talk show" width="70%"></p>
+<p><strong>Findings</strong><br>
+- SAC outperformed PPO in continuous-control tasks (<em>3DBall</em>)<br>
+- Curriculum learning enabled efficient convergence in complex environments<br>
+- Self-play produced more robust agents in adversarial settings<br>
+- Hyperparameter adjustments had significant effects on model performance</p>
+<p><a href="https://www.researchgate.net/publication/377273320_Unity_ML_Agents_Wall_Jump_and_SoccerTwos_environment_using_Reinforcement_Learning_RL_tecnique" class="btn" target="_blank">Read on ResearchGate</a></p>
+<p><br></p>
+<p><img class="img-styling" src="unity-rl.png" alt="Unity ML-Agents reinforcement learning environments: Wall Jump and SoccerTwos" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Unity ML-Agents environments explored: WallJump and SoccerTwos</p>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

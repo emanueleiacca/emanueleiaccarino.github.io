@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Emanuele Iaccarino</title>
+<link>https://emanueleiacca.github.io/projects.html</link>
+<atom:link href="https://emanueleiacca.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Fri, 26 Sep 2025 18:43:11 GMT</lastBuildDate>
+<item>
+  <title>Prediction of Medical Care Abandonment in Italy</title>
+  <link>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://github.com/emanueleiacca/Medical-Care-Abandonment" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
+<p><br></p>
+<!-- # Motivation -->
+<p>Access to healthcare is a fundamental right, yet many individuals still abandon or forgo necessary medical care due to financial, social, or systemic barriers. Understanding <em>who</em> is at risk and <em>why</em> is crucial to design effective policies.<br>
+This project leverages the <strong>2019 European Health Interview Survey (EHIS)</strong> to investigate medical care abandonment in Italy, combining data-driven insights with machine learning models.</p>
+<!-- # What's in the project? -->
+<p>This work implements advanced methods for prediction, interpretability, and robustness:</p>
+<ul>
+<li><strong>Data preprocessing</strong>: cleaning, handling missing values, thematic grouping, and skip-logic adjustments.<br>
+</li>
+<li><strong>Exploratory data analysis</strong>: socio-demographic patterns across age, gender, geography, and social factors.<br>
+</li>
+<li><strong>Modeling</strong>: multinomial logistic regression and XGBoost classifiers, with population weighting.<br>
+</li>
+<li><strong>Feature selection</strong>: LASSO regression and gain-based importance, stability tested via bootstrap resampling.<br>
+</li>
+<li><strong>Uncertainty quantification</strong>: conformal prediction framework for reliable, uncertainty-aware classifications.<br>
+</li>
+<li><strong>Interpretability</strong>: SHAP analysis for both global and local feature importance.</li>
+</ul>
+<!-- # Results -->
+<ul>
+<li><strong>Performance</strong>: XGBoost outperforms logistic regression, achieving higher precision and F1-score for healthcare avoiders, with fewer false positives.<br>
+</li>
+<li><strong>Key predictors</strong>: renunciation indicators (dental care, medication, mental health) emerge as the strongest signals.<br>
+</li>
+<li><strong>Uncertainty</strong>: conformal prediction provides valid coverage with smaller prediction sets for XGBoost.<br>
+</li>
+<li><strong>Insights</strong>: results highlight regional disparities and vulnerable population groups, offering concrete input for policymakers.</li>
+</ul>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/healthcare-italy.jpeg" alt="Visualization of healthcare disparities in Italy with symbolic medical and demographic data icons" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Exploring healthcare abandonment patterns across Italy</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Machine Learning</category>
+  <category>Healthcare</category>
+  <guid>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</guid>
+  <pubDate>Fri, 26 Sep 2025 18:43:11 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/medical-care.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,43 @@
+---
+title: "Prediction of Medical Care Abandonment in Italy"
+description: |
+  a research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services
+categories: [Machine Learning, Healthcare]
+image: medical-care.png
+draft: false
+---
+
+[{{< fa brands github >}} source code](https://github.com/emanueleiacca/Medical-Care-Abandonment){.btn target=_blank}
+
+<br>
+
+<!-- # Motivation -->
+
+Access to healthcare is a fundamental right, yet many individuals still abandon or forgo necessary medical care due to financial, social, or systemic barriers. Understanding *who* is at risk and *why* is crucial to design effective policies.  
+This project leverages the **2019 European Health Interview Survey (EHIS)** to investigate medical care abandonment in Italy, combining data-driven insights with machine learning models.  
+
+<!-- # What's in the project? -->
+
+This work implements advanced methods for prediction, interpretability, and robustness:
+
+- **Data preprocessing**: cleaning, handling missing values, thematic grouping, and skip-logic adjustments.  
+- **Exploratory data analysis**: socio-demographic patterns across age, gender, geography, and social factors.  
+- **Modeling**: multinomial logistic regression and XGBoost classifiers, with population weighting.  
+- **Feature selection**: LASSO regression and gain-based importance, stability tested via bootstrap resampling.  
+- **Uncertainty quantification**: conformal prediction framework for reliable, uncertainty-aware classifications.  
+- **Interpretability**: SHAP analysis for both global and local feature importance.  
+
+<!-- # Results -->
+
+- **Performance**: XGBoost outperforms logistic regression, achieving higher precision and F1-score for healthcare avoiders, with fewer false positives.  
+- **Key predictors**: renunciation indicators (dental care, medication, mental health) emerge as the strongest signals.  
+- **Uncertainty**: conformal prediction provides valid coverage with smaller prediction sets for XGBoost.  
+- **Insights**: results highlight regional disparities and vulnerable population groups, offering concrete input for policymakers.  
+
+<br>
+
+<img class="img-styling" src="healthcare-italy.jpeg" alt="Visualization of healthcare disparities in Italy with symbolic medical and demographic data icons" width="70%">
+
+::: {.gray-italic .center-text}
+Exploring healthcare abandonment patterns across Italy
+:::
