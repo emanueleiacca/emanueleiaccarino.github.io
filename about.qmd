@@ -28,17 +28,23 @@ That artistic background is still a big part of who I am. It keeps me connected 
 
 And if you ever hire me as a data scientist, there’s a good chance you’ll also get a piece of my artwork on your desk — a small reminder that numbers and creativity aren’t so far apart after all.  
 
+<p class="center-text">
+{{< fa arrow-pointer >}} Take a look at my work here:  
+<a href="https://jg1w6f-ii.myshopify.com/" target="_blank" rel="noopener">jg1w6f-ii.myshopify.com</a>
+</p>
+
 ---
 
 ### {{< fa award title="An award" >}} Recognition  
 
-<img class="img-styling" src="images/award.png" alt="Award plaque from Regione Campania recognizing excellence in production" width="70%">
+**Regional Council of Campania — Award for Excellence in Production, 2021.**
 
-*Regional Council of Campania — Award for Excellence in Production, 2021.*  
+
+<img class="img-styling" src="images/award.png" alt="Award plaque from Regione Campania recognizing excellence in production" width="70%">
 
 ---
 
-### {{< fa ship title="A ship" >}} Selected Exhibitions  
+### {{< fa ship title="A ship" >}} Exhibitions of my artworks
 
 **Ceramic “Vesuvian cherry tomato horn” on Abramovich’s yacht**  
 A unique piece displayed on the yacht of Roman Abramovich, former Chelsea president.  
@@ -47,8 +53,8 @@ A unique piece displayed on the yacht of Roman Abramovich, former Chelsea presid
 
 ---
 
-**Exhibitions across the Sorrento Peninsula**  
-Celebrating the traditions of my homeland through ceramic works showcased on the Amalfi and Sorrento coast.  
+**Exhibitions across the Sorrento and Amalfi Peninsula**  
+Celebrating the traditions of my homeland through ceramic works.  
 
 <img class="img-styling" src="images/sorrento-exhibit.png" alt="Ceramics exhibited on the Sorrento Peninsula" width="70%">
 
