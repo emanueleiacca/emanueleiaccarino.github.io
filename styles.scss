@@ -1,0 +1,285 @@
+/*-- scss:defaults --*/
+
+/* Google Fonts (mainfont is still set in _quarto.yml) */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* === Fonts === */
+$nunito: 'Nunito', sans-serif;
+$josefin: 'Josefin Sans', sans-serif;
+
+/* === Palette (define first!) === */
+$gray-green:       #E5E8E3;
+$light-green:      #D1D9CE;
+$light-green-2:    #E7EDE3;
+$medium-green:     #98A08D;
+$dark-green:       #757B6D;
+$cream:            #FDFBF7;
+$dark-gray:        #5A5856;
+$medium-gray:      #64605f;
+$violet:           #846075;
+$terracotta:       #BD6E53;
+$terracotta-dark:  #a2604a;
+
+/* Optional accents (unused but handy) */
+$hunter-green: #464B37;
+$orange:       #c27e00;
+$champagne:    #E7CEBE;
+$purple:       #9158A2;
+$burnt-orange: #ad7237;
+$blue-gray:    #466060;
+$wine:         #6B2737;
+$rose:         #885053;
+$lime:         #bdba66;
+$moss:         #959252;
+$dark-brown:   #424024;
+$midnight-green: #0F5257;
+
+/* === Quarto / Bootstrap variable overrides === */
+$navbar-bg:    $cream;
+$navbar-fg:    $dark-green;
+$navbar-hl:    $terracotta;
+
+$body-bg:      $light-green-2;
+$body-color:   $medium-gray;
+$footer-bg:    $light-green;
+
+$link-color:         $midnight-green;
+$link-hover-color:   $terracotta-dark;
+
+$code-bg:       $cream;
+$code-color:    $violet;
+$code-block-bg: $cream;
+
+/*-- scss:rules --*/
+
+/* ========= Base ========== */
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: $nunito;
+  line-height: 1.6;
+  font-size: 19px;
+  font-weight: 375;
+  /* soft gradient w/ sage background */
+  background:
+    radial-gradient(1100px 700px at 15% 10%, rgba(255,255,255,0.55), transparent 60%),
+    radial-gradient(1100px 700px at 85% 0%, rgba(255,255,255,0.35), transparent 60%),
+    $body-bg;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $josefin;
+  letter-spacing: .6px;
+  font-weight: 700;
+  color: $dark-green;
+}
+
+/* Links */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Blockquote */
+blockquote {
+  margin: 0 0 1rem;
+  padding: 0.625rem 1.25rem;
+  border-left: 0.25rem solid $cream;
+  background-color: rgba(255,255,255,0.45);
+  border-radius: 8px;
+}
+
+/* Figure / captions */
+.figure-caption {
+  color: $medium-gray;
+  font-style: italic;
+}
+
+/* Utility font helpers */
+.josefin-font { font-family: $josefin; }
+
+.large-text { font-size: 25px; }
+.small-text { font-size: 17px; }
+.extra-small-text { font-size: 14px; }
+.topbr { display: block; margin-top: 1em; }
+.center-text { text-align: center; }
+.right-align-text { text-align: right; }
+.dark-gray-text { color: $dark-gray; }
+.gray-italic { color: $medium-gray; font-style: italic; font-size: 17px; }
+
+/* === Text highlight utilities === */
+
+/* Warm terracotta emphasis */
+.text-terracotta {
+  color: $terracotta;
+  font-weight: 600;
+}
+
+/* Sage green accent */
+.text-sage {
+  color: $medium-green;
+  font-weight: 600;
+}
+
+/* Violet for secondary emphasis (e.g., creative/soft words) */
+.text-violet {
+  color: $violet;
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* Highlight block (for a whole sentence/quote) */
+.highlight-block {
+  background: rgba($terracotta, 0.12);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Soft chip/background */
+.dark-green-bg {
+  background-color: rgba(152,160,141,0.30);
+  padding: 5px 8px;
+  border-radius: 15px;
+}
+
+/* ========= Navbar ========= */
+.navbar, .navbar.navbar-light {
+  background-color: $navbar-bg !important;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+.navbar .navbar-brand,
+.navbar .nav-link { color: $navbar-fg !important; }
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .active > .nav-link { color: $navbar-hl !important; }
+
+/* Resize logo (top-left) */
+.navbar-brand img { 
+  max-height: 55px;
+  width: auto;
+}
+
+/* Animate logo */
+.navbar-logo { transition: all .3s; }
+.navbar-logo:hover { transform: translateY(-4px); }
+
+/* Dropdown items */
+.dropdown-item {
+  color: $medium-green;
+  background-color: $cream;
+}
+
+/* ========= Home bio card ========= */
+#bio {
+  font-size: 1.08em;
+  max-width: 920px;
+  margin: 3.5rem auto 2.5rem auto;
+  padding: 2.25rem 2rem;
+  background: rgba(253,251,247,0.72);
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  backdrop-filter: blur(3px);
+}
+#bio p { margin-bottom: 1.05rem; }
+#bio hr {
+  border: 0; height: 1px; width: 78%;
+  background: linear-gradient(to right, transparent, rgba(0,0,0,0.12), transparent);
+  margin: 1.2rem auto 1.6rem;
+}
+/* Headshot styling in the Jolla layout */
+#bio img {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  border: 4px solid rgba(255,255,255,0.9);
+}
+/* Landing icons size */
+#landing-icons { font-size: 1.25em; }
+
+/* ========= Buttons (social etc.) ========= */
+.btn {
+  color: $dark-gray;
+  background-color: $cream;
+  border-color: rgba(0,0,0,0.18);
+  border-radius: 14px;
+  padding: .5rem .9rem;
+  font-size: .95rem;
+  transition: transform .08s ease, background-color .15s ease, color .15s ease, border-color .15s ease;
+}
+.btn:hover {
+  color: #fff;
+  background-color: $terracotta;
+  border-color: $terracotta-dark;
+  transform: translateY(-1px);
+}
+/* Make grouped landing buttons tighter */
+#bio .btn { margin: .25rem .4rem; }
+
+/* Inline code + code blocks */
+code { background-color: $code-bg; color: $code-color; }
+pre code { background-color: $code-block-bg; }
+
+/* ========= Images ========= */
+.img-styling {
+  border-radius: 2%;
+  border: 2px solid $medium-gray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center-img { display: block; margin-left: auto; margin-right: auto; }
+
+/* ========= Cards / callouts ========= */
+.card { background-color: $cream; }
+.callout.callout-style-default .callout-body { background-color: $cream; }
+
+/* ========= Listings / categories ========= */
+.about-link-text { font-size: 18px; }
+.bi { font-size: 18px; }
+
+.quarto-title .quarto-categories .quarto-category:hover {
+  color: $terracotta-dark;
+}
+.quarto-grid-item .listing-categories .listing-category:hover  {
+  color: $terracotta-dark;
+  border-color: $terracotta-dark;
+}
+.quarto-listing-category .category.active { color: $terracotta; }
+
+/* ========= Panel tabsets ========= */
+.panel-tabset .tab-content {
+  background-color: $gray-green;
+  padding: .5em;
+  border-radius: 12px;
+}
+.panel-tabset .nav-tabs .nav-link {
+  background-color: $gray-green;
+  border-radius: 10px 10px 0 0;
+}
+.panel-tabset .nav-tabs .nav-link.active {
+  background-color: $terracotta;
+  color: #fff;
+}
+
+/* ========= Banners / headings ========= */
+.quarto-title-banner h1 { color: $dark-green; }
+
+/* ========= Misc ========= */
+#map-size { width: 100%; height: 350px; }
+.rounded { border-radius: 50px 20px 50px 20px !important; }
+
+/* ========= Footer ========= */
+.nav-footer, .footer, .page-footer {
+  background: linear-gradient(to right, rgba(253,251,247,0.9), rgba(253,251,247,0.85));
+  color: $dark-green;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  font-size: .95rem;
+}
+
+/* ========= Responsive ========= */
+@media (max-width: 992px) {
+  #bio { margin: 3rem auto 2rem; padding: 2rem 1.25rem; }
+}
+@media (max-width: 576px) {
+  body { font-size: 17px; }
+  #bio { margin: 2rem auto 1.5rem; border-radius: 16px; }
+}

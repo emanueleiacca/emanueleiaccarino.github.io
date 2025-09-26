@@ -1,11 +1,38 @@
 ---
-title: "emanueleiaccarino.github.io"
+#title: ""
+image: images/pfp.jpg
+toc: false
+about:
+  template: jolla
+  image-shape: round
+  image-width: 22em     
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/emanuele-iaccarino-a4298b27b/
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/emanueleiacca
+      target: _blank
+    - icon: kaggle
+      text: Kaggle
+      href: https://www.kaggle.com/manuiaccarino
+      target: _blank
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Emanuele-Iaccarino
+      target: _blank
+    - icon: envelope
+      text: Email
+      href: mailto:emanueleiaccarino.ei@gmail.com
 ---
 
-This is a Quarto website.
+::: {#bio}
+Hi there, I’m **<span class="text-terracotta">Emanuele Iaccarino</span>**.  
+Numbers have always been my way of making sense of the world — turning **<span class="text-sage">ideas into structures</span>**, spotting **<span class="text-sage">patterns in the noise</span>**, and breaking problems into steps I could work through. For a long time I saw this as nothing more than my own way of thinking. Only later did I realize that this **<span class="text-violet">mindset</span>** is exactly what lies at the heart of **<span class="text-terracotta">data science</span>**, and that following this path wasn’t really a choice but the most natural direction forward.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+That realization shaped my journey. What started as **<span class="text-terracotta">curiosity</span>** grew into building **<span class="text-sage">models</span>**, working with **<span class="highlight-block">messy data</span>**, and uncovering the **<span class="highlight-block">stories hidden inside</span>**. It became not just something I enjoyed, but something I wanted to dedicate myself to fully. **<span class="text-terracotta">Data science</span>** didn’t arrive in my life as a plan — it arrived as the recognition of what I had been doing all along.
 
-```{r}
-1 + 1
-```
+Even this website reflects that story. I built it with **<span class="text-terracotta">Quarto</span>**, the modern framework born from RStudio, where I first learned to bring **<span class="text-violet">statistics, code, and storytelling</span>** together. Using the same ecosystem here feels natural — a continuation of the roots that shaped me, now powering the place where I share what I’m building today.
+:::
