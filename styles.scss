@@ -50,6 +50,17 @@ $code-bg:       $cream;
 $code-color:    $violet;
 $code-block-bg: $cream;
 
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $dark-green !important;  /* matches your palette */
+  margin-left: 0.4rem;            /* spacing between logo and name */
+}
+
+.navbar-brand:hover {
+  color: $terracotta !important;
+}
+
 /*-- scss:rules --*/
 
 /* ========= Base ========== */
