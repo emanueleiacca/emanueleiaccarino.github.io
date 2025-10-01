@@ -10,7 +10,7 @@
 <atom:link href="https://emanueleiacca.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Fri, 26 Sep 2025 18:43:11 GMT</lastBuildDate>
+<lastBuildDate>Wed, 01 Oct 2025 19:50:12 GMT</lastBuildDate>
 <item>
   <title>Prediction of Medical Care Abandonment in Italy</title>
   <link>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</link>
@@ -61,7 +61,7 @@ This project leverages the <strong>2019 European Health Interview Survey (EHIS)<
   <category>Machine Learning</category>
   <category>Healthcare</category>
   <guid>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</guid>
-  <pubDate>Fri, 26 Sep 2025 18:43:11 GMT</pubDate>
+  <pubDate>Wed, 01 Oct 2025 19:50:12 GMT</pubDate>
   <media:content url="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/medical-care.png" medium="image" type="image/png"/>
 </item>
 </channel>
