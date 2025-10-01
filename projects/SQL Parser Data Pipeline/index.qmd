@@ -2,9 +2,9 @@
 title: "SQL Parser Data Pipeline"
 description: |
   A Python library for parsing and interpreting complex SQL queries, designed for BigQuery workflows and adaptable to other SQL dialects.
-date: 2023-04-01
+date: 2024-04
 categories: [Data Engineering, SQL, Python, Library]
-image: images/sql.png
+image: sql.png
 draft: false
 ---
 
@@ -25,7 +25,7 @@ It was designed with **BigQuery** in mind but is flexible enough to adapt to oth
 
 <br>
 
-<img class="img-styling" src="images/sql.png" alt="Parsing and interpreting complex SQL queries for data pipelines" width="70%">
+<img class="img-styling" src="sql.png" alt="Parsing and interpreting complex SQL queries for data pipelines" width="70%">
 
 ::: {.gray-italic .center-text}
 Parsing complex SQL queries to support ETL pipelines and lineage tracking

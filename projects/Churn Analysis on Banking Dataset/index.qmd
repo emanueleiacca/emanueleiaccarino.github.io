@@ -2,9 +2,9 @@
 title: "Churn Analysis on Banking Dataset"
 description: |
   Predicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.
-date: 2023-05-01
+date: 2024-05
 categories: [Machine Learning, Churn Prediction, Banking, Research]
-image: images/churn.png
+image: churn.png
 draft: false
 ---
 
@@ -26,7 +26,7 @@ This project develops a **customer churn prediction model** for the banking sect
 
 <br>
 
-<img class="img-styling" src="images/churn.png" alt="Visualization of churn prediction and feature importance in banking dataset" width="70%">
+<img class="img-styling" src="churn.png" alt="Visualization of churn prediction and feature importance in banking dataset" width="70%">
 
 ::: {.gray-italic .center-text}
 Boosting models with interpretability for churn prediction

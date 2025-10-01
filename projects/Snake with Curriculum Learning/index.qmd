@@ -2,9 +2,9 @@
 title: "Snake with Curriculum Learning"
 description: |
   Training an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.
-date: 2022-09-01
+date: 2024-10
 categories: [Reinforcement Learning, Curriculum Learning, Games]
-image: images/snake.png
+image: snake.png
 draft: false
 ---
 
@@ -26,7 +26,7 @@ A **curriculum learning strategy** is applied: the agent is trained on smaller, 
 
 <br>
 
-<img class="img-styling" src="images/snake.png" alt="Reinforcement learning agent trained with curriculum learning to play Snake" width="70%">
+<img class="img-styling" src="snake.png" alt="Reinforcement learning agent trained with curriculum learning to play Snake" width="70%">
 
 ::: {.gray-italic .center-text}
 Reinforcement learning agent trained with curriculum learning to master Snake

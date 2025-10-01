@@ -2,9 +2,9 @@
 title: "Community Detection Algorithms — Self-Implemented and Optimized"
 description: |
   A Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over NetworkX.
-date: 2023-02-01
+date: 2025-01
 categories: [Graph Mining, Community Detection, Python, Research]
-image: immages/community.png
+image: community.png
 draft: false
 ---
 
@@ -25,7 +25,7 @@ Compared to NetworkX’s implementations, the custom methods deliver faster exec
 
 <br>
 
-<img class="img-styling" src="immages/community.png" alt="Visualization of graph clustering with community detection algorithms" width="70%">
+<img class="img-styling" src="community.png" alt="Visualization of graph clustering with community detection algorithms" width="70%">
 
 ::: {.gray-italic .center-text}
 Custom, optimized community detection methods vs. standard implementations

@@ -2,8 +2,9 @@
 title: "Prediction of Medical Care Abandonment in Italy"
 description: |
   a research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services
+date: 2025-07
 categories: [Machine Learning, Healthcare]
-image: images/patient.png
+image: patient.png
 draft: false
 ---
 
@@ -24,7 +25,7 @@ Results show that **XGBoost outperforms logistic regression**, renunciation indi
 
 <br>
 
-<img class="img-styling" src="images/patient.jpeg" alt="Visualization of healthcare disparities in Italy with symbolic medical and demographic data icons" width="70%">
+<img class="img-styling" src="patient.jpeg" alt="Visualization of healthcare disparities in Italy with symbolic medical and demographic data icons" width="70%">
 
 ::: {.gray-italic .center-text}
 Machine learning applied to healthcare abandonment in Italy

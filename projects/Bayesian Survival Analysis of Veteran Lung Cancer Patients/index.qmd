@@ -2,8 +2,9 @@
 title: "Bayesian Survival Analysis of Veteran Lung Cancer Patients"
 description: |
   a Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset
+date: 2025-07
 categories: [Bayesian, Survival Analysis, R]
-image: survival-analysis.png
+image: survival.png
 draft: false
 ---
 
@@ -20,7 +21,7 @@ Key findings include the superior fit of the Weibull model, significant effects 
 
 <br>
 
-<img class="img-styling" src="km-posterior-checks.png" alt="Posterior predictive survival curves compared with Kaplan-Meier estimates" width="70%">
+<img class="img-styling" src="survival.png" alt="Posterior predictive survival curves compared with Kaplan-Meier estimates" width="70%">
 
 ::: {.gray-italic .center-text}
 Comparison of Bayesian posterior predictive survival curves with Kaplan–Meier estimates
