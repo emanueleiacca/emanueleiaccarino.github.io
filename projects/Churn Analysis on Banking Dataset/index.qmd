@@ -1,0 +1,33 @@
+---
+title: "Churn Analysis on Banking Dataset"
+description: |
+  Predicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.
+date: 2023-05-01
+categories: [Machine Learning, Churn Prediction, Banking, Research]
+image: images/churn.png
+draft: false
+---
+
+This project develops a **customer churn prediction model** for the banking sector, aiming to identify the top 10,000 clients most likely to close their accounts.  
+
+**Methods**  
+- **Preprocessing**: data cleaning, categorical encoding  
+- **Sampling**: cost-sensitive techniques to address class imbalance  
+- **Boosting algorithms**: LightGBM, XGBoost, CatBoost, with ensemble weighting  
+- **Hyperparameter optimization**: automated tuning with **Optuna**  
+- **Interpretability**: **SHAP values** for global and local feature importance  
+
+**Key results**  
+- Ensemble boosting models achieved the best performance using a custom **Rank Probabilities metric**, prioritizing recall of churners  
+- Synthetic data improved testing robustness on unseen distributions  
+- SHAP analysis revealed key socio-demographic and account features driving churn risk  
+
+[View project on GitHub](https://github.com/emanueleiacca/Analysis-on-Churn-Banking-Modeling-Dataset){.btn target=_blank}  
+
+<br>
+
+<img class="img-styling" src="images/churn.png" alt="Visualization of churn prediction and feature importance in banking dataset" width="70%">
+
+::: {.gray-italic .center-text}
+Boosting models with interpretability for churn prediction
+:::

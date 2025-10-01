@@ -1,0 +1,33 @@
+---
+title: "Snake with Curriculum Learning"
+description: |
+  Training an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.
+date: 2022-09-01
+categories: [Reinforcement Learning, Curriculum Learning, Games]
+image: images/snake.png
+draft: false
+---
+
+This project implements a **reinforcement learning agent** for the classic Snake game using **Stable Baselines3**.  
+A **curriculum learning strategy** is applied: the agent is trained on smaller, simpler boards before progressing to larger and more complex environments.  
+
+**Methods**  
+- Custom Snake environments in `snakeenv.py` and `snakeenv2.py`  
+- RL training with **Proximal Policy Optimization (PPO)**  
+- Curriculum schedule: gradually increasing board size and difficulty  
+- Logging and monitoring with Stable Baselines3 tools  
+
+**Key results**  
+- Agent successfully learned to play Snake across multiple board sizes  
+- Achieved a maximum score of **18 apples eaten** in evaluation runs  
+- Curriculum learning improved convergence speed and stability compared to direct training on large boards  
+
+[View project on GitHub](https://github.com/emanueleiacca/Snake-with-Curriculum-Learning){.btn target=_blank}  
+
+<br>
+
+<img class="img-styling" src="images/snake.png" alt="Reinforcement learning agent trained with curriculum learning to play Snake" width="70%">
+
+::: {.gray-italic .center-text}
+Reinforcement learning agent trained with curriculum learning to master Snake
+:::

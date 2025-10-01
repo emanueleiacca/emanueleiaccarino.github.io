@@ -1,0 +1,35 @@
+---
+title: "Marijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models"
+description: |
+  Econometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.
+date: 2024-06-01
+categories: [Econometrics, Causal Inference, Public Health, Policy]
+image: images/marijuana.png
+draft: false
+---
+
+This project examines the **impact of recreational marijuana legalization** on drug-related mortality, with a focus on opioids and cocaine.  
+The analysis applies **causal inference methods** including **Difference-in-Differences (DiD)**, **Instrumental Variables (IV, 2SLS & 2SRI)**, and **Event Studies**, using state-level panel data from the CDC.  
+
+**Methods**  
+- Panel dataset: Massachusetts (treatment) vs. New Hampshire (control)  
+- Data cleaning and imputation via Kalman filtering  
+- DiD and Event Study with monthly leads/lags  
+- IV estimation to address potential endogeneity  
+- Binary Logit/Probit robustness checks  
+
+**Key results**  
+- 📉 Significant decline in **cocaine deaths** after legalization (DiD & Event Study)  
+- ⚖️ No statistically significant effect on **opioid mortality**  
+- ✅ Placebo and robustness checks confirm validity of cocaine result  
+- 🌍 Findings highlight implications for European countries facing emerging overdose risks  
+
+[View project on GitHub](https://github.com/emanueleiacca/The-Impact-of-Marijuana-Legalization-on-Opioid-Overdose-Deaths){.btn target=_blank}  
+
+<br>
+
+<img class="img-styling" src="images/marijuana.png" alt="Causal analysis of marijuana legalization and opioid mortality trends" width="70%">
+
+::: {.gray-italic .center-text}
+Causal econometric analysis of cannabis policy reform and drug-related mortality
+:::

@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-01">
-<meta name="description" content="Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.">
+<meta name="dcterms.date" content="2023-05-01">
+<meta name="description" content="Predicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.">
 
-<title>Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment – Emanuele Iaccarino</title>
+<title>Churn Analysis on Banking Dataset – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,18 +164,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment</h1>
+<h1 class="title">Churn Analysis on Banking Dataset</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Reinforcement Learning</div>
-    <div class="quarto-category">FrozenLake</div>
-    <div class="quarto-category">Optuna</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Churn Prediction</div>
+    <div class="quarto-category">Banking</div>
     <div class="quarto-category">Research</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.</p>
+    <p>Predicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.</p>
   </div>
 </div>
 
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2023</p>
+      <p class="date">May 1, 2023</p>
     </div>
   </div>
   
@@ -198,19 +198,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project evaluates <strong>reinforcement learning algorithms</strong> in the <strong>Frozen Lake environment</strong>, under both deterministic and stochastic settings.<br>
-Algorithms studied include <strong>Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning</strong>.</p>
-<p>A key focus is <strong>hyperparameter optimization</strong> with <strong>Optuna</strong>, applied to Q-Learning to improve learning efficiency.</p>
-<p><strong>Key results</strong>:<br>
-- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios<br>
-- Discount rate and learning rate were critical for convergence and stability<br>
-- Optuna tuning enhanced Q-Learning’s efficiency across environments<br>
-- Findings provide guidance for RL applications in grid-world tasks</p>
-<p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p>This project develops a <strong>customer churn prediction model</strong> for the banking sector, aiming to identify the top 10,000 clients most likely to close their accounts.</p>
+<p><strong>Methods</strong><br>
+- <strong>Preprocessing</strong>: data cleaning, categorical encoding<br>
+- <strong>Sampling</strong>: cost-sensitive techniques to address class imbalance<br>
+- <strong>Boosting algorithms</strong>: LightGBM, XGBoost, CatBoost, with ensemble weighting<br>
+- <strong>Hyperparameter optimization</strong>: automated tuning with <strong>Optuna</strong><br>
+- <strong>Interpretability</strong>: <strong>SHAP values</strong> for global and local feature importance</p>
+<p><strong>Key results</strong><br>
+- Ensemble boosting models achieved the best performance using a custom <strong>Rank Probabilities metric</strong>, prioritizing recall of churners<br>
+- Synthetic data improved testing robustness on unseen distributions<br>
+- SHAP analysis revealed key socio-demographic and account features driving churn risk</p>
+<p><a href="https://github.com/emanueleiacca/Analysis-on-Churn-Banking-Modeling-Dataset" class="btn" target="_blank">View project on GitHub</a></p>
 <p><br></p>
-<p><img class="img-styling" src="frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
+<p><img class="img-styling" src="images/churn.png" alt="Visualization of churn prediction and feature importance in banking dataset" width="70%"></p>
 <div class="gray-italic center-text">
-<p>Exploring deterministic and stochastic Frozen Lake environments with RL</p>
+<p>Boosting models with interpretability for churn prediction</p>
 </div>
 
 

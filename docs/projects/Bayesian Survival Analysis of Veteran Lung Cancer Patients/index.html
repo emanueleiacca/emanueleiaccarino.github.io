@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-01">
-<meta name="description" content="Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.">
+<meta name="description" content="a Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset">
 
-<title>Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment – Emanuele Iaccarino</title>
+<title>Bayesian Survival Analysis of Veteran Lung Cancer Patients – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,18 +163,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment</h1>
+<h1 class="title">Bayesian Survival Analysis of Veteran Lung Cancer Patients</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Reinforcement Learning</div>
-    <div class="quarto-category">FrozenLake</div>
-    <div class="quarto-category">Optuna</div>
-    <div class="quarto-category">Research</div>
+    <div class="quarto-category">Bayesian</div>
+    <div class="quarto-category">Survival Analysis</div>
+    <div class="quarto-category">R</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.</p>
+    <p>a Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset</p>
   </div>
 </div>
 
@@ -183,12 +181,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta column-page">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -198,19 +190,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project evaluates <strong>reinforcement learning algorithms</strong> in the <strong>Frozen Lake environment</strong>, under both deterministic and stochastic settings.<br>
-Algorithms studied include <strong>Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning</strong>.</p>
-<p>A key focus is <strong>hyperparameter optimization</strong> with <strong>Optuna</strong>, applied to Q-Learning to improve learning efficiency.</p>
-<p><strong>Key results</strong>:<br>
-- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios<br>
-- Discount rate and learning rate were critical for convergence and stability<br>
-- Optuna tuning enhanced Q-Learning’s efficiency across environments<br>
-- Findings provide guidance for RL applications in grid-world tasks</p>
-<p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p><a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
 <p><br></p>
-<p><img class="img-styling" src="frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
+<p>This project applies <strong>Bayesian survival analysis</strong> to the Veteran’s Administration Lung Cancer dataset, focusing on <strong>parametric accelerated failure time (AFT) models</strong>.</p>
+<p>The work compares <strong>exponential</strong> and <strong>Weibull AFT models</strong> using <strong>MCMC estimation in JAGS</strong>, with model fit assessed via the <strong>Deviance Information Criterion (DIC)</strong>.<br>
+Posterior predictive checks and parameter recovery experiments are used to evaluate calibration and identifiability, while results are contrasted with <strong>frequentist survival models</strong> such as Cox PH and parametric AFT.</p>
+<p>Key findings include the superior fit of the Weibull model, significant effects of cell type on survival, and good calibration under posterior predictive validation.</p>
+<p><br></p>
+<p><img class="img-styling" src="km-posterior-checks.png" alt="Posterior predictive survival curves compared with Kaplan-Meier estimates" width="70%"></p>
 <div class="gray-italic center-text">
-<p>Exploring deterministic and stochastic Frozen Lake environments with RL</p>
+<p>Comparison of Bayesian posterior predictive survival curves with Kaplan–Meier estimates</p>
 </div>
 
 

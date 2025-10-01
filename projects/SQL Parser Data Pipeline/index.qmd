@@ -1,0 +1,32 @@
+---
+title: "SQL Parser Data Pipeline"
+description: |
+  A Python library for parsing and interpreting complex SQL queries, designed for BigQuery workflows and adaptable to other SQL dialects.
+date: 2023-04-01
+categories: [Data Engineering, SQL, Python, Library]
+image: images/sql.png
+draft: false
+---
+
+This project introduces **SQLParserDataPipeline**, a Python package for parsing and interpreting **complex SQL queries**.  
+It was designed with **BigQuery** in mind but is flexible enough to adapt to other SQL dialects thanks to a parsing strategy focused on the **inner query structure** rather than specific SQL functions.  
+
+**Core capabilities**  
+- **Select Clause Parsing**: handles nested queries, functions, and placeholders beyond the scope of standard parsers  
+- **From Clause Analysis**: extracts tables and aliases in medium-complexity queries  
+- **Unnest Transformations**: identifies join types, aliases, and unique values, crucial for data pipeline design  
+
+**Key strengths**  
+- Outperforms standard SQL parsers on queries with nested SELECTs and functions  
+- Enables clearer lineage extraction and debugging for ETL workflows  
+- Provides transparent parsing results, supporting modular pipeline development  
+
+[View project on GitHub](https://github.com/emanueleiacca/SQLParserDataPipeline){.btn target=_blank}  
+
+<br>
+
+<img class="img-styling" src="images/sql.png" alt="Parsing and interpreting complex SQL queries for data pipelines" width="70%">
+
+::: {.gray-italic .center-text}
+Parsing complex SQL queries to support ETL pipelines and lineage tracking
+:::

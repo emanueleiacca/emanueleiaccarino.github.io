@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-01">
-<meta name="description" content="Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.">
+<meta name="dcterms.date" content="2023-02-01">
+<meta name="description" content="A Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over NetworkX.">
 
-<title>Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment – Emanuele Iaccarino</title>
+<title>Community Detection Algorithms — Self-Implemented and Optimized – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,18 +164,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment</h1>
+<h1 class="title">Community Detection Algorithms — Self-Implemented and Optimized</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Reinforcement Learning</div>
-    <div class="quarto-category">FrozenLake</div>
-    <div class="quarto-category">Optuna</div>
+    <div class="quarto-category">Graph Mining</div>
+    <div class="quarto-category">Community Detection</div>
+    <div class="quarto-category">Python</div>
     <div class="quarto-category">Research</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.</p>
+    <p>A Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over NetworkX.</p>
   </div>
 </div>
 
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2023</p>
+      <p class="date">February 1, 2023</p>
     </div>
   </div>
   
@@ -198,19 +198,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project evaluates <strong>reinforcement learning algorithms</strong> in the <strong>Frozen Lake environment</strong>, under both deterministic and stochastic settings.<br>
-Algorithms studied include <strong>Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning</strong>.</p>
-<p>A key focus is <strong>hyperparameter optimization</strong> with <strong>Optuna</strong>, applied to Q-Learning to improve learning efficiency.</p>
-<p><strong>Key results</strong>:<br>
-- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios<br>
-- Discount rate and learning rate were critical for convergence and stability<br>
-- Optuna tuning enhanced Q-Learning’s efficiency across environments<br>
-- Findings provide guidance for RL applications in grid-world tasks</p>
-<p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p>This project introduces a <strong>Python library</strong> for community detection, focused on <strong>performance optimization, modularity, and transparency</strong>.<br>
+Compared to NetworkX’s implementations, the custom methods deliver faster execution and flexible configuration, while ensuring traceability through detailed logs.</p>
+<p><strong>Implemented algorithms</strong><br>
+- <strong>Girvan-Newman</strong>: configurable betweenness calculation (BFS, Dijkstra) and component detection (recursive vs.&nbsp;iterative DFS)<br>
+- <strong>Spectral Clustering</strong>: optimized eigenvalue/eigenvector computation for faster convergence<br>
+- <strong>Louvain Method</strong>: mathematical approximation yielding extreme performance gains</p>
+<p><strong>Key results</strong><br>
+- Girvan-Newman: execution time up to <strong>38% faster</strong> with identical communities<br>
+- Spectral Clustering: <strong>92% faster</strong> than pre-implemented versions, communities preserved<br>
+- Louvain: millions of times faster, with a small trade-off in modularity</p>
+<p><a href="https://github.com/emanueleiacca/SelfImplemented-Community-Detection-Algorithms-Improved" class="btn" target="_blank">View project on GitHub</a></p>
 <p><br></p>
-<p><img class="img-styling" src="frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
+<p><img class="img-styling" src="immages/community.png" alt="Visualization of graph clustering with community detection algorithms" width="70%"></p>
 <div class="gray-italic center-text">
-<p>Exploring deterministic and stochastic Frozen Lake environments with RL</p>
+<p>Custom, optimized community detection methods vs.&nbsp;standard implementations</p>
 </div>
 
 

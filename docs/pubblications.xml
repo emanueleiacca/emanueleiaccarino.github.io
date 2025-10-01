@@ -19,41 +19,13 @@
 
 
 
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
-<p>The domain of <strong>card games</strong>, marked by complexity, uncertainty, and strategic depth, provides a fertile ground for advancing <strong>reinforcement learning (RL)</strong>. This thesis explores the use of both RL and <strong>deep reinforcement learning (DRL)</strong> algorithms in <strong>Blackjack</strong> and <strong>Poker</strong>, two games of incomplete information.</p>
-<p>Algorithms studied:<br>
-- <strong>Deep Q-Networks (DQN)</strong><br>
-- <strong>Counterfactual Regret Minimization (CFR)</strong><br>
-- <strong>Deep Monte Carlo (DMC)</strong><br>
-- <strong>Neural Fictitious Self-Play (NFSP)</strong></p>
-<hr>
-</section>
-<section id="key-contributions" class="level3">
-<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
-<ul>
-<li>Systematic evaluation of RL and DRL algorithms in incomplete-information games<br>
-</li>
-<li>Demonstrated <strong>superhuman performance</strong> in specific game configurations<br>
-</li>
-<li>Provided insights into how algorithms develop <strong>strategic learning and decision-making processes</strong><br>
-</li>
-<li>Highlighted differences in algorithm adaptability to <strong>stochasticity and hidden information</strong></li>
-</ul>
-<hr>
-</section>
-<section id="findings" class="level3">
-<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
-<ul>
-<li><strong>DQN</strong> proved effective in learning structured Blackjack strategies<br>
-</li>
-<li><strong>CFR</strong> and <strong>NFSP</strong> excelled in handling incomplete information in Poker<br>
-</li>
-<li><strong>DMC</strong> offered robust convergence in complex state spaces<br>
-</li>
-<li>Results demonstrate that DRL can replicate and surpass human strategies in competitive card games</li>
-</ul>
-<hr>
+<p>This thesis explores <strong>reinforcement learning (RL) and deep reinforcement learning (DRL)</strong> techniques in <strong>Blackjack and Poker</strong>, two games of incomplete information that require complex strategy under uncertainty.</p>
+<p>Methods include <strong>Deep Q-Networks (DQN)</strong>, <strong>Counterfactual Regret Minimization (CFR)</strong>, <strong>Deep Monte Carlo (DMC)</strong>, and <strong>Neural Fictitious Self-Play (NFSP)</strong>, evaluated for their ability to handle stochasticity, hidden information, and strategic adaptation.</p>
+<p><strong>Key results</strong>:<br>
+- <strong>DQN</strong> learns structured Blackjack strategies effectively<br>
+- <strong>CFR</strong> and <strong>NFSP</strong> excel in Poker, adapting to incomplete information<br>
+- <strong>DMC</strong> achieves robust convergence in high-dimensional state spaces<br>
+- DRL methods demonstrate potential for <strong>superhuman performance</strong> in competitive card games</p>
 <p><a href="https://doi.org/10.13140/RG.2.2.11939.46887" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
 <p><br></p>
 <p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/BlackJack and Poker/drl-poker.png" alt="Reinforcement learning agents playing Blackjack and Poker" width="70%"></p>
@@ -62,7 +34,6 @@
 </div>
 
 
-</section>
 
  ]]></description>
   <category>Reinforcement Learning</category>
@@ -81,37 +52,13 @@
 
 
 
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
-<p><strong>Mammography</strong> is a cornerstone in the early detection of breast cancer, where accurate image classification is crucial for timely diagnosis and treatment. While deep learning has shown great promise in medical imaging, the <strong>CBIS-DDSM dataset</strong>—one of the largest repositories of breast cancer mammograms—remains relatively underexplored, with limited reproducible research available.</p>
-<p>This project implements a <strong>deep learning pipeline</strong> for mammography classification, addressing preprocessing, augmentation, and training challenges in medical imaging.</p>
-<hr>
-</section>
-<section id="key-contributions" class="level3">
-<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
-<ul>
-<li>Preprocessing strategies: ROI extraction, intensity maps, and gradient magnitude transformations<br>
-</li>
-<li>Custom data augmentation: geometric transformations, ROI overlay, and blended cropping<br>
-</li>
-<li>Model development: pretrained CNNs with <strong>transfer learning</strong>, fine-tuned for CBIS mammograms<br>
-</li>
-<li>Reproducibility: publicly available code and methodology for reproducible medical ML research</li>
-</ul>
-<hr>
-</section>
-<section id="findings" class="level3">
-<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
-<ul>
-<li>Preprocessing significantly improved model convergence and accuracy<br>
-</li>
-<li>Transfer learning with fine-tuning achieved <strong>state-of-the-art performance</strong> among public baselines<br>
-</li>
-<li>Augmentation strategies reduced overfitting and improved generalization<br>
-</li>
-<li>Results demonstrate the potential of deep learning for <strong>scalable, reproducible breast cancer diagnostics</strong></li>
-</ul>
-<hr>
+<p>This project develops a <strong>deep learning pipeline</strong> for mammogram classification using the <strong>CBIS-DDSM dataset</strong>, addressing preprocessing, augmentation, and model training challenges in medical imaging.</p>
+<p>Techniques include <strong>ROI extraction</strong>, intensity maps, gradient transformations, and <strong>custom data augmentation</strong> (ROI overlay, geometric transformations, blended cropping). Pretrained CNNs were fine-tuned through <strong>transfer learning</strong>, achieving state-of-the-art performance among public baselines.</p>
+<p><strong>Key results</strong>:<br>
+- Preprocessing improved convergence and accuracy<br>
+- Transfer learning boosted generalization performance<br>
+- Augmentation strategies reduced overfitting<br>
+- Demonstrated potential for <strong>scalable and reproducible breast cancer diagnostics</strong></p>
 <p><a href="https://doi.org/10.13140/RG.2.2.21738.43206" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
 <p><br></p>
 <p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/Breast Cancer/breast-cancer-classification.png" alt="Breast cancer mammogram classification with deep learning models" width="70%"></p>
@@ -120,7 +67,6 @@
 </div>
 
 
-</section>
 
  ]]></description>
   <category>Deep Learning</category>
@@ -139,25 +85,17 @@
 
 
 
-<p>This work explores the application of <strong>reinforcement learning (RL)</strong> within Unity ML Agents environments, providing both practical tutorials and comparative analysis.</p>
-<p>Central to the study is the implementation of algorithms including <strong>Imitation Learning, PPO, SAC, and POCA</strong>, applied to Unity environments such as <em>3DBall</em>, <em>WallJump</em>, and <em>SoccerTwos</em>.</p>
-<p>Key contributions:</p>
-<ul>
-<li>Introduces Unity ML Toolkit for reinforcement learning research<br>
-</li>
-<li>Implements multiple RL algorithms with TensorBoard monitoring<br>
-</li>
-<li>Applies <strong>curriculum learning</strong> in WallJump to accelerate training<br>
-</li>
-<li>Uses <strong>self-play</strong> in SoccerTwos for competitive agent learning<br>
-</li>
-<li>Demonstrates the role of hyperparameter tuning in agent stability and performance</li>
-</ul>
-<p><strong>Findings</strong><br>
-- SAC outperformed PPO in continuous-control tasks (<em>3DBall</em>)<br>
-- Curriculum learning enabled efficient convergence in complex environments<br>
-- Self-play produced more robust agents in adversarial settings<br>
-- Hyperparameter adjustments had significant effects on model performance</p>
+<p>This study applies <strong>reinforcement learning (RL)</strong> to the <strong>Unity ML-Agents Toolkit</strong>, with case studies on <em>WallJump</em> and <em>SoccerTwos</em>.<br>
+Algorithms implemented include <strong>Imitation Learning, Proximal Policy Optimization (PPO), Soft Actor-Critic (SAC), and POCA</strong>, evaluated with TensorBoard monitoring.</p>
+<p>Enhancements explored:<br>
+- <strong>Curriculum learning</strong> in WallJump for complex task training<br>
+- <strong>Self-play</strong> in SoccerTwos for competitive multi-agent strategies<br>
+- <strong>Hyperparameter tuning</strong> for improved stability and performance</p>
+<p><strong>Key results</strong>:<br>
+- <strong>SAC</strong> outperformed PPO in continuous-control environments (<em>3DBall</em>)<br>
+- Curriculum learning accelerated convergence in WallJump<br>
+- Self-play produced stronger agents in adversarial settings<br>
+- Hyperparameter tuning critically influenced model robustness</p>
 <p><a href="https://www.researchgate.net/publication/377273320_Unity_ML_Agents_Wall_Jump_and_SoccerTwos_environment_using_Reinforcement_Learning_RL_tecnique" class="btn" target="_blank">Read on ResearchGate</a></p>
 <p><br></p>
 <p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/Unity ML Agents/unity-rl.png" alt="Unity ML-Agents reinforcement learning environments: Wall Jump and SoccerTwos" width="70%"></p>
@@ -184,43 +122,14 @@
 
 
 
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
-<p>This study delves into the nuances of various <strong>reinforcement learning algorithms</strong> in the context of the <strong>Frozen Lake environment</strong>, offering a comprehensive analysis of their behaviors under both deterministic and stochastic settings.</p>
-<p>Algorithms evaluated include:<br>
-- Monte Carlo<br>
-- Sarsa<br>
-- Expected Sarsa<br>
-- Q-Learning<br>
-- Double Q-Learning</p>
-<p>A significant portion of the research focuses on <strong>hyperparameter optimization</strong> using the Optuna framework, specifically targeting Q-Learning.</p>
-<hr>
-</section>
-<section id="key-contributions" class="level3">
-<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
-<ul>
-<li>Comparative evaluation of five RL algorithms in deterministic vs stochastic Frozen Lake<br>
-</li>
-<li>Analysis of learning dynamics and convergence behaviors<br>
-</li>
-<li>Hyperparameter tuning via <strong>Optuna</strong> for Q-Learning (discount rate, learning rate, exploration strategies)<br>
-</li>
-<li>Insights into how hyperparameter interactions impact efficiency and stability</li>
-</ul>
-<hr>
-</section>
-<section id="findings" class="level3">
-<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
-<ul>
-<li>Q-Learning and Double Q-Learning showed robustness in stochastic environments<br>
-</li>
-<li>Discount rate and learning rate proved critical for convergence speed and stability<br>
-</li>
-<li>Optuna-based optimization improved Q-Learning efficiency in both environments<br>
-</li>
-<li>The study provides practical guidance for RL applications in grid-world tasks</li>
-</ul>
-<hr>
+<p>This project evaluates <strong>reinforcement learning algorithms</strong> in the <strong>Frozen Lake environment</strong>, under both deterministic and stochastic settings.<br>
+Algorithms studied include <strong>Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning</strong>.</p>
+<p>A key focus is <strong>hyperparameter optimization</strong> with <strong>Optuna</strong>, applied to Q-Learning to improve learning efficiency.</p>
+<p><strong>Key results</strong>:<br>
+- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios<br>
+- Discount rate and learning rate were critical for convergence and stability<br>
+- Optuna tuning enhanced Q-Learning’s efficiency across environments<br>
+- Findings provide guidance for RL applications in grid-world tasks</p>
 <p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
 <p><br></p>
 <p><img class="img-styling" src="https://emanueleiacca.github.io/pubblications/Frozen Lake/frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
@@ -229,7 +138,6 @@
 </div>
 
 
-</section>
 
  ]]></description>
   <category>Reinforcement Learning</category>

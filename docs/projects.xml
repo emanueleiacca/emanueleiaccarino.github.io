@@ -10,7 +10,221 @@
 <atom:link href="https://emanueleiacca.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.24</generator>
-<lastBuildDate>Wed, 01 Oct 2025 19:50:12 GMT</lastBuildDate>
+<lastBuildDate>Fri, 31 May 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Marijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models</title>
+  <link>https://emanueleiacca.github.io/projects/Marijuana Legalization and Opioid Mortality/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project examines the <strong>impact of recreational marijuana legalization</strong> on drug-related mortality, with a focus on opioids and cocaine.<br>
+The analysis applies <strong>causal inference methods</strong> including <strong>Difference-in-Differences (DiD)</strong>, <strong>Instrumental Variables (IV, 2SLS &amp; 2SRI)</strong>, and <strong>Event Studies</strong>, using state-level panel data from the CDC.</p>
+<p><strong>Methods</strong><br>
+- Panel dataset: Massachusetts (treatment) vs.&nbsp;New Hampshire (control)<br>
+- Data cleaning and imputation via Kalman filtering<br>
+- DiD and Event Study with monthly leads/lags<br>
+- IV estimation to address potential endogeneity<br>
+- Binary Logit/Probit robustness checks</p>
+<p><strong>Key results</strong><br>
+- 📉 Significant decline in <strong>cocaine deaths</strong> after legalization (DiD &amp; Event Study)<br>
+- ⚖️ No statistically significant effect on <strong>opioid mortality</strong><br>
+- ✅ Placebo and robustness checks confirm validity of cocaine result<br>
+- 🌍 Findings highlight implications for European countries facing emerging overdose risks</p>
+<p><a href="https://github.com/emanueleiacca/The-Impact-of-Marijuana-Legalization-on-Opioid-Overdose-Deaths" class="btn" target="_blank">View project on GitHub</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Marijuana Legalization and Opioid Mortality/images/marijuana.png" alt="Causal analysis of marijuana legalization and opioid mortality trends" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Causal econometric analysis of cannabis policy reform and drug-related mortality</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Econometrics</category>
+  <category>Causal Inference</category>
+  <category>Public Health</category>
+  <category>Policy</category>
+  <guid>https://emanueleiacca.github.io/projects/Marijuana Legalization and Opioid Mortality/</guid>
+  <pubDate>Fri, 31 May 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Marijuana Legalization and Opioid Mortality/images/marijuana.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Churn Analysis on Banking Dataset</title>
+  <link>https://emanueleiacca.github.io/projects/Churn Analysis on Banking Dataset/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project develops a <strong>customer churn prediction model</strong> for the banking sector, aiming to identify the top 10,000 clients most likely to close their accounts.</p>
+<p><strong>Methods</strong><br>
+- <strong>Preprocessing</strong>: data cleaning, categorical encoding<br>
+- <strong>Sampling</strong>: cost-sensitive techniques to address class imbalance<br>
+- <strong>Boosting algorithms</strong>: LightGBM, XGBoost, CatBoost, with ensemble weighting<br>
+- <strong>Hyperparameter optimization</strong>: automated tuning with <strong>Optuna</strong><br>
+- <strong>Interpretability</strong>: <strong>SHAP values</strong> for global and local feature importance</p>
+<p><strong>Key results</strong><br>
+- Ensemble boosting models achieved the best performance using a custom <strong>Rank Probabilities metric</strong>, prioritizing recall of churners<br>
+- Synthetic data improved testing robustness on unseen distributions<br>
+- SHAP analysis revealed key socio-demographic and account features driving churn risk</p>
+<p><a href="https://github.com/emanueleiacca/Analysis-on-Churn-Banking-Modeling-Dataset" class="btn" target="_blank">View project on GitHub</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Churn Analysis on Banking Dataset/images/churn.png" alt="Visualization of churn prediction and feature importance in banking dataset" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Boosting models with interpretability for churn prediction</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Machine Learning</category>
+  <category>Churn Prediction</category>
+  <category>Banking</category>
+  <category>Research</category>
+  <guid>https://emanueleiacca.github.io/projects/Churn Analysis on Banking Dataset/</guid>
+  <pubDate>Sun, 30 Apr 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Churn Analysis on Banking Dataset/images/churn.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>SQL Parser Data Pipeline</title>
+  <link>https://emanueleiacca.github.io/projects/SQL Parser Data Pipeline/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project introduces <strong>SQLParserDataPipeline</strong>, a Python package for parsing and interpreting <strong>complex SQL queries</strong>.<br>
+It was designed with <strong>BigQuery</strong> in mind but is flexible enough to adapt to other SQL dialects thanks to a parsing strategy focused on the <strong>inner query structure</strong> rather than specific SQL functions.</p>
+<p><strong>Core capabilities</strong><br>
+- <strong>Select Clause Parsing</strong>: handles nested queries, functions, and placeholders beyond the scope of standard parsers<br>
+- <strong>From Clause Analysis</strong>: extracts tables and aliases in medium-complexity queries<br>
+- <strong>Unnest Transformations</strong>: identifies join types, aliases, and unique values, crucial for data pipeline design</p>
+<p><strong>Key strengths</strong><br>
+- Outperforms standard SQL parsers on queries with nested SELECTs and functions<br>
+- Enables clearer lineage extraction and debugging for ETL workflows<br>
+- Provides transparent parsing results, supporting modular pipeline development</p>
+<p><a href="https://github.com/emanueleiacca/SQLParserDataPipeline" class="btn" target="_blank">View project on GitHub</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/SQL Parser Data Pipeline/images/sql.png" alt="Parsing and interpreting complex SQL queries for data pipelines" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Parsing complex SQL queries to support ETL pipelines and lineage tracking</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Data Engineering</category>
+  <category>SQL</category>
+  <category>Python</category>
+  <category>Library</category>
+  <guid>https://emanueleiacca.github.io/projects/SQL Parser Data Pipeline/</guid>
+  <pubDate>Fri, 31 Mar 2023 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/SQL Parser Data Pipeline/images/sql.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Community Detection Algorithms — Self-Implemented and Optimized</title>
+  <link>https://emanueleiacca.github.io/projects/Community Detection Algorithms/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project introduces a <strong>Python library</strong> for community detection, focused on <strong>performance optimization, modularity, and transparency</strong>.<br>
+Compared to NetworkX’s implementations, the custom methods deliver faster execution and flexible configuration, while ensuring traceability through detailed logs.</p>
+<p><strong>Implemented algorithms</strong><br>
+- <strong>Girvan-Newman</strong>: configurable betweenness calculation (BFS, Dijkstra) and component detection (recursive vs.&nbsp;iterative DFS)<br>
+- <strong>Spectral Clustering</strong>: optimized eigenvalue/eigenvector computation for faster convergence<br>
+- <strong>Louvain Method</strong>: mathematical approximation yielding extreme performance gains</p>
+<p><strong>Key results</strong><br>
+- Girvan-Newman: execution time up to <strong>38% faster</strong> with identical communities<br>
+- Spectral Clustering: <strong>92% faster</strong> than pre-implemented versions, communities preserved<br>
+- Louvain: millions of times faster, with a small trade-off in modularity</p>
+<p><a href="https://github.com/emanueleiacca/SelfImplemented-Community-Detection-Algorithms-Improved" class="btn" target="_blank">View project on GitHub</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Community Detection Algorithms/immages/community.png" alt="Visualization of graph clustering with community detection algorithms" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Custom, optimized community detection methods vs.&nbsp;standard implementations</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Graph Mining</category>
+  <category>Community Detection</category>
+  <category>Python</category>
+  <category>Research</category>
+  <guid>https://emanueleiacca.github.io/projects/Community Detection Algorithms/</guid>
+  <pubDate>Tue, 31 Jan 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Community Detection Algorithms/immages/community.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Snake with Curriculum Learning</title>
+  <link>https://emanueleiacca.github.io/projects/Snake with Curriculum Learning/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This project implements a <strong>reinforcement learning agent</strong> for the classic Snake game using <strong>Stable Baselines3</strong>.<br>
+A <strong>curriculum learning strategy</strong> is applied: the agent is trained on smaller, simpler boards before progressing to larger and more complex environments.</p>
+<p><strong>Methods</strong><br>
+- Custom Snake environments in <code>snakeenv.py</code> and <code>snakeenv2.py</code><br>
+- RL training with <strong>Proximal Policy Optimization (PPO)</strong><br>
+- Curriculum schedule: gradually increasing board size and difficulty<br>
+- Logging and monitoring with Stable Baselines3 tools</p>
+<p><strong>Key results</strong><br>
+- Agent successfully learned to play Snake across multiple board sizes<br>
+- Achieved a maximum score of <strong>18 apples eaten</strong> in evaluation runs<br>
+- Curriculum learning improved convergence speed and stability compared to direct training on large boards</p>
+<p><a href="https://github.com/emanueleiacca/Snake-with-Curriculum-Learning" class="btn" target="_blank">View project on GitHub</a></p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Snake with Curriculum Learning/images/snake.png" alt="Reinforcement learning agent trained with curriculum learning to play Snake" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Reinforcement learning agent trained with curriculum learning to master Snake</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Reinforcement Learning</category>
+  <category>Curriculum Learning</category>
+  <category>Games</category>
+  <guid>https://emanueleiacca.github.io/projects/Snake with Curriculum Learning/</guid>
+  <pubDate>Wed, 31 Aug 2022 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Snake with Curriculum Learning/images/snake.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title>Bayesian Survival Analysis of Veteran Lung Cancer Patients</title>
+  <link>https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
+<p><br></p>
+<p>This project applies <strong>Bayesian survival analysis</strong> to the Veteran’s Administration Lung Cancer dataset, focusing on <strong>parametric accelerated failure time (AFT) models</strong>.</p>
+<p>The work compares <strong>exponential</strong> and <strong>Weibull AFT models</strong> using <strong>MCMC estimation in JAGS</strong>, with model fit assessed via the <strong>Deviance Information Criterion (DIC)</strong>.<br>
+Posterior predictive checks and parameter recovery experiments are used to evaluate calibration and identifiability, while results are contrasted with <strong>frequentist survival models</strong> such as Cox PH and parametric AFT.</p>
+<p>Key findings include the superior fit of the Weibull model, significant effects of cell type on survival, and good calibration under posterior predictive validation.</p>
+<p><br></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/km-posterior-checks.png" alt="Posterior predictive survival curves compared with Kaplan-Meier estimates" width="70%"></p>
+<div class="gray-italic center-text">
+<p>Comparison of Bayesian posterior predictive survival curves with Kaplan–Meier estimates</p>
+</div>
+
+
+
+ ]]></description>
+  <category>Bayesian</category>
+  <category>Survival Analysis</category>
+  <category>R</category>
+  <guid>https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/</guid>
+  <pubDate>Wed, 01 Oct 2025 20:32:56 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/survival-analysis.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>Prediction of Medical Care Abandonment in Italy</title>
   <link>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</link>
@@ -19,40 +233,20 @@
 
 
 
-<p><a href="https://github.com/emanueleiacca/Medical-Care-Abandonment" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
+<p><a href="https://github.com/emanueleiacca/SL_ISTAT" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
 <p><br></p>
-<!-- # Motivation -->
-<p>Access to healthcare is a fundamental right, yet many individuals still abandon or forgo necessary medical care due to financial, social, or systemic barriers. Understanding <em>who</em> is at risk and <em>why</em> is crucial to design effective policies.<br>
-This project leverages the <strong>2019 European Health Interview Survey (EHIS)</strong> to investigate medical care abandonment in Italy, combining data-driven insights with machine learning models.</p>
-<!-- # What's in the project? -->
-<p>This work implements advanced methods for prediction, interpretability, and robustness:</p>
-<ul>
-<li><strong>Data preprocessing</strong>: cleaning, handling missing values, thematic grouping, and skip-logic adjustments.<br>
-</li>
-<li><strong>Exploratory data analysis</strong>: socio-demographic patterns across age, gender, geography, and social factors.<br>
-</li>
-<li><strong>Modeling</strong>: multinomial logistic regression and XGBoost classifiers, with population weighting.<br>
-</li>
-<li><strong>Feature selection</strong>: LASSO regression and gain-based importance, stability tested via bootstrap resampling.<br>
-</li>
-<li><strong>Uncertainty quantification</strong>: conformal prediction framework for reliable, uncertainty-aware classifications.<br>
-</li>
-<li><strong>Interpretability</strong>: SHAP analysis for both global and local feature importance.</li>
-</ul>
-<!-- # Results -->
-<ul>
-<li><strong>Performance</strong>: XGBoost outperforms logistic regression, achieving higher precision and F1-score for healthcare avoiders, with fewer false positives.<br>
-</li>
-<li><strong>Key predictors</strong>: renunciation indicators (dental care, medication, mental health) emerge as the strongest signals.<br>
-</li>
-<li><strong>Uncertainty</strong>: conformal prediction provides valid coverage with smaller prediction sets for XGBoost.<br>
-</li>
-<li><strong>Insights</strong>: results highlight regional disparities and vulnerable population groups, offering concrete input for policymakers.</li>
-</ul>
+<p>This project investigates <strong>medical care abandonment in Italy</strong> using the <strong>2019 European Health Interview Survey (EHIS)</strong>.<br>
+The analysis combines <strong>machine learning models</strong> (multinomial logistic regression, XGBoost) with advanced techniques for <strong>feature selection, uncertainty quantification, and interpretability</strong>.</p>
+<p>Key methods include:<br>
+- <strong>LASSO regression</strong> and <strong>gain-based importance</strong> for feature selection<br>
+- <strong>Bootstrap stability analysis</strong><br>
+- <strong>Conformal prediction</strong> for uncertainty-aware classification<br>
+- <strong>SHAP analysis</strong> for model interpretability</p>
+<p>Results show that <strong>XGBoost outperforms logistic regression</strong>, renunciation indicators (dental care, medication, mental health) are the strongest predictors, and conformal prediction provides reliable coverage. These findings highlight <strong>regional disparities and vulnerable population groups</strong>, offering actionable insights for policymakers.</p>
 <p><br></p>
-<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/healthcare-italy.jpeg" alt="Visualization of healthcare disparities in Italy with symbolic medical and demographic data icons" width="70%"></p>
+<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/images/patient.jpeg" alt="Visualization of healthcare disparities in Italy with symbolic medical and demographic data icons" width="70%"></p>
 <div class="gray-italic center-text">
-<p>Exploring healthcare abandonment patterns across Italy</p>
+<p>Machine learning applied to healthcare abandonment in Italy</p>
 </div>
 
 
@@ -61,8 +255,8 @@ This project leverages the <strong>2019 European Health Interview Survey (EHIS)<
   <category>Machine Learning</category>
   <category>Healthcare</category>
   <guid>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</guid>
-  <pubDate>Wed, 01 Oct 2025 19:50:12 GMT</pubDate>
-  <media:content url="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/medical-care.png" medium="image" type="image/png"/>
+  <pubDate>Wed, 01 Oct 2025 20:32:56 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/images/patient.png" medium="image" type="image/png"/>
 </item>
 </channel>
 </rss>

@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-01">
-<meta name="description" content="Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.">
+<meta name="dcterms.date" content="2022-09-01">
+<meta name="description" content="Training an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.">
 
-<title>Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment – Emanuele Iaccarino</title>
+<title>Snake with Curriculum Learning – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,18 +164,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment</h1>
+<h1 class="title">Snake with Curriculum Learning</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Reinforcement Learning</div>
-    <div class="quarto-category">FrozenLake</div>
-    <div class="quarto-category">Optuna</div>
-    <div class="quarto-category">Research</div>
+    <div class="quarto-category">Curriculum Learning</div>
+    <div class="quarto-category">Games</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.</p>
+    <p>Training an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.</p>
   </div>
 </div>
 
@@ -186,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2023</p>
+      <p class="date">September 1, 2022</p>
     </div>
   </div>
   
@@ -198,19 +197,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project evaluates <strong>reinforcement learning algorithms</strong> in the <strong>Frozen Lake environment</strong>, under both deterministic and stochastic settings.<br>
-Algorithms studied include <strong>Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning</strong>.</p>
-<p>A key focus is <strong>hyperparameter optimization</strong> with <strong>Optuna</strong>, applied to Q-Learning to improve learning efficiency.</p>
-<p><strong>Key results</strong>:<br>
-- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios<br>
-- Discount rate and learning rate were critical for convergence and stability<br>
-- Optuna tuning enhanced Q-Learning’s efficiency across environments<br>
-- Findings provide guidance for RL applications in grid-world tasks</p>
-<p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p>This project implements a <strong>reinforcement learning agent</strong> for the classic Snake game using <strong>Stable Baselines3</strong>.<br>
+A <strong>curriculum learning strategy</strong> is applied: the agent is trained on smaller, simpler boards before progressing to larger and more complex environments.</p>
+<p><strong>Methods</strong><br>
+- Custom Snake environments in <code>snakeenv.py</code> and <code>snakeenv2.py</code><br>
+- RL training with <strong>Proximal Policy Optimization (PPO)</strong><br>
+- Curriculum schedule: gradually increasing board size and difficulty<br>
+- Logging and monitoring with Stable Baselines3 tools</p>
+<p><strong>Key results</strong><br>
+- Agent successfully learned to play Snake across multiple board sizes<br>
+- Achieved a maximum score of <strong>18 apples eaten</strong> in evaluation runs<br>
+- Curriculum learning improved convergence speed and stability compared to direct training on large boards</p>
+<p><a href="https://github.com/emanueleiacca/Snake-with-Curriculum-Learning" class="btn" target="_blank">View project on GitHub</a></p>
 <p><br></p>
-<p><img class="img-styling" src="frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
+<p><img class="img-styling" src="images/snake.png" alt="Reinforcement learning agent trained with curriculum learning to play Snake" width="70%"></p>
 <div class="gray-italic center-text">
-<p>Exploring deterministic and stochastic Frozen Lake environments with RL</p>
+<p>Reinforcement learning agent trained with curriculum learning to master Snake</p>
 </div>
 
 

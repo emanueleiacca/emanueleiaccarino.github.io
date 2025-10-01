@@ -6,41 +6,18 @@ date: 2023-10-01
 categories: [Reinforcement Learning, FrozenLake, Optuna, Research]
 image: frozenlake-rl.png
 draft: false
-
 ---
 
-### 📄 Abstract  
+This project evaluates **reinforcement learning algorithms** in the **Frozen Lake environment**, under both deterministic and stochastic settings.  
+Algorithms studied include **Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning**.  
 
-This study delves into the nuances of various **reinforcement learning algorithms** in the context of the **Frozen Lake environment**, offering a comprehensive analysis of their behaviors under both deterministic and stochastic settings.  
+A key focus is **hyperparameter optimization** with **Optuna**, applied to Q-Learning to improve learning efficiency.  
 
-Algorithms evaluated include:  
-- Monte Carlo  
-- Sarsa  
-- Expected Sarsa  
-- Q-Learning  
-- Double Q-Learning  
-
-A significant portion of the research focuses on **hyperparameter optimization** using the Optuna framework, specifically targeting Q-Learning.  
-
----
-
-### 🔑 Key Contributions  
-
-- Comparative evaluation of five RL algorithms in deterministic vs stochastic Frozen Lake  
-- Analysis of learning dynamics and convergence behaviors  
-- Hyperparameter tuning via **Optuna** for Q-Learning (discount rate, learning rate, exploration strategies)  
-- Insights into how hyperparameter interactions impact efficiency and stability  
-
----
-
-### 📌 Findings  
-
-- Q-Learning and Double Q-Learning showed robustness in stochastic environments  
-- Discount rate and learning rate proved critical for convergence speed and stability  
-- Optuna-based optimization improved Q-Learning efficiency in both environments  
-- The study provides practical guidance for RL applications in grid-world tasks  
-
----
+**Key results**:  
+- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios  
+- Discount rate and learning rate were critical for convergence and stability  
+- Optuna tuning enhanced Q-Learning’s efficiency across environments  
+- Findings provide guidance for RL applications in grid-world tasks  
 
 [Read full-text on ResearchGate](https://doi.org/10.13140/RG.2.2.35989.09445){.btn target=_blank}  
 

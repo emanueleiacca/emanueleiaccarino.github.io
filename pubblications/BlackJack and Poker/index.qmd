@@ -8,35 +8,15 @@ image: drl-poker.png
 draft: false
 ---
 
-### 📄 Abstract  
+This thesis explores **reinforcement learning (RL) and deep reinforcement learning (DRL)** techniques in **Blackjack and Poker**, two games of incomplete information that require complex strategy under uncertainty.  
 
-The domain of **card games**, marked by complexity, uncertainty, and strategic depth, provides a fertile ground for advancing **reinforcement learning (RL)**. This thesis explores the use of both RL and **deep reinforcement learning (DRL)** algorithms in **Blackjack** and **Poker**, two games of incomplete information.  
+Methods include **Deep Q-Networks (DQN)**, **Counterfactual Regret Minimization (CFR)**, **Deep Monte Carlo (DMC)**, and **Neural Fictitious Self-Play (NFSP)**, evaluated for their ability to handle stochasticity, hidden information, and strategic adaptation.  
 
-Algorithms studied:  
-- **Deep Q-Networks (DQN)**  
-- **Counterfactual Regret Minimization (CFR)**  
-- **Deep Monte Carlo (DMC)**  
-- **Neural Fictitious Self-Play (NFSP)**  
-
----
-
-### 🔑 Key Contributions  
-
-- Systematic evaluation of RL and DRL algorithms in incomplete-information games  
-- Demonstrated **superhuman performance** in specific game configurations  
-- Provided insights into how algorithms develop **strategic learning and decision-making processes**  
-- Highlighted differences in algorithm adaptability to **stochasticity and hidden information**  
-
----
-
-### 📌 Findings  
-
-- **DQN** proved effective in learning structured Blackjack strategies  
-- **CFR** and **NFSP** excelled in handling incomplete information in Poker  
-- **DMC** offered robust convergence in complex state spaces  
-- Results demonstrate that DRL can replicate and surpass human strategies in competitive card games  
-
----
+**Key results**:  
+- **DQN** learns structured Blackjack strategies effectively  
+- **CFR** and **NFSP** excel in Poker, adapting to incomplete information  
+- **DMC** achieves robust convergence in high-dimensional state spaces  
+- DRL methods demonstrate potential for **superhuman performance** in competitive card games  
 
 [Read full-text on ResearchGate](https://doi.org/10.13140/RG.2.2.11939.46887){.btn target=_blank}  
 

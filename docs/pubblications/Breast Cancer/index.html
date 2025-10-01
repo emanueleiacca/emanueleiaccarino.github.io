@@ -156,19 +156,11 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">📄 Abstract</a></li>
-  <li><a href="#key-contributions" id="toc-key-contributions" class="nav-link" data-scroll-target="#key-contributions">🔑 Key Contributions</a></li>
-  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">📌 Findings</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -188,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
     <div>
@@ -206,37 +198,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="abstract" class="level3">
-<h3 class="anchored" data-anchor-id="abstract">📄 Abstract</h3>
-<p><strong>Mammography</strong> is a cornerstone in the early detection of breast cancer, where accurate image classification is crucial for timely diagnosis and treatment. While deep learning has shown great promise in medical imaging, the <strong>CBIS-DDSM dataset</strong>—one of the largest repositories of breast cancer mammograms—remains relatively underexplored, with limited reproducible research available.</p>
-<p>This project implements a <strong>deep learning pipeline</strong> for mammography classification, addressing preprocessing, augmentation, and training challenges in medical imaging.</p>
-<hr>
-</section>
-<section id="key-contributions" class="level3">
-<h3 class="anchored" data-anchor-id="key-contributions">🔑 Key Contributions</h3>
-<ul>
-<li>Preprocessing strategies: ROI extraction, intensity maps, and gradient magnitude transformations<br>
-</li>
-<li>Custom data augmentation: geometric transformations, ROI overlay, and blended cropping<br>
-</li>
-<li>Model development: pretrained CNNs with <strong>transfer learning</strong>, fine-tuned for CBIS mammograms<br>
-</li>
-<li>Reproducibility: publicly available code and methodology for reproducible medical ML research</li>
-</ul>
-<hr>
-</section>
-<section id="findings" class="level3">
-<h3 class="anchored" data-anchor-id="findings">📌 Findings</h3>
-<ul>
-<li>Preprocessing significantly improved model convergence and accuracy<br>
-</li>
-<li>Transfer learning with fine-tuning achieved <strong>state-of-the-art performance</strong> among public baselines<br>
-</li>
-<li>Augmentation strategies reduced overfitting and improved generalization<br>
-</li>
-<li>Results demonstrate the potential of deep learning for <strong>scalable, reproducible breast cancer diagnostics</strong></li>
-</ul>
-<hr>
+<p>This project develops a <strong>deep learning pipeline</strong> for mammogram classification using the <strong>CBIS-DDSM dataset</strong>, addressing preprocessing, augmentation, and model training challenges in medical imaging.</p>
+<p>Techniques include <strong>ROI extraction</strong>, intensity maps, gradient transformations, and <strong>custom data augmentation</strong> (ROI overlay, geometric transformations, blended cropping). Pretrained CNNs were fine-tuned through <strong>transfer learning</strong>, achieving state-of-the-art performance among public baselines.</p>
+<p><strong>Key results</strong>:<br>
+- Preprocessing improved convergence and accuracy<br>
+- Transfer learning boosted generalization performance<br>
+- Augmentation strategies reduced overfitting<br>
+- Demonstrated potential for <strong>scalable and reproducible breast cancer diagnostics</strong></p>
 <p><a href="https://doi.org/10.13140/RG.2.2.21738.43206" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
 <p><br></p>
 <p><img class="img-styling" src="breast-cancer-classification.png" alt="Breast cancer mammogram classification with deep learning models" width="70%"></p>
@@ -245,7 +213,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

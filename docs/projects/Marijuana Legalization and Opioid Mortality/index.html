@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-10-01">
-<meta name="description" content="Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.">
+<meta name="dcterms.date" content="2024-06-01">
+<meta name="description" content="Econometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.">
 
-<title>Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment – Emanuele Iaccarino</title>
+<title>Marijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,18 +164,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment</h1>
+<h1 class="title">Marijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Reinforcement Learning</div>
-    <div class="quarto-category">FrozenLake</div>
-    <div class="quarto-category">Optuna</div>
-    <div class="quarto-category">Research</div>
+    <div class="quarto-category">Econometrics</div>
+    <div class="quarto-category">Causal Inference</div>
+    <div class="quarto-category">Public Health</div>
+    <div class="quarto-category">Policy</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <p>Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.</p>
+    <p>Econometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.</p>
   </div>
 </div>
 
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 1, 2023</p>
+      <p class="date">June 1, 2024</p>
     </div>
   </div>
   
@@ -198,19 +198,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This project evaluates <strong>reinforcement learning algorithms</strong> in the <strong>Frozen Lake environment</strong>, under both deterministic and stochastic settings.<br>
-Algorithms studied include <strong>Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning</strong>.</p>
-<p>A key focus is <strong>hyperparameter optimization</strong> with <strong>Optuna</strong>, applied to Q-Learning to improve learning efficiency.</p>
-<p><strong>Key results</strong>:<br>
-- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios<br>
-- Discount rate and learning rate were critical for convergence and stability<br>
-- Optuna tuning enhanced Q-Learning’s efficiency across environments<br>
-- Findings provide guidance for RL applications in grid-world tasks</p>
-<p><a href="https://doi.org/10.13140/RG.2.2.35989.09445" class="btn" target="_blank">Read full-text on ResearchGate</a></p>
+<p>This project examines the <strong>impact of recreational marijuana legalization</strong> on drug-related mortality, with a focus on opioids and cocaine.<br>
+The analysis applies <strong>causal inference methods</strong> including <strong>Difference-in-Differences (DiD)</strong>, <strong>Instrumental Variables (IV, 2SLS &amp; 2SRI)</strong>, and <strong>Event Studies</strong>, using state-level panel data from the CDC.</p>
+<p><strong>Methods</strong><br>
+- Panel dataset: Massachusetts (treatment) vs.&nbsp;New Hampshire (control)<br>
+- Data cleaning and imputation via Kalman filtering<br>
+- DiD and Event Study with monthly leads/lags<br>
+- IV estimation to address potential endogeneity<br>
+- Binary Logit/Probit robustness checks</p>
+<p><strong>Key results</strong><br>
+- 📉 Significant decline in <strong>cocaine deaths</strong> after legalization (DiD &amp; Event Study)<br>
+- ⚖️ No statistically significant effect on <strong>opioid mortality</strong><br>
+- ✅ Placebo and robustness checks confirm validity of cocaine result<br>
+- 🌍 Findings highlight implications for European countries facing emerging overdose risks</p>
+<p><a href="https://github.com/emanueleiacca/The-Impact-of-Marijuana-Legalization-on-Opioid-Overdose-Deaths" class="btn" target="_blank">View project on GitHub</a></p>
 <p><br></p>
-<p><img class="img-styling" src="frozenlake-rl.png" alt="Frozen Lake environment with reinforcement learning agents" width="70%"></p>
+<p><img class="img-styling" src="images/marijuana.png" alt="Causal analysis of marijuana legalization and opioid mortality trends" width="70%"></p>
 <div class="gray-italic center-text">
-<p>Exploring deterministic and stochastic Frozen Lake environments with RL</p>
+<p>Causal econometric analysis of cannabis policy reform and drug-related mortality</p>
 </div>
 
 
