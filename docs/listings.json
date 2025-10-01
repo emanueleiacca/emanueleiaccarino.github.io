@@ -13,5 +13,19 @@
       "/pubblications/Unity ML Agents/index.html",
       "/pubblications/Frozen Lake/index.html"
     ]
+  },
+  {
+    "listing": "/academic.html",
+    "items": [
+      "/pubblications/Breast Cancer/index.html",
+      "/pubblications/BlackJack and Poker/index.html",
+      "/pubblications/Frozen Lake/index.html",
+      "/projects/Prediction of Medical Care Abandonment in Italy/index.html",
+      "/pubblications/Unity ML Agents/index.html",
+      "/about.html",
+      "/projects.html",
+      "/pubblications.html",
+      "/index.html"
+    ]
   }
 ]

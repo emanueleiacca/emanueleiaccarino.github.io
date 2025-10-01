@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Emanuele Iaccarino</title>
+<title>my academic journey – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/logo.jpg" rel="icon" type="image/jpeg">
+<link href="./images/pfp.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,20 +73,78 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo light-content">
-    <img src="./images/logo.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo dark-content">
+    <img src="./images/pfp.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo light-content">
+    <img src="./images/pfp.jpg" alt="Emanuele Iaccarino personal mark" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Emanuele Iaccarino</span>
@@ -96,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./academic.html"> 
+    <a class="nav-link active" href="./academic.html" aria-current="page"> 
 <span class="menu-text">academic</span></a>
   </li>  
   <li class="nav-item">
@@ -150,51 +211,251 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">my academic journey</h1>
+            <p class="subtitle lead">an overview of my studies and how each course shaped my path</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla column-page">
-  <img src="images/pfp.jpg" class="about-image
-  round " style="height: 22em; width: 22em;">
- <header id="title-block-header" class="quarto-title-block"></header><main class="content column-page" id="quarto-document-content">
-<div id="bio">
-<p>Hi there, I’m <strong><span class="text-terracotta">Emanuele Iaccarino</span></strong>.<br>
-Numbers have always been my way of making sense of the world — turning <strong><span class="text-sage">ideas into structures</span></strong>, spotting <strong><span class="text-sage">patterns in the noise</span></strong>, and breaking problems into steps I could work through. For a long time I saw this as nothing more than my own way of thinking. Only later did I realize that this <strong><span class="text-violet">mindset</span></strong> is exactly what lies at the heart of <strong><span class="text-terracotta">data science</span></strong>, and that following this path wasn’t really a choice but the most natural direction forward.</p>
-<p>That realization shaped my journey. What started as <strong><span class="text-terracotta">curiosity</span></strong> grew into building <strong><span class="text-sage">models</span></strong>, working with <strong><span class="highlight-block">messy data</span></strong>, and uncovering the <strong><span class="highlight-block">stories hidden inside</span></strong>. It became not just something I enjoyed, but something I wanted to dedicate myself to fully. <strong><span class="text-terracotta">Data science</span></strong> didn’t arrive in my life as a plan — it arrived as the recognition of what I had been doing all along.</p>
-<p>Even this website reflects that story. I built it with <strong><span class="text-terracotta">Quarto</span></strong>, the modern framework born from RStudio, where I first learned to bring <strong><span class="text-violet">statistics, code, and storytelling</span></strong> together. Using the same ecosystem here feels natural — a continuation of the roots that shaped me, now powering the place where I share what I’m building today.</p>
-</div>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://www.linkedin.com/in/emanuele-iaccarino-a4298b27b/" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/emanueleiacca" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://www.kaggle.com/manuiaccarino" class="about-link" rel="" target="_blank">
-    <i class="bi bi-kaggle"></i>
-     <span class="about-link-text">Kaggle</span>
-  </a>
-  <a href="https://www.researchgate.net/profile/Emanuele-Iaccarino" class="about-link" rel="" target="_blank">
-    <i class="bi bi-researchgate"></i>
-     <span class="about-link-text">ResearchGate</span>
-  </a>
-  <a href="mailto:emanueleiaccarino.ei@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RGVlcCUyMExlYXJuaW5nJTJDTWVkaWNhbCUyMEltYWdpbmclMkNDbGFzc2lmaWNhdGlvbiUyQ1Jlc2VhcmNo" data-listing-date-sort="1701385200000" data-listing-file-modified-sort="1758912355308" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
+<a href="./pubblications/Breast Cancer/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./pubblications/Breast Cancer/breast-cancer-classification.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Breast Cancer Classification with Deep Learning
+</h5>
+<div class="card-text listing-description delink">
+<p>A deep learning pipeline for classifying mammographic images from the CBIS dataset, leveraging preprocessing and transfer learning.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 1, 2023
 </div>
 </div>
- <!-- /main -->
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UmVpbmZvcmNlbWVudCUyMExlYXJuaW5nJTJDRGVlcFJMJTJDQ2FyZEdhbWVzJTJDUmVzZWFyY2g=" data-listing-date-sort="1719784800000" data-listing-file-modified-sort="1758912185689" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<a href="./pubblications/BlackJack and Poker/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./pubblications/BlackJack and Poker/drl-poker.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Deep Reinforcement Learning for Incomplete Information Card Games (BlackJack and Poker)
+</h5>
+<div class="card-text listing-description delink">
+<p>Application of RL and DRL algorithms to strategic decision-making in Blackjack and Poker, exploring uncertainty and incomplete information.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Jul 1, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UmVpbmZvcmNlbWVudCUyMExlYXJuaW5nJTJDRnJvemVuTGFrZSUyQ09wdHVuYSUyQ1Jlc2VhcmNo" data-listing-date-sort="1696111200000" data-listing-file-modified-sort="1758912000305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<a href="./pubblications/Frozen Lake/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./pubblications/Frozen Lake/frozenlake-rl.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment
+</h5>
+<div class="card-text listing-description delink">
+<p>Analysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Oct 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDSGVhbHRoY2FyZQ==" data-listing-file-modified-sort="1758910323842" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
+<a href="./projects/Prediction of Medical Care Abandonment in Italy/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./projects/Prediction of Medical Care Abandonment in Italy/medical-care.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Prediction of Medical Care Abandonment in Italy
+</h5>
+<div class="card-text listing-description delink">
+<p>a research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services</p>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UmVpbmZvcmNlbWVudCUyMExlYXJuaW5nJTJDVW5pdHklMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNSZXNlYXJjaA==" data-listing-date-sort="1701385200000" data-listing-file-modified-sort="1758911671253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<a href="./pubblications/Unity ML Agents/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./pubblications/Unity ML Agents/unity-rl.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques
+</h5>
+<div class="card-text listing-description delink">
+<p>Implementation and comparative study of reinforcement learning algorithms in Unity ML environments, with case studies on WallJump and SoccerTwos.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Dec 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1758909939429" data-listing-reading-time-sort="4" data-listing-word-count-sort="677">
+<a href="./about.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="images\award.png" alt="Award plaque from Regione Campania recognizing excellence in production" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+about
+</h5>
+<div class="card-text listing-description delink">
+For me, data science is not just about writing code or training models — it’s about the way you approach problems. What makes me different is not a single skill, but a combination of habits and…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1758911909745" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./projects.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="projects\Prediction of Medical Care Abandonment in Italy\medical-care.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+projects
+</h5>
+<div class="card-text listing-description delink">
+
+
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1758911693477" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./pubblications.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="pubblications\BlackJack and Poker\drl-poker.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+pubblications
+</h5>
+<div class="card-text listing-description delink">
+
+
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1758906622159" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
+<a href="./index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./images/pfp.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description delink">
+Hi there, I’m <strong><span class="text-terracotta">Emanuele Iaccarino</span></strong>.<br>
+Numbers have always been my way of making sense of the world — turning <strong><span class="text-sage">ideas into structures</span></strong>, spotting <strong><span class="text-sage">patterns in the noise</span></strong>, and breaking problems into steps I…<strong><span class="text-violet"></span></strong><strong><span class="text-terracotta"></span></strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
