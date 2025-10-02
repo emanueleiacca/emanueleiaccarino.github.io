@@ -49,6 +49,34 @@
     "text": "Hi there, I’m Emanuele Iaccarino.\nNumbers have always been my way of making sense of the world — turning ideas into structures, spotting patterns in the noise, and breaking problems into steps I could work through. For a long time I saw this as nothing more than my own way of thinking. Only later did I realize that this mindset is exactly what lies at the heart of data science, and that following this path wasn’t really a choice but the most natural direction forward.\nThat realization shaped my journey. What started as curiosity grew into building models, working with messy data, and uncovering the stories hidden inside. It became not just something I enjoyed, but something I wanted to dedicate myself to fully. Data science didn’t arrive in my life as a plan — it arrived as the recognition of what I had been doing all along.\nEven this website reflects that story. I built it with Quarto, the modern framework born from RStudio, where I first learned to bring statistics, code, and storytelling together. Using the same ecosystem here feels natural — a continuation of the roots that shaped me, now powering the place where I share what I’m building today."
   },
   {
+    "objectID": "awards-certifications.html",
+    "href": "awards-certifications.html",
+    "title": "Awards & Certifications",
+    "section": "",
+    "text": "Result: 1st Place & Best Project Overall (2025)\nRepository: https://github.com/emanueleiacca/SUS\nLinkedIn: Winning announcement · Behind the scenes\nSummary: Developed an AML detection system using graph-based modeling (transactional networks, topological features, multi-account patterns) combined with ensemble ML models (XGBoost + LightGBM) using cost-sensitive learning to deal with extreme class imbalance.\n\n\n\n\nCompetition: September Data Science Training Camp @ Sapienza University\nOrganizer: Target Reply Roma — Result: 3rd Place\nRepository: https://github.com/emanueleiacca/Target-Reply---Rul-Estimation-of-Turbofan-Engines\n—\n\n\n\nResult: 3rd Place\nProject: Snake with Curriculum Learning\nSummary: Trained a SnakeEnv agent using Stable Baselines3 and curriculum learning:\n- Started on small grids, scaling up to larger boards (up to 20x20)\n- Removed rendering for faster training (~1h30 runtime)\n- Best score: 18 apples eaten across 100 iterations\n\n\n\n\nRepository: https://github.com/emanueleiacca/Poster-Statistico-2023\nTheme: Atmospheric pollution in Italy (ISTAT data) analyzed via regression, exploratory data analysis, and visualization with R, Python, and Datawrapper.\nResults: Awarded for clarity of methodology, rigor in modeling, and effective data communication."
+  },
+  {
+    "objectID": "awards-certifications.html#awards",
+    "href": "awards-certifications.html#awards",
+    "title": "Awards & Certifications",
+    "section": "",
+    "text": "Result: 1st Place & Best Project Overall (2025)\nRepository: https://github.com/emanueleiacca/SUS\nLinkedIn: Winning announcement · Behind the scenes\nSummary: Developed an AML detection system using graph-based modeling (transactional networks, topological features, multi-account patterns) combined with ensemble ML models (XGBoost + LightGBM) using cost-sensitive learning to deal with extreme class imbalance.\n\n\n\n\nCompetition: September Data Science Training Camp @ Sapienza University\nOrganizer: Target Reply Roma — Result: 3rd Place\nRepository: https://github.com/emanueleiacca/Target-Reply---Rul-Estimation-of-Turbofan-Engines\n—\n\n\n\nResult: 3rd Place\nProject: Snake with Curriculum Learning\nSummary: Trained a SnakeEnv agent using Stable Baselines3 and curriculum learning:\n- Started on small grids, scaling up to larger boards (up to 20x20)\n- Removed rendering for faster training (~1h30 runtime)\n- Best score: 18 apples eaten across 100 iterations\n\n\n\n\nRepository: https://github.com/emanueleiacca/Poster-Statistico-2023\nTheme: Atmospheric pollution in Italy (ISTAT data) analyzed via regression, exploratory data analysis, and visualization with R, Python, and Datawrapper.\nResults: Awarded for clarity of methodology, rigor in modeling, and effective data communication."
+  },
+  {
+    "objectID": "awards-certifications.html#kaggle-competitions",
+    "href": "awards-certifications.html#kaggle-competitions",
+    "title": "Awards & Certifications",
+    "section": "🧪 Kaggle Competitions",
+    "text": "🧪 Kaggle Competitions\n\nForecasting Mini-Course Sales (Playground S3E19)\nCompetition · Repo\nRank: 922/1174\nPredict CO₂ Emissions in Rwanda (Playground S3E20)\nCompetition · Repo\nRank: 1046/1442\nImprove a Fixed Model the Data-Centric Way! (Playground S3E21)\nCompetition · Repo\nRank: 623/956\nPredict Health Outcomes of Horses (Playground S3E22)\nCompetition · Repo\nRank: 867/1543\nBinary Classification with a Software Defects Dataset (Playground S3E23)\nCompetition · Repo\nRank: 242/1704\nBinary Prediction of Smoker Status using Bio-Signals (Playground S3E24)\nCompetition · Repo\nRank: 663/1910\nPredicting the Beats-per-Minute of Songs (Playground S5E9)\nCompetition\nRank: 365/2583"
+  },
+  {
+    "objectID": "awards-certifications.html#certifications",
+    "href": "awards-certifications.html#certifications",
+    "title": "Awards & Certifications",
+    "section": "🎓 Certifications",
+    "text": "🎓 Certifications\n\nFreeCodeCamp\n\nMachine Learning with Python\nIssued: Aug 2024\nCredential ID: fccdc601991-7020-4b26-a936-de1cbcbeb2d6-mlwp\nView Credential\nData Analysis with Python\nIssued: Jul 2023\nCredential ID: fccdc601991-7020-4b26-a936-de1cbcbeb2d6-dawp\nView Credential\nScientific Computing with Python\nIssued: Jul 2023\nCredential ID: fccdc601991-7020-4b26-a936-de1cbcbeb2d6-scwp\nView Credential\n\n\n\n\nUniversity of Naples Federico II\n\nPython for Data Science – Basic Level\nIssued: Jun 2024\nCredential ID: kBK7T2YmRIK19XklQezl_g\nView Credential\n\n\n\n\nSAS Certifications (Credly)\n\nSAS Programming 1: Essentials\nIssued: Jun 2022\nCredential ID: 5378915f-8d0b-489a-9d07-f6f252e77295\nView Credential\nSAS Programming 2: Data Manipulation Techniques\nIssued: Jun 2022\nCredential ID: b53f05ed-2cf8-45ec-a3fa-1d85d6a22b27\nView Credential\nStatistics 1: Introduction to ANOVA, Regression, and Logistic Regression\nIssued: Jun 2022\nCredential ID: 4726593d-94d0-4e04-a881-63c498f8ec70\nView Credential\n\n\n\n\nProfiles\n\nHackerRank Profile\n\nLeetCode Progress"
+  },
+  {
     "objectID": "academic/sapienza/statistical-learning.html",
     "href": "academic/sapienza/statistical-learning.html",
     "title": "Statistical Machine Learning",
@@ -593,6 +621,34 @@
     "title": "Statistical Methods for Data Science",
     "section": "My work in this course",
     "text": "My work in this course\n\nNotes & Materials\n\nComplete notes for both semesters\n\nProjects\n\nPart I: Final Project SDS1\n\nPart II: Bayesian Survival Analysis of Veteran Lung Cancer Patients"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download my CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#download-cv",
+    "href": "cv.html#download-cv",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download my CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\n\nTutor — Sapienza University of Rome\nNov 2024 – Present\nConduct weekly support sessions in statistics for B.Sc. students, helping with exam preparation.\nAssist at the Orientation and Guidance Desk during university events and academic fairs, building communication and mentoring skills.\n\n\n\nCeramic Artist & eCommerce Director — Fratelli Iaccarino SNC\nSep 2016 – Present\nCo-founded and managed the family business’s online transition.\nGrew revenue via digital sales, created product listings, and managed customer care, market research, and logistics.\nIn parallel, pursued artistic projects that were later showcased in exhibitions and media.\n\n\n\nTour Guide — Mag Charter, Amalfi & Capri\nAug 2025 – Sep 2025\nGuided international visitors on private boat tours along the Amalfi Coast and Capri.\nBuilt strong improvisation, multilingual communication, and storytelling skills while managing diverse client expectations.\n\n\n\nTour Guide — Curreri, Amalfi Coast\nMay 2024 – Aug 2024\nLed guided tours for international visitors across the Amalfi Coast.\nGained experience in adapting to diverse groups, handling on-the-spot questions, and creating memorable travel experiences.\n\n\n\nJunior Data Engineer Intern — Accenture Consulting, Naples\nApr 2024 – May 2024\n150h internship.\n- Analyzed JSON-based pipelines and complex SQL queries (including CTEs and subqueries).\n- Developed a Python library for automated SQL lineage extraction and ETL visualization.\n- Supported data migration from Teradata to Google BigQuery.\n\n\n\nDrywall Installer — Guarracino Pitturazioni\nAug 2021 – Jun 2022\nWorked in a small construction team on call.\nInstalled drywall, supported masonry and painting tasks, and prepared worksites.\nLearned adaptability, manual precision, and collaboration in physically demanding projects.\n\n\n\nWaitperson — Le Axidie, Vico Equense\nApr 2019 – Sep 2021\nOn-call waiter for weddings and private events.\nAdapted quickly to formal service environments, assisting with setup and ensuring a smooth guest experience.\nDeveloped flexibility and detail orientation under pressure.\n\n\n\nWaitperson — La Marinella, Sant’Agnello\nJun 2018 – Sep 2018\nServed in both dining and bar settings.\nLearned cocktail preparation, handled bar orders during peak hours, and delivered efficient customer service.\n\n\n\nWaitperson — Ristorante Sorrento\nJun 2017 – Sep 2017\nWorked as a waiter in a busy local restaurant.\nStrengthened multitasking, clear communication with kitchen staff, and teamwork skills."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nM.Sc. in Data Science — Sapienza University of Rome (2024–Present)\n👉 See coursework\nB.Sc. in Statistics for Business and Society — University of Naples Federico II (2021–2024)\n👉 See coursework\nErasmus in Computer Engineering — Universidad de Deusto (2023)\n👉 See coursework\nHigh School Diploma in Mechanical and Naval Engineering — Istituto Tecnico Nautico Nino Bixio (2015–2021)\n\n\n📌 This page provides a narrative overview of my experience. For a compact version, see the downloadable CV above."
   },
   {
     "objectID": "projects/Churn Analysis on Banking Dataset/index.html",

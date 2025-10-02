@@ -19,12 +19,14 @@ website:
       - about.qmd
       - href: academic/index.qmd
         text: academic
-
       - href: projects.qmd
         text: projects
-      - posts.qmd
       - href: pubblications.qmd
         text: pubblications
+      - href: awards-certifications.qmd
+        text: awards & certifications
+      - href: cv.qmd
+        text: CV
 
       - text: get in touch!
         menu:

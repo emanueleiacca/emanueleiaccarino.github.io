@@ -1,0 +1,125 @@
+---
+title: "Awards & Certifications"
+subtitle: "Hackathons, competitions, and certifications"
+page-layout: full
+title-block-banner: true
+---
+
+## 🏆 Awards
+
+### Stats Under the Stars 8 — International Hackathon  
+**Result:** 1st Place & Best Project Overall (2025)  
+**Repository:** <https://github.com/emanueleiacca/SUS>  
+**LinkedIn:** [Winning announcement](https://www.linkedin.com/in/emanuele-iaccarino-a4298b27b/?skipRedirect=true) · [Behind the scenes](https://www.linkedin.com/feed/update/urn:li:activity:7354577934914936832/?originTrackingId=RqllbhnVxpjhfm2S%2BSW6uQ%3D%3D)  
+**Summary:** Developed an **AML detection system** using **graph-based modeling** (transactional networks, topological features, multi-account patterns) combined with **ensemble ML models** (XGBoost + LightGBM) using cost-sensitive learning to deal with extreme class imbalance.  
+
+---
+
+### Target Reply — RUL Estimation of Turbofan Engines  
+**Competition:** September Data Science Training Camp @ Sapienza University  
+**Organizer:** Target Reply Roma — **Result:** 3rd Place  
+**Repository:** <https://github.com/emanueleiacca/Target-Reply---Rul-Estimation-of-Turbofan-Engines>  
+---
+
+### Internal Hackathon — Universidad de Deusto  
+**Result:** 3rd Place  
+**Project:** [Snake with Curriculum Learning](https://github.com/emanueleiacca/Snake-with-Curriculum-Learning)  
+**Summary:** Trained a **SnakeEnv agent** using **Stable Baselines3** and **curriculum learning**:  
+- Started on small grids, scaling up to larger boards (up to 20x20)  
+- Removed rendering for faster training (~1h30 runtime)  
+- Best score: **18 apples eaten** across 100 iterations  
+
+---
+
+### Poster Statistico — Prize for Methodological Rigor (University of Naples Federico II)  
+**Repository:** <https://github.com/emanueleiacca/Poster-Statistico-2023>  
+**Theme:** Atmospheric pollution in Italy (ISTAT data) analyzed via regression, exploratory data analysis, and visualization with **R, Python, and Datawrapper**.  
+**Results:** Awarded for clarity of methodology, rigor in modeling, and effective data communication.
+
+---
+
+## 🧪 Kaggle Competitions
+
+- **Forecasting Mini-Course Sales** (Playground S3E19)  
+  [Competition](https://www.kaggle.com/competitions/playground-series-s3e19) · [Repo](https://github.com/emanueleiacca/Playground-Series---Season-3-Episode-19)  
+  **Rank:** 922/1174  
+
+- **Predict CO₂ Emissions in Rwanda** (Playground S3E20)  
+  [Competition](https://www.kaggle.com/c/playground-series-s3e20/data) · [Repo](https://github.com/emanueleiacca/Playground-Series---Season-3-Episode-20)  
+  **Rank:** 1046/1442  
+
+- **Improve a Fixed Model the Data-Centric Way!** (Playground S3E21)  
+  [Competition](https://www.kaggle.com/competitions/playground-series-s3e21) · [Repo](https://github.com/emanueleiacca/Playground-Series---Season-3-Episode-21)  
+  **Rank:** 623/956  
+
+- **Predict Health Outcomes of Horses** (Playground S3E22)  
+  [Competition](https://www.kaggle.com/competitions/playground-series-s3e22) · [Repo](https://github.com/emanueleiacca/Playground-Series---Season-3-Episode-22)  
+  **Rank:** 867/1543  
+
+- **Binary Classification with a Software Defects Dataset** (Playground S3E23)  
+  [Competition](https://www.kaggle.com/competitions/playground-series-s3e23) · [Repo](https://github.com/emanueleiacca/Playground-Series---Season-3-Episode-23)  
+  **Rank:** 242/1704  
+
+- **Binary Prediction of Smoker Status using Bio-Signals** (Playground S3E24)  
+  [Competition](https://www.kaggle.com/competitions/playground-series-s3e24) · [Repo](https://github.com/emanueleiacca/Playground-Series---Season-3-Episode-24)  
+  **Rank:** 663/1910  
+
+- **Predicting the Beats-per-Minute of Songs** (Playground S5E9)  
+  [Competition](https://www.kaggle.com/competitions/playground-series-s5e9)  
+  **Rank:** 365/2583  
+
+---
+
+## 🎓 Certifications
+
+### FreeCodeCamp
+
+- **Machine Learning with Python**  
+  Issued: Aug 2024  
+  Credential ID: fccdc601991-7020-4b26-a936-de1cbcbeb2d6-mlwp  
+  [View Credential](https://www.freecodecamp.org/certification/fccdc601991-7020-4b26-a936-de1cbcbeb2d6/machine-learning-with-python-v7)
+
+- **Data Analysis with Python**  
+  Issued: Jul 2023  
+  Credential ID: fccdc601991-7020-4b26-a936-de1cbcbeb2d6-dawp  
+  [View Credential](https://www.freecodecamp.org/certification/fccdc601991-7020-4b26-a936-de1cbcbeb2d6/data-analysis-with-python-v7)
+
+- **Scientific Computing with Python**  
+  Issued: Jul 2023  
+  Credential ID: fccdc601991-7020-4b26-a936-de1cbcbeb2d6-scwp  
+  [View Credential](https://www.freecodecamp.org/certification/fccdc601991-7020-4b26-a936-de1cbcbeb2d6/scientific-computing-with-python-v7)
+
+---
+
+### University of Naples Federico II
+
+- **Python for Data Science – Basic Level**  
+  Issued: Jun 2024  
+  Credential ID: kBK7T2YmRIK19XklQezl_g  
+  [View Credential](https://bestr.it/award/show/kBK7T2YmRIK19XklQezl_g)
+
+---
+
+### SAS Certifications (Credly)
+
+- **SAS Programming 1: Essentials**  
+  Issued: Jun 2022  
+  Credential ID: 5378915f-8d0b-489a-9d07-f6f252e77295  
+  [View Credential](https://www.credly.com/earner/earned/badge/5378915f-8d0b-489a-9d07-f6f252e77295)  
+
+- **SAS Programming 2: Data Manipulation Techniques**  
+  Issued: Jun 2022  
+  Credential ID: b53f05ed-2cf8-45ec-a3fa-1d85d6a22b27  
+  [View Credential](https://www.credly.com/earner/earned/badge/b53f05ed-2cf8-45ec-a3fa-1d85d6a22b27)  
+
+- **Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression**  
+  Issued: Jun 2022  
+  Credential ID: 4726593d-94d0-4e04-a881-63c498f8ec70  
+  [View Credential](https://www.credly.com/earner/earned/badge/4726593d-94d0-4e04-a881-63c498f8ec70)
+
+---
+
+### Profiles
+
+- [HackerRank Profile](https://www.hackerrank.com/profile/emanueleiaccari1)  
+- [LeetCode Progress](https://leetcode.com/progress/)

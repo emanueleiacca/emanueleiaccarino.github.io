@@ -1,0 +1,98 @@
+---
+title: "Curriculum Vitae"
+subtitle: "Full experience and downloadable version"
+page-layout: full
+title-block-banner: true
+---
+
+## 📄 Download CV
+[Download my CV (PDF)](cv_unaPagina.pdf){target="_blank"}
+
+---
+
+## 💼 Professional Experience  
+
+### Tutor — Sapienza University of Rome  
+*Nov 2024 – Present*  
+Conduct weekly support sessions in statistics for B.Sc. students, helping with exam preparation.  
+Assist at the Orientation and Guidance Desk during university events and academic fairs, building communication and mentoring skills.  
+
+---
+
+### Ceramic Artist & eCommerce Director — Fratelli Iaccarino SNC  
+*Sep 2016 – Present*  
+Co-founded and managed the family business’s online transition.  
+Grew revenue via digital sales, created product listings, and managed customer care, market research, and logistics.  
+In parallel, pursued artistic projects that were later showcased in exhibitions and media.  
+
+---
+
+### Tour Guide — Mag Charter, Amalfi & Capri  
+*Aug 2025 – Sep 2025*  
+Guided international visitors on private boat tours along the Amalfi Coast and Capri.  
+Built strong improvisation, multilingual communication, and storytelling skills while managing diverse client expectations.  
+
+---
+
+### Tour Guide — Curreri, Amalfi Coast  
+*May 2024 – Aug 2024*  
+Led guided tours for international visitors across the Amalfi Coast.  
+Gained experience in adapting to diverse groups, handling on-the-spot questions, and creating memorable travel experiences.  
+
+---
+
+### Junior Data Engineer Intern — Accenture Consulting, Naples  
+*Apr 2024 – May 2024*  
+150h internship.  
+- Analyzed JSON-based pipelines and complex SQL queries (including CTEs and subqueries).  
+- Developed a Python library for automated SQL lineage extraction and ETL visualization.  
+- Supported data migration from Teradata to Google BigQuery.  
+
+---
+
+### Drywall Installer — Guarracino Pitturazioni  
+*Aug 2021 – Jun 2022*  
+Worked in a small construction team on call.  
+Installed drywall, supported masonry and painting tasks, and prepared worksites.  
+Learned adaptability, manual precision, and collaboration in physically demanding projects.  
+
+---
+
+### Waitperson — Le Axidie, Vico Equense  
+*Apr 2019 – Sep 2021*  
+On-call waiter for weddings and private events.  
+Adapted quickly to formal service environments, assisting with setup and ensuring a smooth guest experience.  
+Developed flexibility and detail orientation under pressure.  
+
+---
+
+### Waitperson — La Marinella, Sant’Agnello  
+*Jun 2018 – Sep 2018*  
+Served in both dining and bar settings.  
+Learned cocktail preparation, handled bar orders during peak hours, and delivered efficient customer service.  
+
+---
+
+### Waitperson — Ristorante Sorrento  
+*Jun 2017 – Sep 2017*  
+Worked as a waiter in a busy local restaurant.  
+Strengthened multitasking, clear communication with kitchen staff, and teamwork skills.  
+
+---
+
+## 🎓 Education  
+
+- **M.Sc. in Data Science** — Sapienza University of Rome (2024–Present)  
+  👉 [See coursework](sapienza/index.qmd)  
+
+- **B.Sc. in Statistics for Business and Society** — University of Naples Federico II (2021–2024)  
+  👉 [See coursework](federico/index.qmd)  
+
+- **Erasmus in Computer Engineering** — Universidad de Deusto (2023)  
+  👉 [See coursework](deusto/index.qmd)  
+
+- **High School Diploma in Mechanical and Naval Engineering** — Istituto Tecnico Nautico Nino Bixio (2015–2021)  
+
+---
+
+📌 *This page provides a narrative overview of my experience. For a compact version, see the downloadable CV above.*
