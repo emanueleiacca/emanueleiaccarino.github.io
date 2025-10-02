@@ -252,6 +252,20 @@
     "text": "Thesis\nDeep Reinforcement Learning for Incomplete Information Games (Blackjack and Poker)\nRead online"
   },
   {
+    "objectID": "academic/federico/index.html#documents",
+    "href": "academic/federico/index.html#documents",
+    "title": "University of Naples Federico II",
+    "section": "Documents",
+    "text": "Documents\n\nExams + Grades (PDF) — Open · Download\n\nExams + Dates (PDF) — Open · Download\nList of Exams (PDF) — Open · Download\n\n\nTip: i link “Open” aprono il PDF nel browser; il link “Download” forza lo scaricamento."
+  },
+  {
+    "objectID": "academic/federico/index.html#key-learning-areas",
+    "href": "academic/federico/index.html#key-learning-areas",
+    "title": "University of Naples Federico II",
+    "section": "Key learning areas",
+    "text": "Key learning areas\n\nMathematics & Probability • Statistical Inference • Econometrics & Time Series\n\nStatistical Learning & Data Mining • SQL/R/Python/SAS • Business & Finance"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "about",
@@ -389,7 +403,7 @@
     "href": "academic/index.html",
     "title": "Academic Journey",
     "section": "",
-    "text": "Welcome! This page organizes my coursework by university.\nOpen any card to see program highlights and individual course pages.\n\n\n\n\n\n\nTip\n\n\n\nHow it works\nKeep one folder per university (sapienza/, federico-ii/, deusto/, nautico/) with an index.qmd inside.\nAdd one .qmd per course in that folder—everything will list here automatically.\n\n\n\nUniversities included\n\nSapienza University of Rome — M.Sc. in Data Science (2024–present)\n\nUniversity of Naples Federico II — B.Sc. in Statistics for Business and Society (2021–2024)\n\nUniversidad de Deusto (Erasmus) — Computer Engineering (2023)\n\nI.T.N. Nino Bixio — Mechanical & Naval Engineering (2015–2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSapienza University of Rome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUniversity of Naples Federico II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Driven Economics\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Machine Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Methods for Data Science\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithmic Methods of Data Mining and Laboratory\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSport Analytics\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Consulting\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime Series Analysis for Economics and Finance\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultivariate Analysis and Statistical Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial Statistics and Survey Sampling\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome! This page organizes my coursework by university.\nOpen any card to see program highlights and individual course pages.\n\n\n\n\n\n\nTip\n\n\n\nHow it works\nKeep one folder per university (sapienza/, federico-ii/, deusto/, nautico/) with an index.qmd inside.\nAdd one .qmd per course in that folder—everything will list here automatically.\n\n\n\nUniversities included\n\nSapienza University of Rome — M.Sc. in Data Science (2024–present)\n\nUniversity of Naples Federico II — B.Sc. in Statistics for Business and Society (2021–2024)\n\nUniversidad de Deusto (Erasmus) — Computer Engineering (2023)\n\nI.T.N. Nino Bixio — Mechanical & Naval Engineering (2015–2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSapienza University of Rome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUniversity of Naples Federico II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Driven Economics\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Machine Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithmic Methods of Data Mining and Laboratory\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Methods for Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSport Analytics\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Consulting\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime Series Analysis for Economics and Finance\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultivariate Analysis and Statistical Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial Statistics and Survey Sampling\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "academic/sapienza/data-mining.html",
@@ -431,7 +445,7 @@
     "href": "academic/sapienza/index.html",
     "title": "Sapienza University of Rome",
     "section": "",
-    "text": "Program highlights\n- Machine Learning & Deep Learning\n- Statistical Modeling & Bayesian Analysis\n- Big Data & Cloud Computing\n- Reinforcement Learning\n- Data Mining & Exploration\nBelow you’ll find the individual courses — each as its own page — that I completed as part of this program.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Driven Economics\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Machine Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Methods for Data Science\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithmic Methods of Data Mining and Laboratory\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Program highlights\n- Machine Learning & Deep Learning\n- Statistical Modeling & Bayesian Analysis\n- Big Data & Cloud Computing\n- Reinforcement Learning\n- Data Mining & Exploration\nBelow you’ll find the individual courses — each as its own page — that I completed as part of this program.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Driven Economics\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Machine Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithmic Methods of Data Mining and Laboratory\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Methods for Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "academic/sapienza/statistical-methods-ds.html",
@@ -509,19 +523,5 @@
     "title": "Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques",
     "section": "",
     "text": "This study applies reinforcement learning (RL) to the Unity ML-Agents Toolkit, with case studies on WallJump and SoccerTwos.\nAlgorithms implemented include Imitation Learning, Proximal Policy Optimization (PPO), Soft Actor-Critic (SAC), and POCA, evaluated with TensorBoard monitoring.\nEnhancements explored:\n- Curriculum learning in WallJump for complex task training\n- Self-play in SoccerTwos for competitive multi-agent strategies\n- Hyperparameter tuning for improved stability and performance\nKey results:\n- SAC outperformed PPO in continuous-control environments (3DBall)\n- Curriculum learning accelerated convergence in WallJump\n- Self-play produced stronger agents in adversarial settings\n- Hyperparameter tuning critically influenced model robustness\nRead on ResearchGate\n\n\n\nUnity ML-Agents environments explored: WallJump and SoccerTwos"
-  },
-  {
-    "objectID": "academic/federico/index.html#documents",
-    "href": "academic/federico/index.html#documents",
-    "title": "University of Naples Federico II",
-    "section": "Documents",
-    "text": "Documents\n\nExams + Grades (PDF) — Open · Download\n\nExams + Dates (PDF) — Open · Download\nList of Exams (PDF) — Open · Download\n\n\nTip: i link “Open” aprono il PDF nel browser; il link “Download” forza lo scaricamento."
-  },
-  {
-    "objectID": "academic/federico/index.html#key-learning-areas",
-    "href": "academic/federico/index.html#key-learning-areas",
-    "title": "University of Naples Federico II",
-    "section": "Key learning areas",
-    "text": "Key learning areas\n\nMathematics & Probability • Statistical Inference • Econometrics & Time Series\n\nStatistical Learning & Data Mining • SQL/R/Python/SAS • Business & Finance"
   }
 ]

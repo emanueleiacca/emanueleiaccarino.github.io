@@ -30,9 +30,9 @@
       "/academic/nautico/index.html",
       "/academic/sapienza/data-driven-economics.html",
       "/academic/sapienza/statistical-learning.html",
-      "/academic/sapienza/statistical-methods-ds.html",
       "/academic/sapienza/data-mining.html",
       "/academic/sapienza/fundamentals-ds.html",
+      "/academic/sapienza/statistical-methods-ds.html",
       "/academic/federico/sport-analytics.html",
       "/academic/federico/statistical-consulting.html",
       "/academic/federico/econometrics.html",
@@ -48,9 +48,9 @@
       "/academic/sapienza/signal-processing.html",
       "/academic/sapienza/data-driven-economics.html",
       "/academic/sapienza/statistical-learning.html",
-      "/academic/sapienza/statistical-methods-ds.html",
       "/academic/sapienza/data-mining.html",
-      "/academic/sapienza/fundamentals-ds.html"
+      "/academic/sapienza/fundamentals-ds.html",
+      "/academic/sapienza/statistical-methods-ds.html"
     ]
   },
   {

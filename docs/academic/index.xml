@@ -147,75 +147,6 @@ It bridges <strong>theoretical foundations</strong>, <strong>methodology</strong
   <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/sl.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
-  <title>Statistical Methods for Data Science</title>
-  <link>https://emanueleiacca.github.io/academic/sapienza/statistical-methods-ds.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This is a <strong>two-semester course</strong> (Fundamentals of Statistical Learning I &amp; II) providing the core foundations of statistical inference for data science.<br>
-It covers both <strong>frequentist</strong> and <strong>Bayesian</strong> paradigms, with applications in estimation, hypothesis testing, model checking, and forecasting.</p>
-<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/78f33a7d-5c57-4fa1-9371-ab149ea1e3c6?parent_activity_uid=a5a63ef6-33b9-433a-b295-46dd141e9cc7">Complete course information – Part I</a><br>
-👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/ef80b46d-17b7-41a6-b039-f5899ceb7e03?parent_activity_uid=aa78b6ea-8c45-4167-b6a0-d380a2e4c920">Complete course information – Part II</a></p>
-<hr>
-</section>
-<section id="main-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
-<ul>
-<li>Build and analyze <strong>probabilistic models</strong> for observed phenomena<br>
-</li>
-<li>Learn estimation, hypothesis testing, model validation, and forecasting<br>
-</li>
-<li>Compare <strong>frequentist vs Bayesian</strong> approaches<br>
-</li>
-<li>Apply <strong>simulation-based methods</strong>: Bootstrap, Monte Carlo, MCMC<br>
-</li>
-<li>Develop statistical computation skills in <strong>R, JAGS, OpenBUGS, Stan</strong></li>
-</ul>
-<hr>
-</section>
-<section id="learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
-<ul>
-<li>Understand both <strong>theory and practice</strong> of inference methods<br>
-</li>
-<li>Implement inference tasks with probabilistic programming tools<br>
-</li>
-<li>Gain hands-on experience with <strong>Bayesian modeling</strong> (Monte Carlo, MCMC)<br>
-</li>
-<li>Communicate results effectively via reports, presentations, and visualizations<br>
-</li>
-<li>Build critical judgment to evaluate and contrast alternative strategies</li>
-</ul>
-<hr>
-</section>
-<section id="my-work-in-this-course" class="level2">
-<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
-<ul>
-<li><strong>Notes &amp; Materials</strong>
-<ul>
-<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/SDS">Complete notes for both semesters</a></li>
-</ul></li>
-<li><strong>Projects</strong>
-<ul>
-<li>Part I: <a href="https://github.com/emanueleiacca/SDS-HW">Final Project SDS1</a><br>
-</li>
-<li>Part II: <a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients">Bayesian Survival Analysis of Veteran Lung Cancer Patients</a></li>
-</ul></li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <guid>https://emanueleiacca.github.io/academic/sapienza/statistical-methods-ds.html</guid>
-  <pubDate>Mon, 30 Sep 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/sds.png" medium="image" type="image/png" height="72" width="144"/>
-</item>
-<item>
   <title>Algorithmic Methods of Data Mining and Laboratory</title>
   <link>https://emanueleiacca.github.io/academic/sapienza/data-mining.html</link>
   <description><![CDATA[ 
@@ -344,6 +275,75 @@ Students learn how to treat data as a strategic asset, moving from data represen
   <guid>https://emanueleiacca.github.io/academic/sapienza/fundamentals-ds.html</guid>
   <pubDate>Sun, 22 Sep 2024 22:00:00 GMT</pubDate>
   <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/fds.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Statistical Methods for Data Science</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/statistical-methods-ds.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This is a <strong>two-semester course</strong> (Fundamentals of Statistical Learning I &amp; II) providing the core foundations of statistical inference for data science.<br>
+It covers both <strong>frequentist</strong> and <strong>Bayesian</strong> paradigms, with applications in estimation, hypothesis testing, model checking, and forecasting.</p>
+<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/78f33a7d-5c57-4fa1-9371-ab149ea1e3c6?parent_activity_uid=a5a63ef6-33b9-433a-b295-46dd141e9cc7">Complete course information – Part I</a><br>
+👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/ef80b46d-17b7-41a6-b039-f5899ceb7e03?parent_activity_uid=aa78b6ea-8c45-4167-b6a0-d380a2e4c920">Complete course information – Part II</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Build and analyze <strong>probabilistic models</strong> for observed phenomena<br>
+</li>
+<li>Learn estimation, hypothesis testing, model validation, and forecasting<br>
+</li>
+<li>Compare <strong>frequentist vs Bayesian</strong> approaches<br>
+</li>
+<li>Apply <strong>simulation-based methods</strong>: Bootstrap, Monte Carlo, MCMC<br>
+</li>
+<li>Develop statistical computation skills in <strong>R, JAGS, OpenBUGS, Stan</strong></li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Understand both <strong>theory and practice</strong> of inference methods<br>
+</li>
+<li>Implement inference tasks with probabilistic programming tools<br>
+</li>
+<li>Gain hands-on experience with <strong>Bayesian modeling</strong> (Monte Carlo, MCMC)<br>
+</li>
+<li>Communicate results effectively via reports, presentations, and visualizations<br>
+</li>
+<li>Build critical judgment to evaluate and contrast alternative strategies</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Notes &amp; Materials</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/SDS">Complete notes for both semesters</a></li>
+</ul></li>
+<li><strong>Projects</strong>
+<ul>
+<li>Part I: <a href="https://github.com/emanueleiacca/SDS-HW">Final Project SDS1</a><br>
+</li>
+<li>Part II: <a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients">Bayesian Survival Analysis of Veteran Lung Cancer Patients</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/statistical-methods-ds.html</guid>
+  <pubDate>Sun, 22 Sep 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/sds.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>Sport Analytics</title>
@@ -774,10 +774,10 @@ The perspective was strongly theoretical, but included practical projects to app
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759353104243">
 <a href="../../academic/sapienza/cloud-computing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:listing:academic/sapienza/cloud-computing.html -->
 <div class="card-body post-contents">
 <div class="card-text listing-description delink">
-
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/cloud-computing.html -->
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -790,10 +790,10 @@ The perspective was strongly theoretical, but included practical projects to app
 <div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759353118214">
 <a href="../../academic/sapienza/networking-big-data.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:listing:academic/sapienza/networking-big-data.html -->
 <div class="card-body post-contents">
 <div class="card-text listing-description delink">
-
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/networking-big-data.html -->
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -806,10 +806,10 @@ The perspective was strongly theoretical, but included practical projects to app
 <div class="g-col-1" data-index="2" data-listing-file-modified-sort="1759353124487">
 <a href="../../academic/sapienza/signal-processing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<!-- img(9CEB782EFEE6)[progressive=false, height=150px]:listing:academic/sapienza/signal-processing.html -->
 <div class="card-body post-contents">
 <div class="card-text listing-description delink">
-
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/signal-processing.html -->
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -830,8 +830,7 @@ The perspective was strongly theoretical, but included practical projects to app
 Data-Driven Economics
 </h5>
 <div class="card-text listing-description delink">
-This course introduces the <strong>theoretical and practical foundations of econometric analysis</strong>.<br>
-It covers regression models (linear and non-linear), estimation and inference…<strong></strong><strong></strong>
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/data-driven-economics.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -855,7 +854,7 @@ Mar 1, 2025
 Statistical Machine Learning
 </h5>
 <div class="card-text listing-description delink">
-This course introduces the <strong>theory and methodology of statistical machine learning</strong>, focusing on error bounds, performance guarantees, and the design of successful learning…<br><strong></strong><strong></strong><strong></strong>
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/statistical-learning.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -868,32 +867,7 @@ Mar 1, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1727733600000" data-listing-file-modified-sort="1759355109950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
-<a href="../../academic/sapienza/statistical-methods-ds.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/sds.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Statistical Methods for Data Science
-</h5>
-<div class="card-text listing-description delink">
-This is a <strong>two-semester course</strong> (Fundamentals of Statistical Learning I &amp; II) providing the core foundations of statistical inference for data science.<br>
-It covers both <strong>frequenti…</strong><strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Oct 1, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355058939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355058939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <a href="../../academic/sapienza/data-mining.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -904,7 +878,7 @@ Oct 1, 2024
 Algorithmic Methods of Data Mining and Laboratory
 </h5>
 <div class="card-text listing-description delink">
-This course introduces the <strong>main algorithmic techniques of data mining</strong>, with applications to semistructured and unstructured data (text, transactions, graphs, information…<br><strong></strong><strong></strong>
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/data-mining.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -917,7 +891,7 @@ Sep 23, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355013570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355013570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
 <a href="../../academic/sapienza/fundamentals-ds.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -928,8 +902,31 @@ Sep 23, 2024
 Fundamentals of Data Science
 </h5>
 <div class="card-text listing-description delink">
-This course introduces the <strong>foundational tools of data science</strong>, combining machine learning, statistical modeling, and network science.<br>
-Students learn how to treat data as a…
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/fundamentals-ds.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sep 23, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759393235683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<a href="../../academic/sapienza/statistical-methods-ds.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/sds.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistical Methods for Data Science
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:academic/sapienza/statistical-methods-ds.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -946,7 +943,7 @@ Sep 23, 2024
 <div class="listing-no-matching d-none">No matching items</div>
 </div> ]]></description>
   <guid>https://emanueleiacca.github.io/academic/sapienza/</guid>
-  <pubDate>Thu, 02 Oct 2025 08:19:51 GMT</pubDate>
+  <pubDate>Thu, 02 Oct 2025 08:21:13 GMT</pubDate>
   <media:content url="https://emanueleiacca.github.io/academic/sapienza/sapienza_banter.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
@@ -1123,7 +1120,7 @@ Mar 1, 2023
 <div class="listing-no-matching d-none">No matching items</div>
 </div> ]]></description>
   <guid>https://emanueleiacca.github.io/academic/federico/</guid>
-  <pubDate>Thu, 02 Oct 2025 08:19:51 GMT</pubDate>
+  <pubDate>Thu, 02 Oct 2025 08:21:13 GMT</pubDate>
   <media:content url="https://emanueleiacca.github.io/academic/federico/fed.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
