@@ -1,0 +1,48 @@
+---
+title: "Time Series Analysis for Economics and Finance"
+subtitle: "University of Naples Federico II · B.Sc. in Statistics for Business and Society"
+date: 2023-03-01
+page-layout: full
+image: images/gretl.png
+---
+
+## Overview
+The course introduces the **principles and standard techniques of time series analysis** applied to economics and finance.  
+Students learn how to analyze, interpret, and forecast key economic and financial variables, using both **univariate and multivariate models**.  
+A strong emphasis is placed on connecting statistical results with underlying economic theories.  
+
+👉 [Professor’s page and course info](https://www.docenti.unina.it/#!/professor/4652414e4345534341444920494f52494f445249464e4336384d36394835303143/programmi/shedainsegnamento)  
+
+---
+
+## Main objectives
+- Understand the statistical issues in modeling and forecasting economic and financial variables  
+- Apply univariate and multivariate time series techniques  
+- Use specialized statistical software (**Gretl**) for dynamic modeling  
+- Critically evaluate empirical results in light of economic theory  
+
+---
+
+## Learning outcomes
+- Knowledge of **linear regression generalizations** for dynamic data  
+- Ability to apply:  
+  - Filtering and Moving Averages  
+  - Seasonal adjustment methods  
+  - Forecasting techniques  
+  - GARCH and conditional heteroskedasticity models  
+  - Introduction to multivariate models and cointegration  
+
+- Capability to harmonize datasets, manage different data sources, and use statistical software with autonomy  
+
+---
+
+## Tools used
+- **Gretl** (specialized statistical software for econometric and time series analysis)  
+- Application of econometric theory to real macroeconomic and financial datasets  
+
+---
+
+## My work in this course
+- Extensive notes on **time series methods** and forecasting approaches  
+- Hands-on practice with **Gretl**, including model fitting, seasonal adjustment, and forecasting exercises  
+- Final applied project analyzing macroeconomic variables with time series techniques  

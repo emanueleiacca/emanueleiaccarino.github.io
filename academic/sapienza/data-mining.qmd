@@ -1,0 +1,40 @@
+---
+title: "Algorithmic Methods of Data Mining and Laboratory"
+subtitle: "Sapienza University of Rome · M.Sc. in Data Science"
+date: 2024-09-23
+page-layout: full
+image: images/adm.png
+---
+
+## Overview
+This course introduces the **main algorithmic techniques of data mining**, with applications to semistructured and unstructured data (text, transactions, graphs, information networks).  
+Students gain both **theoretical foundations** of data mining and **practical experience** using programming tools for analysis.  
+
+👉 [Complete course information](https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/f4f0b135-eaba-48d2-a3a0-9d6887671134)  
+
+---
+
+## Main objectives
+- Learn algorithmic techniques for data mining in diverse domains  
+- Develop competence with **graph mining**, **search engines**, and **unsupervised learning**  
+- Acquire hands-on skills with coding and data exploration  
+
+---
+
+## Learning outcomes
+- Ability to analyze and process **unstructured and network data**  
+- Apply algorithmic methods to extract knowledge from complex datasets  
+- Combine theoretical understanding with **programming practice**  
+
+---
+
+## My work in this course
+- **Notes & Materials**  
+  - [Introduction Topics, Search Engine, Unsupervised Learning, Graphs](https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/ADM)
+
+- **Projects**  
+  - [Homework 1](https://github.com/emanueleiacca/HomeWork1_ADM_Sapienza)  
+  - [Homework 2](https://github.com/emanueleiacca/HomeWork1_ADM_Sapienza)  
+  - [Homework 3](https://github.com/emanueleiacca/ADM-HW3)  
+  - [Homework 4](https://github.com/emanueleiacca/ADM-HW4)  
+  - [Homework 5](https://github.com/emanueleiacca/ADM-HM5)  

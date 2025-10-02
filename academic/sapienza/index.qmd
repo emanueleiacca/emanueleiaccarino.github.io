@@ -1,0 +1,26 @@
+---
+title: "Sapienza University of Rome"
+subtitle: "M.Sc. in Data Science (2024–present)"
+listing:
+  contents: .
+  sort: "date desc"
+  type: grid
+  grid-item-border: true
+  grid-item-align: left
+  max-description-length: 175
+  date-format: medium
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+image: sapienza_banter.png
+---
+
+**Program highlights**  
+- Machine Learning & Deep Learning  
+- Statistical Modeling & Bayesian Analysis  
+- Big Data & Cloud Computing  
+- Reinforcement Learning  
+- Data Mining & Exploration  
+
+Below you’ll find the individual courses — each as its own page — that I completed as part of this program.

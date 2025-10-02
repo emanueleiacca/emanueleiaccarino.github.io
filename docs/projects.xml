@@ -12,36 +12,6 @@
 <generator>quarto-1.8.24</generator>
 <lastBuildDate>Mon, 30 Jun 2025 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>Bayesian Survival Analysis of Veteran Lung Cancer Patients</title>
-  <link>https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
-<p><br></p>
-<p>This project applies <strong>Bayesian survival analysis</strong> to the Veteran’s Administration Lung Cancer dataset, focusing on <strong>parametric accelerated failure time (AFT) models</strong>.</p>
-<p>The work compares <strong>exponential</strong> and <strong>Weibull AFT models</strong> using <strong>MCMC estimation in JAGS</strong>, with model fit assessed via the <strong>Deviance Information Criterion (DIC)</strong>.<br>
-Posterior predictive checks and parameter recovery experiments are used to evaluate calibration and identifiability, while results are contrasted with <strong>frequentist survival models</strong> such as Cox PH and parametric AFT.</p>
-<p>Key findings include the superior fit of the Weibull model, significant effects of cell type on survival, and good calibration under posterior predictive validation.</p>
-<p><br></p>
-<p><img class="img-styling" src="https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/survival.png" alt="Posterior predictive survival curves compared with Kaplan-Meier estimates" width="70%"></p>
-<div class="gray-italic center-text">
-<p>Comparison of Bayesian posterior predictive survival curves with Kaplan–Meier estimates</p>
-</div>
-
-
-
- ]]></description>
-  <category>Bayesian</category>
-  <category>Survival Analysis</category>
-  <category>R</category>
-  <guid>https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/</guid>
-  <pubDate>Mon, 30 Jun 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://emanueleiacca.github.io/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/survival.png" medium="image" type="image/png" height="150" width="144"/>
-</item>
-<item>
   <title>Prediction of Medical Care Abandonment in Italy</title>
   <link>https://emanueleiacca.github.io/projects/Prediction of Medical Care Abandonment in Italy/</link>
   <description><![CDATA[ 
@@ -49,7 +19,7 @@ Posterior predictive checks and parameter recovery experiments are used to evalu
 
 
 
-<p><a href="https://github.com/emanueleiacca/SL_ISTAT" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
+<p><a href="https://github.com/emanueleiacca/Prediction-of-Medical-Care-Abandonment-in-Italy" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
 <p><br></p>
 <p>This project investigates <strong>medical care abandonment in Italy</strong> using the <strong>2019 European Health Interview Survey (EHIS)</strong>.<br>
 The analysis combines <strong>machine learning models</strong> (multinomial logistic regression, XGBoost) with advanced techniques for <strong>feature selection, uncertainty quantification, and interpretability</strong>.</p>

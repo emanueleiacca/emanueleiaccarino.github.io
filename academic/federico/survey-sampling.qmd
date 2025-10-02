@@ -1,0 +1,47 @@
+---
+title: "Social Statistics and Survey Sampling"
+subtitle: "University of Naples Federico II · B.Sc. in Statistics for Business and Society"
+date: 2023-03-01
+page-layout: full
+image: images/survey.png
+---
+
+## Overview
+This course focused on the **theoretical foundations of survey sampling and social statistics**.  
+Students learned the principles of designing and analyzing surveys, with attention to sampling techniques, treatment of missing data, and the evaluation of social and economic indicators.  
+The perspective was strongly theoretical, but included practical projects to apply sampling methods to real-world social and economic issues.  
+
+---
+
+## Main objectives
+- Understand the **foundations of survey sampling** (simple random sampling, stratified sampling, cluster sampling)  
+- Learn methods for **handling missing data** and ensuring data quality  
+- Apply survey methods to real-world social and economic datasets  
+- Explore **composite indicators** (e.g. Human Development Index, Agenda 2030 goals)  
+- Gain hands-on experience with **R** for survey data analysis  
+
+---
+
+## Learning outcomes
+- Ability to design surveys and sampling plans for social research  
+- Evaluate statistical methodologies for robustness and representativeness  
+- Apply different imputation techniques for missing data (mean, median, regression, KNN, MICE, random forest, interpolation, etc.)  
+- Critically interpret **Agenda 2030 indicators** in social and economic contexts  
+- Communicate findings clearly through reports and presentations  
+
+---
+
+## My work in this course
+- **Treating Missing Data in R**  
+  - [Repository](https://github.com/emanueleiacca/treating-missing-data-in-R)  
+  - Explored and compared imputation methods (mean, regression, KNN, MICE, random forest, interpolation, etc.) on financial datasets  
+
+- **Composite Indicators and HDI**  
+  - [Repository](https://github.com/emanueleiacca/Composite-Indicator-Normalizzation-and-HDI-)  
+  - Studied normalization methods for composite indicators and replicated analysis from *Mazzocchi and Pareto*  
+
+- **Final Project – Agenda 2030 (SDG 8)**  
+  - [Repository](https://github.com/emanueleiacca/SDG8-analysis)  
+  - Analyzed Goal 8 of Agenda 2030 (Decent Work and Economic Growth) using UNSTATS data  
+  - Explored missing data imputation, GDP-based clustering, HDI analysis, unemployment cycles, and domestic material consumption  
+  - Developed insights into the impact of macroeconomic variables on sustainable development  

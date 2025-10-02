@@ -1,0 +1,64 @@
+---
+title: "Sport Analytics"
+subtitle: "University of Naples Federico II · B.Sc. in Statistics for Business and Society"
+date: 2024-03-01
+page-layout: full
+image: images/sport.png
+---
+
+## Overview
+A practice-oriented course on **applied analytics in sport**, guided by a professor active in the field with extensive publications ([LinkedIn profile](https://www.linkedin.com/in/filipe-manuel-clemente-99992795/)).  
+The emphasis was on **hands-on modeling** with real datasets (wearables, GPS/RPE, match events), turning methods from ML and statistics into actionable performance insights for athletes and teams.
+
+---
+
+## Main objectives
+- Work with **wearables & tracking data** (Apple Watch, Fitbit, GPS/RPE) for monitoring and prediction.  
+- Build **supervised** (classification/regression) and **unsupervised** (clustering) models for sport problems.  
+- Apply **boosting**, **hyperparameter tuning**, **ensembling**, and address **class imbalance**.  
+- Translate metrics (HSR, ACWR, monotony, strain) into **load management** decisions and injury-risk flags.  
+- Communicate findings through interactive dashboards and clear, coach-facing visuals.
+
+---
+
+## Learning outcomes
+- End-to-end pipeline skills: **data cleaning → feature engineering → modeling → evaluation → reporting**.  
+- Familiarity with **XGBoost/CatBoost**, Optuna, and **time-series workload metrics** (acute load, monotony, strain).  
+- Ability to analyze **team dynamics** using **Social Network Analysis** on passing graphs.  
+- Practical judgment on model reliability, labeling pitfalls, and external validity in sport contexts.
+
+---
+
+## My work in this course
+
+### Wearables: EDA & Predictive Modeling
+- Classification of **user activities** and regression of **calorie expenditure** with **XGBoost**;  
+- Sleep-quality regression and correlation analysis; discussion on dataset labeling caveats.  
+- Repo: **Consumer Wearables & Sleep** → <https://github.com/emanueleiacca/Consumer-Wearables-and-Monitoring-Sleep-EDA-and-predictive-modeling>
+
+### RPE/GPS & High-Speed Running (HSR)
+- Weekly **acute load**, sessions, **monotony**, **strain**; interactive season-long plots.  
+- **ACWR** (RA vs **EWMA**) with color-coded risk bands; match vs training **rate** (per-minute normalization).  
+- Repo: **RPE–GPS–HSR Dataset** → <https://github.com/emanueleiacca/Sport-Analytics-RPE-GPS-High-Speed-Running-Dataset->
+
+### Team Tactics via Social Network Analysis (SNA)
+- First/second-half passing networks; **degree / eigenvector / betweenness / PageRank** centralities.  
+- Tactical shifts and substitutions reflected in network structure.  
+- Repo: **SNA on Football Match** → <https://github.com/emanueleiacca/Social-Network-Analysis-on-football-match>
+
+### League Table Prediction
+- **CatBoost** with feature engineering and **Optuna** tuning to forecast Turkish league standings.  
+- Metrics (accuracy, precision, recall, F1) and comparison to actual table.  
+- Repo: **Predict Turkish League Table** → <https://github.com/emanueleiacca/Predict-LeagueTable-TurkishLeague>
+
+### Independent case study (inspired by the course)
+- **Napoli 2022–23** season analysis (R, web scraping from fbref): xG vs goals, formations, PCA on shooting,  
+  passing clusters, player-level insights.  
+- Repo: **Napoli Championship Analysis** → <https://github.com/emanueleiacca/Napoli-Championship-2022-23-Analysis>
+
+---
+
+## Tech & tools
+- **Python** (pandas, scikit-learn, XGBoost, CatBoost, Optuna, networkx, plotly/matplotlib)  
+- **R** (rvest, dplyr, ggplot2, FactoMineR, factoextra)  
+- Interactive reporting with HTML exports and dashboards for coach-ready communication.

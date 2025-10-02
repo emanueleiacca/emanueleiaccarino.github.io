@@ -1,0 +1,39 @@
+---
+title: "Fundamentals of Data Science"
+subtitle: "Sapienza University of Rome · M.Sc. in Data Science"
+date: 2024-09-23
+page-layout: full
+image: images/fds.png
+---
+
+## Overview
+This course introduces the **foundational tools of data science**, combining machine learning, statistical modeling, and network science.  
+Students learn how to treat data as a strategic asset, moving from data representation and preprocessing to model design, training, and evaluation.  
+
+👉 [Complete course information](https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/af5bd4f5-3c41-4d0e-8a84-64a402916908)  
+
+---
+
+## Main objectives
+- Understand the core principles of **machine learning foundations** (regression, classification, neural networks, CNNs, transformers, multimodal ML)  
+- Explore **complex networks and network science** (network properties, generative models, community detection)  
+- Practice hands-on **Python programming** for data analysis and modeling  
+
+---
+
+## Learning outcomes
+- Ability to design and evaluate discriminative and generative models  
+- Translate complex phenomena into formal ML and network frameworks  
+- Communicate results through **visualizations, metrics, and project presentations**  
+- Develop autonomy to extend skills to computer vision, network science, and advanced ML  
+
+---
+
+## My work in this course
+- **Notes & Exercises**  
+  - [Homework 01](https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/FDS/Homework01)  
+  - [Homework 02](https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/FDS/Homework02)  
+  - [Notes & Deep Learning topics](https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/FDS)  
+
+- **Final project**  
+  - [Breast Cancer Classification](https://emanueleiacca.github.io/emanueleiaccarino.github.io/pubblications/Breast%20Cancer/)  

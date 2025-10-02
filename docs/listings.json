@@ -9,29 +9,53 @@
     ]
   },
   {
-    "listing": "/academic.html",
+    "listing": "/academic/federico/index.html",
     "items": [
-      "/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/index.html",
-      "/pubblications/Breast Cancer/index.html",
-      "/projects/Churn Analysis on Banking Dataset/index.html",
-      "/projects/Community Detection Algorithms/index.html",
-      "/pubblications/BlackJack and Poker/index.html",
-      "/pubblications/Frozen Lake/index.html",
-      "/projects/Marijuana Legalization and Opioid Mortality/index.html",
-      "/projects/Prediction of Medical Care Abandonment in Italy/index.html",
-      "/projects/SQL Parser Data Pipeline/index.html",
-      "/projects/Snake with Curriculum Learning/index.html",
-      "/pubblications/Unity ML Agents/index.html",
-      "/about.html",
-      "/projects.html",
-      "/pubblications.html",
-      "/index.html"
+      "/academic/federico/sport-analytics.html",
+      "/academic/federico/statistical-consulting.html",
+      "/academic/federico/econometrics.html",
+      "/academic/federico/multivariate-analysis.html",
+      "/academic/federico/survey-sampling.html"
+    ]
+  },
+  {
+    "listing": "/academic/index.html",
+    "items": [
+      "/academic/sapienza/cloud-computing.html",
+      "/academic/sapienza/index.html",
+      "/academic/sapienza/networking-big-data.html",
+      "/academic/sapienza/signal-processing.html",
+      "/academic/federico/index.html",
+      "/academic/deusto/index.html",
+      "/academic/nautico/index.html",
+      "/academic/sapienza/data-driven-economics.html",
+      "/academic/sapienza/statistical-learning.html",
+      "/academic/sapienza/statistical-methods-ds.html",
+      "/academic/sapienza/data-mining.html",
+      "/academic/sapienza/fundamentals-ds.html",
+      "/academic/federico/sport-analytics.html",
+      "/academic/federico/statistical-consulting.html",
+      "/academic/federico/econometrics.html",
+      "/academic/federico/multivariate-analysis.html",
+      "/academic/federico/survey-sampling.html"
+    ]
+  },
+  {
+    "listing": "/academic/sapienza/index.html",
+    "items": [
+      "/academic/sapienza/cloud-computing.html",
+      "/academic/sapienza/networking-big-data.html",
+      "/academic/sapienza/signal-processing.html",
+      "/academic/sapienza/data-driven-economics.html",
+      "/academic/sapienza/statistical-learning.html",
+      "/academic/sapienza/statistical-methods-ds.html",
+      "/academic/sapienza/data-mining.html",
+      "/academic/sapienza/fundamentals-ds.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/index.html",
       "/projects/Prediction of Medical Care Abandonment in Italy/index.html",
       "/projects/Marijuana Legalization and Opioid Mortality/index.html",
       "/projects/Community Detection Algorithms/index.html",

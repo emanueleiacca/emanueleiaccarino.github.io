@@ -1,0 +1,43 @@
+---
+title: "Statistical Consulting"
+subtitle: "University of Naples Federico II · B.Sc. in Statistics for Business and Society"
+date: 2024-03-01
+page-layout: full
+image: images/sc.png
+---
+
+## Overview
+This was a **practice-oriented course** designed to expose students to **real-world problems in Machine Learning and Artificial Intelligence**.  
+Unlike other highly theoretical courses, it emphasized **hands-on experimentation**, creative problem-solving, and direct engagement with algorithms applied to real datasets.  
+
+The professor gave students space to explore and often encouraged deeper dives into more advanced topics, which strongly influenced my academic trajectory and motivated my decision to pursue further studies in Rome.  
+
+---
+
+## Main objectives
+- Learn to **apply machine learning algorithms in practice** rather than only studying their theory  
+- Gain first-hand experience with **clustering methods** and supervised learning techniques  
+- Explore **boosting algorithms**, hyperparameter tuning, and ensemble methods  
+- Develop critical problem-solving skills for tackling **imbalanced data** and real-world complexity  
+
+---
+
+## Learning outcomes
+- Ability to implement and tune **supervised and unsupervised algorithms**  
+- Understand the role of **boosting** and **ensembling** in improving performance  
+- Apply **modern tools** for model optimization (e.g., Optuna for hyperparameter tuning)  
+- Experiment with **data augmentation techniques**, including **GANs** for synthetic data generation  
+- Translate Kaggle-like competition setups into structured learning experiences  
+
+---
+
+## My work in this course
+- **Exploratory projects**  
+  - [RAG Chatbot – Local PDF QA](https://github.com/emanueleiacca/RAG-Chat-with-your-PDF-locally-Chatbot)  
+  - [Animal Emotion Recognition via LiveCam](https://github.com/emanueleiacca/AnimalEmotion_LiveCam)  
+
+- **Final Project**  
+  - [Analysis on Churn Banking Dataset](https://github.com/emanueleiacca/Analysis-on-Churn-Banking-Modeling-Dataset)  
+  - Ensemble of boosting algorithms with hyperparameter tuning (Optuna)  
+  - Cost-sensitive learning to handle data imbalance  
+  - Synthetic data generation with GANs  

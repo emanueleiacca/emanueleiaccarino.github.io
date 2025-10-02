@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-07-01">
-<meta name="description" content="a Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset">
+<meta name="dcterms.date" content="2024-03-01">
 
-<title>Bayesian Survival Analysis of Veteran Lung Cancer Patients – Emanuele Iaccarino</title>
+<title>Sport Analytics – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../academic.html"> 
+    <a class="nav-link" href="../../academic/index.html"> 
 <span class="menu-text">academic</span></a>
   </li>  
   <li class="nav-item">
@@ -156,36 +155,44 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#main-objectives" id="toc-main-objectives" class="nav-link" data-scroll-target="#main-objectives">Main objectives</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning outcomes</a></li>
+  <li><a href="#my-work-in-this-course" id="toc-my-work-in-this-course" class="nav-link" data-scroll-target="#my-work-in-this-course">My work in this course</a>
+  <ul class="collapse">
+  <li><a href="#wearables-eda-predictive-modeling" id="toc-wearables-eda-predictive-modeling" class="nav-link" data-scroll-target="#wearables-eda-predictive-modeling">Wearables: EDA &amp; Predictive Modeling</a></li>
+  <li><a href="#rpegps-high-speed-running-hsr" id="toc-rpegps-high-speed-running-hsr" class="nav-link" data-scroll-target="#rpegps-high-speed-running-hsr">RPE/GPS &amp; High-Speed Running (HSR)</a></li>
+  <li><a href="#team-tactics-via-social-network-analysis-sna" id="toc-team-tactics-via-social-network-analysis-sna" class="nav-link" data-scroll-target="#team-tactics-via-social-network-analysis-sna">Team Tactics via Social Network Analysis (SNA)</a></li>
+  <li><a href="#league-table-prediction" id="toc-league-table-prediction" class="nav-link" data-scroll-target="#league-table-prediction">League Table Prediction</a></li>
+  <li><a href="#independent-case-study-inspired-by-the-course" id="toc-independent-case-study-inspired-by-the-course" class="nav-link" data-scroll-target="#independent-case-study-inspired-by-the-course">Independent case study (inspired by the course)</a></li>
+  </ul></li>
+  <li><a href="#tech-tools" id="toc-tech-tools" class="nav-link" data-scroll-target="#tech-tools">Tech &amp; tools</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bayesian Survival Analysis of Veteran Lung Cancer Patients</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Bayesian</div>
-    <div class="quarto-category">Survival Analysis</div>
-    <div class="quarto-category">R</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    <p>a Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset</p>
-  </div>
+<h1 class="title">Sport Analytics</h1>
+<p class="subtitle lead">University of Naples Federico II · B.Sc. in Statistics for Business and Society</p>
 </div>
 
 
-<div class="quarto-title-meta column-page">
+
+<div class="quarto-title-meta column-page-left">
 
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 1, 2025</p>
+      <p class="date">March 1, 2024</p>
     </div>
   </div>
   
@@ -197,19 +204,105 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients" class="btn" target="_blank"><i class="fa-brands fa-github" aria-label="github"></i> source code</a></p>
-<p><br></p>
-<p>This project applies <strong>Bayesian survival analysis</strong> to the Veteran’s Administration Lung Cancer dataset, focusing on <strong>parametric accelerated failure time (AFT) models</strong>.</p>
-<p>The work compares <strong>exponential</strong> and <strong>Weibull AFT models</strong> using <strong>MCMC estimation in JAGS</strong>, with model fit assessed via the <strong>Deviance Information Criterion (DIC)</strong>.<br>
-Posterior predictive checks and parameter recovery experiments are used to evaluate calibration and identifiability, while results are contrasted with <strong>frequentist survival models</strong> such as Cox PH and parametric AFT.</p>
-<p>Key findings include the superior fit of the Weibull model, significant effects of cell type on survival, and good calibration under posterior predictive validation.</p>
-<p><br></p>
-<p><img class="img-styling" src="survival.png" alt="Posterior predictive survival curves compared with Kaplan-Meier estimates" width="70%"></p>
-<div class="gray-italic center-text">
-<p>Comparison of Bayesian posterior predictive survival curves with Kaplan–Meier estimates</p>
-</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>A practice-oriented course on <strong>applied analytics in sport</strong>, guided by a professor active in the field with extensive publications (<a href="https://www.linkedin.com/in/filipe-manuel-clemente-99992795/">LinkedIn profile</a>).<br>
+The emphasis was on <strong>hands-on modeling</strong> with real datasets (wearables, GPS/RPE, match events), turning methods from ML and statistics into actionable performance insights for athletes and teams.</p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Work with <strong>wearables &amp; tracking data</strong> (Apple Watch, Fitbit, GPS/RPE) for monitoring and prediction.<br>
+</li>
+<li>Build <strong>supervised</strong> (classification/regression) and <strong>unsupervised</strong> (clustering) models for sport problems.<br>
+</li>
+<li>Apply <strong>boosting</strong>, <strong>hyperparameter tuning</strong>, <strong>ensembling</strong>, and address <strong>class imbalance</strong>.<br>
+</li>
+<li>Translate metrics (HSR, ACWR, monotony, strain) into <strong>load management</strong> decisions and injury-risk flags.<br>
+</li>
+<li>Communicate findings through interactive dashboards and clear, coach-facing visuals.</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>End-to-end pipeline skills: <strong>data cleaning → feature engineering → modeling → evaluation → reporting</strong>.<br>
+</li>
+<li>Familiarity with <strong>XGBoost/CatBoost</strong>, Optuna, and <strong>time-series workload metrics</strong> (acute load, monotony, strain).<br>
+</li>
+<li>Ability to analyze <strong>team dynamics</strong> using <strong>Social Network Analysis</strong> on passing graphs.<br>
+</li>
+<li>Practical judgment on model reliability, labeling pitfalls, and external validity in sport contexts.</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<section id="wearables-eda-predictive-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="wearables-eda-predictive-modeling">Wearables: EDA &amp; Predictive Modeling</h3>
+<ul>
+<li>Classification of <strong>user activities</strong> and regression of <strong>calorie expenditure</strong> with <strong>XGBoost</strong>;<br>
+</li>
+<li>Sleep-quality regression and correlation analysis; discussion on dataset labeling caveats.<br>
+</li>
+<li>Repo: <strong>Consumer Wearables &amp; Sleep</strong> → <a href="https://github.com/emanueleiacca/Consumer-Wearables-and-Monitoring-Sleep-EDA-and-predictive-modeling" class="uri">https://github.com/emanueleiacca/Consumer-Wearables-and-Monitoring-Sleep-EDA-and-predictive-modeling</a></li>
+</ul>
+</section>
+<section id="rpegps-high-speed-running-hsr" class="level3">
+<h3 class="anchored" data-anchor-id="rpegps-high-speed-running-hsr">RPE/GPS &amp; High-Speed Running (HSR)</h3>
+<ul>
+<li>Weekly <strong>acute load</strong>, sessions, <strong>monotony</strong>, <strong>strain</strong>; interactive season-long plots.<br>
+</li>
+<li><strong>ACWR</strong> (RA vs <strong>EWMA</strong>) with color-coded risk bands; match vs training <strong>rate</strong> (per-minute normalization).<br>
+</li>
+<li>Repo: <strong>RPE–GPS–HSR Dataset</strong> → <a href="https://github.com/emanueleiacca/Sport-Analytics-RPE-GPS-High-Speed-Running-Dataset-" class="uri">https://github.com/emanueleiacca/Sport-Analytics-RPE-GPS-High-Speed-Running-Dataset-</a></li>
+</ul>
+</section>
+<section id="team-tactics-via-social-network-analysis-sna" class="level3">
+<h3 class="anchored" data-anchor-id="team-tactics-via-social-network-analysis-sna">Team Tactics via Social Network Analysis (SNA)</h3>
+<ul>
+<li>First/second-half passing networks; <strong>degree / eigenvector / betweenness / PageRank</strong> centralities.<br>
+</li>
+<li>Tactical shifts and substitutions reflected in network structure.<br>
+</li>
+<li>Repo: <strong>SNA on Football Match</strong> → <a href="https://github.com/emanueleiacca/Social-Network-Analysis-on-football-match" class="uri">https://github.com/emanueleiacca/Social-Network-Analysis-on-football-match</a></li>
+</ul>
+</section>
+<section id="league-table-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="league-table-prediction">League Table Prediction</h3>
+<ul>
+<li><strong>CatBoost</strong> with feature engineering and <strong>Optuna</strong> tuning to forecast Turkish league standings.<br>
+</li>
+<li>Metrics (accuracy, precision, recall, F1) and comparison to actual table.<br>
+</li>
+<li>Repo: <strong>Predict Turkish League Table</strong> → <a href="https://github.com/emanueleiacca/Predict-LeagueTable-TurkishLeague" class="uri">https://github.com/emanueleiacca/Predict-LeagueTable-TurkishLeague</a></li>
+</ul>
+</section>
+<section id="independent-case-study-inspired-by-the-course" class="level3">
+<h3 class="anchored" data-anchor-id="independent-case-study-inspired-by-the-course">Independent case study (inspired by the course)</h3>
+<ul>
+<li><strong>Napoli 2022–23</strong> season analysis (R, web scraping from fbref): xG vs goals, formations, PCA on shooting,<br>
+passing clusters, player-level insights.<br>
+</li>
+<li>Repo: <strong>Napoli Championship Analysis</strong> → <a href="https://github.com/emanueleiacca/Napoli-Championship-2022-23-Analysis" class="uri">https://github.com/emanueleiacca/Napoli-Championship-2022-23-Analysis</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="tech-tools" class="level2">
+<h2 class="anchored" data-anchor-id="tech-tools">Tech &amp; tools</h2>
+<ul>
+<li><strong>Python</strong> (pandas, scikit-learn, XGBoost, CatBoost, Optuna, networkx, plotly/matplotlib)<br>
+</li>
+<li><strong>R</strong> (rvest, dplyr, ggplot2, FactoMineR, factoextra)<br>
+</li>
+<li>Interactive reporting with HTML exports and dashboards for coach-ready communication.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -8,7 +8,7 @@ image: patient.png
 draft: false
 ---
 
-[{{< fa brands github >}} source code](https://github.com/emanueleiacca/SL_ISTAT){.btn target=_blank}
+[{{< fa brands github >}} source code](https://github.com/emanueleiacca/Prediction-of-Medical-Care-Abandonment-in-Italy){.btn target=_blank}
 
 <br>
 

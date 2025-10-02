@@ -1,0 +1,40 @@
+---
+title: "Statistical Machine Learning"
+subtitle: "Sapienza University of Rome · M.Sc. in Data Science"
+date: 2025-03-01
+page-layout: full
+image: images/sl.png
+---
+
+## Overview
+This course introduces the **theory and methodology of statistical machine learning**, focusing on error bounds, performance guarantees, and the design of successful learning algorithms.  
+It bridges **theoretical foundations**, **methodology**, and **practical implementation**, exploring a wide range of learning models and their applications.  
+
+👉 [Complete course information](https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/4c474285-bdd5-4d00-ac5c-4f1e8bb5a270?parent_activity_uid=19e47738-163f-4274-8f43-db11fe24e830)  
+
+---
+
+## Main objectives
+- Understand the **statistical properties** of machine learning algorithms  
+- Learn to identify when models work and when they fail  
+- Explore **error bounds** and performance guarantees  
+- Combine theory with practical aspects in R, Keras, and TensorFlow  
+
+---
+
+## Learning outcomes
+- Knowledge of main ML methodologies and paradigms, with their strengths and weaknesses  
+- Ability to design and select models for applied problems  
+- Skills to assess both **empirical** and **theoretical** performance  
+- Development of a critical mindset for evaluating learning paradigms  
+- Communication of methods and results through reports and presentations  
+
+---
+
+## My work in this course
+- **Hackathon project**  
+  - [Smart Urban Sustainability (SUS) Hackathon](http://github.com/emanueleiacca/SUS)  
+  - 🏆 Achieved **1st place** ([LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7340709795768721409/))  
+
+- **Final project**  
+  - [Prediction of Medical Care Abandonment in Italy](https://github.com/emanueleiacca/Prediction-of-Medical-Care-Abandonment-in-Italy)  

@@ -1,0 +1,42 @@
+---
+title: "Statistical Methods for Data Science"
+subtitle: "Sapienza University of Rome · M.Sc. in Data Science"
+date: 2024-09-23
+page-layout: full
+image: images/sds.png
+---
+
+## Overview
+This is a **two-semester course** (Fundamentals of Statistical Learning I & II) providing the core foundations of statistical inference for data science.  
+It covers both **frequentist** and **Bayesian** paradigms, with applications in estimation, hypothesis testing, model checking, and forecasting.  
+
+👉 [Complete course information – Part I](https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/78f33a7d-5c57-4fa1-9371-ab149ea1e3c6?parent_activity_uid=a5a63ef6-33b9-433a-b295-46dd141e9cc7)  
+👉 [Complete course information – Part II](https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/ef80b46d-17b7-41a6-b039-f5899ceb7e03?parent_activity_uid=aa78b6ea-8c45-4167-b6a0-d380a2e4c920)  
+
+---
+
+## Main objectives
+- Build and analyze **probabilistic models** for observed phenomena  
+- Learn estimation, hypothesis testing, model validation, and forecasting  
+- Compare **frequentist vs Bayesian** approaches  
+- Apply **simulation-based methods**: Bootstrap, Monte Carlo, MCMC  
+- Develop statistical computation skills in **R, JAGS, OpenBUGS, Stan**  
+
+---
+
+## Learning outcomes
+- Understand both **theory and practice** of inference methods  
+- Implement inference tasks with probabilistic programming tools  
+- Gain hands-on experience with **Bayesian modeling** (Monte Carlo, MCMC)  
+- Communicate results effectively via reports, presentations, and visualizations  
+- Build critical judgment to evaluate and contrast alternative strategies  
+
+---
+
+## My work in this course
+- **Notes & Materials**  
+  - [Complete notes for both semesters](https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/SDS)  
+
+- **Projects**  
+  - Part I: [Final Project SDS1](https://github.com/emanueleiacca/SDS-HW)  
+  - Part II: [Bayesian Survival Analysis of Veteran Lung Cancer Patients](https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients)  

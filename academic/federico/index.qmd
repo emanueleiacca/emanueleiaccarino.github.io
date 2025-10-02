@@ -1,0 +1,45 @@
+---
+title: "University of Naples Federico II"
+subtitle: "B.Sc. in Statistics for Business and Society (2021–2024)"
+listing:
+  contents: .
+  sort: "date desc"
+  type: grid
+  grid-item-border: true
+  grid-item-align: left
+  max-description-length: 175
+  date-format: medium
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+image: fed.png
+---
+
+## Overview
+I completed my **Bachelor’s Degree in Statistics for Business and Society** at the University of Naples Federico II (final grade **107/110**, July 24, 2024).  
+The program built a solid foundation in statistics, econometrics, time series, machine learning, and business analytics.
+
+👉 **Study plan (official PDF):**  
+[View online](https://www.scienzepolitiche.unina.it/wp-content/uploads/2023/09/Piano-di-Studi-L41-Statistica-per-limpresa-e-la-societa%CC%80-AA-2023-2024.pdf)
+
+---
+
+## Thesis
+**Deep Reinforcement Learning for Incomplete Information Games (Blackjack and Poker)**  
+[Read online](https://emanueleiacca.github.io/emanueleiaccarino.github.io/pubblications/BlackJack%20and%20Poker/)
+
+---
+
+## Documents
+- **Exams + Grades (PDF)** — [Open](files/esami-con-voto.pdf) <a href="files/esami-con-voto.pdf" download>· Download</a>  
+- **Exams + Dates (PDF)** — [Open](files/esami-e-date.pdf) <a href="files/esami-e-date.pdf" download>· Download</a>
+- **List of Exams (PDF)** — [Open](files/Lista esami.pdf) <a href="files/Lista esami.pdf" download>· Download</a>
+
+> Tip: i link “Open” aprono il PDF nel browser; il link “Download” forza lo scaricamento.
+
+---
+
+## Key learning areas
+- **Mathematics & Probability** • **Statistical Inference** • **Econometrics & Time Series**  
+- **Statistical Learning & Data Mining** • **SQL/R/Python/SAS** • **Business & Finance**

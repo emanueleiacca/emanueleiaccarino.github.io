@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Emanuele Iaccarino</title>
+<link>https://emanueleiacca.github.io/academic/</link>
+<atom:link href="https://emanueleiacca.github.io/academic/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>https://emanueleiacca.github.io/sapienza_banter.png</url>
+<title>Emanuele Iaccarino</title>
+<link>https://emanueleiacca.github.io/academic/</link>
+</image>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Fri, 28 Feb 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data-Driven Economics</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/data-driven-economics.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This course introduces the <strong>theoretical and practical foundations of econometric analysis</strong>.<br>
+It covers regression models (linear and non-linear), estimation and inference procedures, and the analysis of both <strong>cross-sectional</strong> and <strong>longitudinal data</strong>.</p>
+<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/1b4939f2-963d-454d-a21e-88c0ca96889a?parent_activity_uid=a8ba92ed-c021-4722-af2a-ac2c63bc93fb">Complete course information</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Learn the basics of <strong>simple and multiple regression models</strong><br>
+</li>
+<li>Apply econometric models to analyze empirical economic problems<br>
+</li>
+<li>Understand both <strong>linear and non-linear models</strong><br>
+</li>
+<li>Develop skills to establish causal relationships between economic variables<br>
+</li>
+<li>Gain practical experience through laboratory sessions using real data</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Ability to design and estimate econometric models for empirical applications<br>
+</li>
+<li>Critical evaluation of empirical studies in economics and management<br>
+</li>
+<li>Communication of econometric results to both technical and non-technical audiences<br>
+</li>
+<li>Independent capability to perform empirical analyses considering uncertainty and risk</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Notes &amp; Materials</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/DD">Complete notes</a></li>
+</ul></li>
+<li><strong>Final project</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/The-Impact-of-Marijuana-Legalization-on-Opioid-Overdose-Deaths">The Impact of Marijuana Legalization on Opioid Overdose Deaths</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/data-driven-economics.html</guid>
+  <pubDate>Fri, 28 Feb 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/dd.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Statistical Machine Learning</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/statistical-learning.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This course introduces the <strong>theory and methodology of statistical machine learning</strong>, focusing on error bounds, performance guarantees, and the design of successful learning algorithms.<br>
+It bridges <strong>theoretical foundations</strong>, <strong>methodology</strong>, and <strong>practical implementation</strong>, exploring a wide range of learning models and their applications.</p>
+<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/4c474285-bdd5-4d00-ac5c-4f1e8bb5a270?parent_activity_uid=19e47738-163f-4274-8f43-db11fe24e830">Complete course information</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Understand the <strong>statistical properties</strong> of machine learning algorithms<br>
+</li>
+<li>Learn to identify when models work and when they fail<br>
+</li>
+<li>Explore <strong>error bounds</strong> and performance guarantees<br>
+</li>
+<li>Combine theory with practical aspects in R, Keras, and TensorFlow</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Knowledge of main ML methodologies and paradigms, with their strengths and weaknesses<br>
+</li>
+<li>Ability to design and select models for applied problems<br>
+</li>
+<li>Skills to assess both <strong>empirical</strong> and <strong>theoretical</strong> performance<br>
+</li>
+<li>Development of a critical mindset for evaluating learning paradigms<br>
+</li>
+<li>Communication of methods and results through reports and presentations</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Hackathon project</strong>
+<ul>
+<li><a href="http://github.com/emanueleiacca/SUS">Smart Urban Sustainability (SUS) Hackathon</a><br>
+</li>
+<li>🏆 Achieved <strong>1st place</strong> (<a href="https://www.linkedin.com/feed/update/urn:li:activity:7340709795768721409/">LinkedIn announcement</a>)</li>
+</ul></li>
+<li><strong>Final project</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Prediction-of-Medical-Care-Abandonment-in-Italy">Prediction of Medical Care Abandonment in Italy</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/statistical-learning.html</guid>
+  <pubDate>Fri, 28 Feb 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/sl.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Statistical Methods for Data Science</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/statistical-methods-ds.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This is a <strong>two-semester course</strong> (Fundamentals of Statistical Learning I &amp; II) providing the core foundations of statistical inference for data science.<br>
+It covers both <strong>frequentist</strong> and <strong>Bayesian</strong> paradigms, with applications in estimation, hypothesis testing, model checking, and forecasting.</p>
+<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/78f33a7d-5c57-4fa1-9371-ab149ea1e3c6?parent_activity_uid=a5a63ef6-33b9-433a-b295-46dd141e9cc7">Complete course information – Part I</a><br>
+👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/ef80b46d-17b7-41a6-b039-f5899ceb7e03?parent_activity_uid=aa78b6ea-8c45-4167-b6a0-d380a2e4c920">Complete course information – Part II</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Build and analyze <strong>probabilistic models</strong> for observed phenomena<br>
+</li>
+<li>Learn estimation, hypothesis testing, model validation, and forecasting<br>
+</li>
+<li>Compare <strong>frequentist vs Bayesian</strong> approaches<br>
+</li>
+<li>Apply <strong>simulation-based methods</strong>: Bootstrap, Monte Carlo, MCMC<br>
+</li>
+<li>Develop statistical computation skills in <strong>R, JAGS, OpenBUGS, Stan</strong></li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Understand both <strong>theory and practice</strong> of inference methods<br>
+</li>
+<li>Implement inference tasks with probabilistic programming tools<br>
+</li>
+<li>Gain hands-on experience with <strong>Bayesian modeling</strong> (Monte Carlo, MCMC)<br>
+</li>
+<li>Communicate results effectively via reports, presentations, and visualizations<br>
+</li>
+<li>Build critical judgment to evaluate and contrast alternative strategies</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Notes &amp; Materials</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/SDS">Complete notes for both semesters</a></li>
+</ul></li>
+<li><strong>Projects</strong>
+<ul>
+<li>Part I: <a href="https://github.com/emanueleiacca/SDS-HW">Final Project SDS1</a><br>
+</li>
+<li>Part II: <a href="https://github.com/emanueleiacca/Bayesian-Survival-Analysis-of-Veteran-Lung-Cancer-Patients">Bayesian Survival Analysis of Veteran Lung Cancer Patients</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/statistical-methods-ds.html</guid>
+  <pubDate>Mon, 30 Sep 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/sds.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>Algorithmic Methods of Data Mining and Laboratory</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/data-mining.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This course introduces the <strong>main algorithmic techniques of data mining</strong>, with applications to semistructured and unstructured data (text, transactions, graphs, information networks).<br>
+Students gain both <strong>theoretical foundations</strong> of data mining and <strong>practical experience</strong> using programming tools for analysis.</p>
+<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/f4f0b135-eaba-48d2-a3a0-9d6887671134">Complete course information</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Learn algorithmic techniques for data mining in diverse domains<br>
+</li>
+<li>Develop competence with <strong>graph mining</strong>, <strong>search engines</strong>, and <strong>unsupervised learning</strong><br>
+</li>
+<li>Acquire hands-on skills with coding and data exploration</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Ability to analyze and process <strong>unstructured and network data</strong><br>
+</li>
+<li>Apply algorithmic methods to extract knowledge from complex datasets<br>
+</li>
+<li>Combine theoretical understanding with <strong>programming practice</strong></li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Notes &amp; Materials</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/ADM">Introduction Topics, Search Engine, Unsupervised Learning, Graphs</a></li>
+</ul></li>
+<li><strong>Projects</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/HomeWork1_ADM_Sapienza">Homework 1</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/HomeWork1_ADM_Sapienza">Homework 2</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/ADM-HW3">Homework 3</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/ADM-HW4">Homework 4</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/ADM-HM5">Homework 5</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/data-mining.html</guid>
+  <pubDate>Sun, 22 Sep 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/adm.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
+<item>
+  <title>Fundamentals of Data Science</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/fundamentals-ds.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This course introduces the <strong>foundational tools of data science</strong>, combining machine learning, statistical modeling, and network science.<br>
+Students learn how to treat data as a strategic asset, moving from data representation and preprocessing to model design, training, and evaluation.</p>
+<p>👉 <a href="https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/1/af5bd4f5-3c41-4d0e-8a84-64a402916908">Complete course information</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Understand the core principles of <strong>machine learning foundations</strong> (regression, classification, neural networks, CNNs, transformers, multimodal ML)<br>
+</li>
+<li>Explore <strong>complex networks and network science</strong> (network properties, generative models, community detection)<br>
+</li>
+<li>Practice hands-on <strong>Python programming</strong> for data analysis and modeling</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Ability to design and evaluate discriminative and generative models<br>
+</li>
+<li>Translate complex phenomena into formal ML and network frameworks<br>
+</li>
+<li>Communicate results through <strong>visualizations, metrics, and project presentations</strong><br>
+</li>
+<li>Develop autonomy to extend skills to computer vision, network science, and advanced ML</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Notes &amp; Exercises</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/FDS/Homework01">Homework 01</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/FDS/Homework02">Homework 02</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/FDS">Notes &amp; Deep Learning topics</a></li>
+</ul></li>
+<li><strong>Final project</strong>
+<ul>
+<li><a href="https://emanueleiacca.github.io/emanueleiaccarino.github.io/pubblications/Breast%20Cancer/">Breast Cancer Classification</a></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/fundamentals-ds.html</guid>
+  <pubDate>Sun, 22 Sep 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/images/fds.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Sport Analytics</title>
+  <link>https://emanueleiacca.github.io/academic/federico/sport-analytics.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>A practice-oriented course on <strong>applied analytics in sport</strong>, guided by a professor active in the field with extensive publications (<a href="https://www.linkedin.com/in/filipe-manuel-clemente-99992795/">LinkedIn profile</a>).<br>
+The emphasis was on <strong>hands-on modeling</strong> with real datasets (wearables, GPS/RPE, match events), turning methods from ML and statistics into actionable performance insights for athletes and teams.</p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Work with <strong>wearables &amp; tracking data</strong> (Apple Watch, Fitbit, GPS/RPE) for monitoring and prediction.<br>
+</li>
+<li>Build <strong>supervised</strong> (classification/regression) and <strong>unsupervised</strong> (clustering) models for sport problems.<br>
+</li>
+<li>Apply <strong>boosting</strong>, <strong>hyperparameter tuning</strong>, <strong>ensembling</strong>, and address <strong>class imbalance</strong>.<br>
+</li>
+<li>Translate metrics (HSR, ACWR, monotony, strain) into <strong>load management</strong> decisions and injury-risk flags.<br>
+</li>
+<li>Communicate findings through interactive dashboards and clear, coach-facing visuals.</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>End-to-end pipeline skills: <strong>data cleaning → feature engineering → modeling → evaluation → reporting</strong>.<br>
+</li>
+<li>Familiarity with <strong>XGBoost/CatBoost</strong>, Optuna, and <strong>time-series workload metrics</strong> (acute load, monotony, strain).<br>
+</li>
+<li>Ability to analyze <strong>team dynamics</strong> using <strong>Social Network Analysis</strong> on passing graphs.<br>
+</li>
+<li>Practical judgment on model reliability, labeling pitfalls, and external validity in sport contexts.</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<section id="wearables-eda-predictive-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="wearables-eda-predictive-modeling">Wearables: EDA &amp; Predictive Modeling</h3>
+<ul>
+<li>Classification of <strong>user activities</strong> and regression of <strong>calorie expenditure</strong> with <strong>XGBoost</strong>;<br>
+</li>
+<li>Sleep-quality regression and correlation analysis; discussion on dataset labeling caveats.<br>
+</li>
+<li>Repo: <strong>Consumer Wearables &amp; Sleep</strong> → <a href="https://github.com/emanueleiacca/Consumer-Wearables-and-Monitoring-Sleep-EDA-and-predictive-modeling" class="uri">https://github.com/emanueleiacca/Consumer-Wearables-and-Monitoring-Sleep-EDA-and-predictive-modeling</a></li>
+</ul>
+</section>
+<section id="rpegps-high-speed-running-hsr" class="level3">
+<h3 class="anchored" data-anchor-id="rpegps-high-speed-running-hsr">RPE/GPS &amp; High-Speed Running (HSR)</h3>
+<ul>
+<li>Weekly <strong>acute load</strong>, sessions, <strong>monotony</strong>, <strong>strain</strong>; interactive season-long plots.<br>
+</li>
+<li><strong>ACWR</strong> (RA vs <strong>EWMA</strong>) with color-coded risk bands; match vs training <strong>rate</strong> (per-minute normalization).<br>
+</li>
+<li>Repo: <strong>RPE–GPS–HSR Dataset</strong> → <a href="https://github.com/emanueleiacca/Sport-Analytics-RPE-GPS-High-Speed-Running-Dataset-" class="uri">https://github.com/emanueleiacca/Sport-Analytics-RPE-GPS-High-Speed-Running-Dataset-</a></li>
+</ul>
+</section>
+<section id="team-tactics-via-social-network-analysis-sna" class="level3">
+<h3 class="anchored" data-anchor-id="team-tactics-via-social-network-analysis-sna">Team Tactics via Social Network Analysis (SNA)</h3>
+<ul>
+<li>First/second-half passing networks; <strong>degree / eigenvector / betweenness / PageRank</strong> centralities.<br>
+</li>
+<li>Tactical shifts and substitutions reflected in network structure.<br>
+</li>
+<li>Repo: <strong>SNA on Football Match</strong> → <a href="https://github.com/emanueleiacca/Social-Network-Analysis-on-football-match" class="uri">https://github.com/emanueleiacca/Social-Network-Analysis-on-football-match</a></li>
+</ul>
+</section>
+<section id="league-table-prediction" class="level3">
+<h3 class="anchored" data-anchor-id="league-table-prediction">League Table Prediction</h3>
+<ul>
+<li><strong>CatBoost</strong> with feature engineering and <strong>Optuna</strong> tuning to forecast Turkish league standings.<br>
+</li>
+<li>Metrics (accuracy, precision, recall, F1) and comparison to actual table.<br>
+</li>
+<li>Repo: <strong>Predict Turkish League Table</strong> → <a href="https://github.com/emanueleiacca/Predict-LeagueTable-TurkishLeague" class="uri">https://github.com/emanueleiacca/Predict-LeagueTable-TurkishLeague</a></li>
+</ul>
+</section>
+<section id="independent-case-study-inspired-by-the-course" class="level3">
+<h3 class="anchored" data-anchor-id="independent-case-study-inspired-by-the-course">Independent case study (inspired by the course)</h3>
+<ul>
+<li><strong>Napoli 2022–23</strong> season analysis (R, web scraping from fbref): xG vs goals, formations, PCA on shooting,<br>
+passing clusters, player-level insights.<br>
+</li>
+<li>Repo: <strong>Napoli Championship Analysis</strong> → <a href="https://github.com/emanueleiacca/Napoli-Championship-2022-23-Analysis" class="uri">https://github.com/emanueleiacca/Napoli-Championship-2022-23-Analysis</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="tech-tools" class="level2">
+<h2 class="anchored" data-anchor-id="tech-tools">Tech &amp; tools</h2>
+<ul>
+<li><strong>Python</strong> (pandas, scikit-learn, XGBoost, CatBoost, Optuna, networkx, plotly/matplotlib)<br>
+</li>
+<li><strong>R</strong> (rvest, dplyr, ggplot2, FactoMineR, factoextra)<br>
+</li>
+<li>Interactive reporting with HTML exports and dashboards for coach-ready communication.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/federico/sport-analytics.html</guid>
+  <pubDate>Thu, 29 Feb 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/federico/images/sport.png" medium="image" type="image/png" height="70" width="144"/>
+</item>
+<item>
+  <title>Statistical Consulting</title>
+  <link>https://emanueleiacca.github.io/academic/federico/statistical-consulting.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This was a <strong>practice-oriented course</strong> designed to expose students to <strong>real-world problems in Machine Learning and Artificial Intelligence</strong>.<br>
+Unlike other highly theoretical courses, it emphasized <strong>hands-on experimentation</strong>, creative problem-solving, and direct engagement with algorithms applied to real datasets.</p>
+<p>The professor gave students space to explore and often encouraged deeper dives into more advanced topics, which strongly influenced my academic trajectory and motivated my decision to pursue further studies in Rome.</p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Learn to <strong>apply machine learning algorithms in practice</strong> rather than only studying their theory<br>
+</li>
+<li>Gain first-hand experience with <strong>clustering methods</strong> and supervised learning techniques<br>
+</li>
+<li>Explore <strong>boosting algorithms</strong>, hyperparameter tuning, and ensemble methods<br>
+</li>
+<li>Develop critical problem-solving skills for tackling <strong>imbalanced data</strong> and real-world complexity</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Ability to implement and tune <strong>supervised and unsupervised algorithms</strong><br>
+</li>
+<li>Understand the role of <strong>boosting</strong> and <strong>ensembling</strong> in improving performance<br>
+</li>
+<li>Apply <strong>modern tools</strong> for model optimization (e.g., Optuna for hyperparameter tuning)<br>
+</li>
+<li>Experiment with <strong>data augmentation techniques</strong>, including <strong>GANs</strong> for synthetic data generation<br>
+</li>
+<li>Translate Kaggle-like competition setups into structured learning experiences</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Exploratory projects</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/RAG-Chat-with-your-PDF-locally-Chatbot">RAG Chatbot – Local PDF QA</a><br>
+</li>
+<li><a href="https://github.com/emanueleiacca/AnimalEmotion_LiveCam">Animal Emotion Recognition via LiveCam</a></li>
+</ul></li>
+<li><strong>Final Project</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Analysis-on-Churn-Banking-Modeling-Dataset">Analysis on Churn Banking Dataset</a><br>
+</li>
+<li>Ensemble of boosting algorithms with hyperparameter tuning (Optuna)<br>
+</li>
+<li>Cost-sensitive learning to handle data imbalance<br>
+</li>
+<li>Synthetic data generation with GANs</li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/federico/statistical-consulting.html</guid>
+  <pubDate>Thu, 29 Feb 2024 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/federico/images/sc.png" medium="image" type="image/png" height="102" width="144"/>
+</item>
+<item>
+  <title>Time Series Analysis for Economics and Finance</title>
+  <link>https://emanueleiacca.github.io/academic/federico/econometrics.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The course introduces the <strong>principles and standard techniques of time series analysis</strong> applied to economics and finance.<br>
+Students learn how to analyze, interpret, and forecast key economic and financial variables, using both <strong>univariate and multivariate models</strong>.<br>
+A strong emphasis is placed on connecting statistical results with underlying economic theories.</p>
+<p>👉 <a href="https://www.docenti.unina.it/#!/professor/4652414e4345534341444920494f52494f445249464e4336384d36394835303143/programmi/shedainsegnamento">Professor’s page and course info</a></p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Understand the statistical issues in modeling and forecasting economic and financial variables<br>
+</li>
+<li>Apply univariate and multivariate time series techniques<br>
+</li>
+<li>Use specialized statistical software (<strong>Gretl</strong>) for dynamic modeling<br>
+</li>
+<li>Critically evaluate empirical results in light of economic theory</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Knowledge of <strong>linear regression generalizations</strong> for dynamic data<br>
+</li>
+<li>Ability to apply:
+<ul>
+<li>Filtering and Moving Averages<br>
+</li>
+<li>Seasonal adjustment methods<br>
+</li>
+<li>Forecasting techniques<br>
+</li>
+<li>GARCH and conditional heteroskedasticity models<br>
+</li>
+<li>Introduction to multivariate models and cointegration</li>
+</ul></li>
+<li>Capability to harmonize datasets, manage different data sources, and use statistical software with autonomy</li>
+</ul>
+<hr>
+</section>
+<section id="tools-used" class="level2">
+<h2 class="anchored" data-anchor-id="tools-used">Tools used</h2>
+<ul>
+<li><strong>Gretl</strong> (specialized statistical software for econometric and time series analysis)<br>
+</li>
+<li>Application of econometric theory to real macroeconomic and financial datasets</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li>Extensive notes on <strong>time series methods</strong> and forecasting approaches<br>
+</li>
+<li>Hands-on practice with <strong>Gretl</strong>, including model fitting, seasonal adjustment, and forecasting exercises<br>
+</li>
+<li>Final applied project analyzing macroeconomic variables with time series techniques</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/federico/econometrics.html</guid>
+  <pubDate>Tue, 28 Feb 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/federico/images/gretl.png" medium="image" type="image/png" height="79" width="144"/>
+</item>
+<item>
+  <title>Multivariate Analysis and Statistical Learning</title>
+  <link>https://emanueleiacca.github.io/academic/federico/multivariate-analysis.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This course provided a <strong>first introduction to supervised and unsupervised learning</strong> from a statistical perspective.<br>
+The emphasis was on the <strong>theoretical foundations</strong>, with many demonstrations of key results in machine learning and classical multivariate methods.</p>
+<p>The course also introduced <strong>R programming</strong> as a practical tool for implementing models and running analyses, culminating in a final project.</p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Understand the basics of <strong>supervised learning</strong> (e.g., linear models, discriminant analysis, QDA, LDA)<br>
+</li>
+<li>Explore <strong>unsupervised learning</strong> (clustering, exploratory data analysis)<br>
+</li>
+<li>Develop skills in applying theoretical results to practical datasets<br>
+</li>
+<li>Learn to use <strong>R and RStudio</strong> for statistical modeling and data exploration</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Ability to implement and interpret <strong>fundamental machine learning algorithms</strong><br>
+</li>
+<li>Strong theoretical background with proofs and demonstrations of ML concepts<br>
+</li>
+<li>First exposure to <strong>statistical computing in R</strong><br>
+</li>
+<li>Capacity to critically evaluate methods through both theory and practice</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Final Project</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/predict-sale_price-on-ames-dataset-in-R">Predicting House Sale Prices on the Ames Dataset (RStudio)</a></li>
+</ul></li>
+<li><strong>Notes &amp; Exercises</strong>
+<ul>
+<li>Personal notes with detailed proofs and theoretical derivations in <strong>statistical learning</strong></li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/federico/multivariate-analysis.html</guid>
+  <pubDate>Tue, 28 Feb 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/federico/images/mult.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Social Statistics and Survey Sampling</title>
+  <link>https://emanueleiacca.github.io/academic/federico/survey-sampling.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This course focused on the <strong>theoretical foundations of survey sampling and social statistics</strong>.<br>
+Students learned the principles of designing and analyzing surveys, with attention to sampling techniques, treatment of missing data, and the evaluation of social and economic indicators.<br>
+The perspective was strongly theoretical, but included practical projects to apply sampling methods to real-world social and economic issues.</p>
+<hr>
+</section>
+<section id="main-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="main-objectives">Main objectives</h2>
+<ul>
+<li>Understand the <strong>foundations of survey sampling</strong> (simple random sampling, stratified sampling, cluster sampling)<br>
+</li>
+<li>Learn methods for <strong>handling missing data</strong> and ensuring data quality<br>
+</li>
+<li>Apply survey methods to real-world social and economic datasets<br>
+</li>
+<li>Explore <strong>composite indicators</strong> (e.g.&nbsp;Human Development Index, Agenda 2030 goals)<br>
+</li>
+<li>Gain hands-on experience with <strong>R</strong> for survey data analysis</li>
+</ul>
+<hr>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning outcomes</h2>
+<ul>
+<li>Ability to design surveys and sampling plans for social research<br>
+</li>
+<li>Evaluate statistical methodologies for robustness and representativeness<br>
+</li>
+<li>Apply different imputation techniques for missing data (mean, median, regression, KNN, MICE, random forest, interpolation, etc.)<br>
+</li>
+<li>Critically interpret <strong>Agenda 2030 indicators</strong> in social and economic contexts<br>
+</li>
+<li>Communicate findings clearly through reports and presentations</li>
+</ul>
+<hr>
+</section>
+<section id="my-work-in-this-course" class="level2">
+<h2 class="anchored" data-anchor-id="my-work-in-this-course">My work in this course</h2>
+<ul>
+<li><strong>Treating Missing Data in R</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/treating-missing-data-in-R">Repository</a><br>
+</li>
+<li>Explored and compared imputation methods (mean, regression, KNN, MICE, random forest, interpolation, etc.) on financial datasets</li>
+</ul></li>
+<li><strong>Composite Indicators and HDI</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/Composite-Indicator-Normalizzation-and-HDI-">Repository</a><br>
+</li>
+<li>Studied normalization methods for composite indicators and replicated analysis from <em>Mazzocchi and Pareto</em></li>
+</ul></li>
+<li><strong>Final Project – Agenda 2030 (SDG 8)</strong>
+<ul>
+<li><a href="https://github.com/emanueleiacca/SDG8-analysis">Repository</a><br>
+</li>
+<li>Analyzed Goal 8 of Agenda 2030 (Decent Work and Economic Growth) using UNSTATS data<br>
+</li>
+<li>Explored missing data imputation, GDP-based clustering, HDI analysis, unemployment cycles, and domestic material consumption<br>
+</li>
+<li>Developed insights into the impact of macroeconomic variables on sustainable development</li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/federico/survey-sampling.html</guid>
+  <pubDate>Tue, 28 Feb 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/federico/images/survey.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Sapienza University of Rome</title>
+  <link>https://emanueleiacca.github.io/academic/sapienza/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><strong>Program highlights</strong><br>
+- Machine Learning &amp; Deep Learning<br>
+- Statistical Modeling &amp; Bayesian Analysis<br>
+- Big Data &amp; Cloud Computing<br>
+- Reinforcement Learning<br>
+- Data Mining &amp; Exploration</p>
+<p>Below you’ll find the individual courses — each as its own page — that I completed as part of this program.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759353104243">
+<a href="../../academic/sapienza/cloud-computing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759353118214">
+<a href="../../academic/sapienza/networking-big-data.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1759353124487">
+<a href="../../academic/sapienza/signal-processing.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1740783600000" data-listing-file-modified-sort="1759355891374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<a href="../../academic/sapienza/data-driven-economics.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/dd.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Data-Driven Economics
+</h5>
+<div class="card-text listing-description delink">
+This course introduces the <strong>theoretical and practical foundations of econometric analysis</strong>.<br>
+It covers regression models (linear and non-linear), estimation and inference…<strong></strong><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1740783600000" data-listing-file-modified-sort="1759355889025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
+<a href="../../academic/sapienza/statistical-learning.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/sl.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistical Machine Learning
+</h5>
+<div class="card-text listing-description delink">
+This course introduces the <strong>theory and methodology of statistical machine learning</strong>, focusing on error bounds, performance guarantees, and the design of successful learning…<br><strong></strong><strong></strong><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1727733600000" data-listing-file-modified-sort="1759355109950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<a href="../../academic/sapienza/statistical-methods-ds.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/sds.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistical Methods for Data Science
+</h5>
+<div class="card-text listing-description delink">
+This is a <strong>two-semester course</strong> (Fundamentals of Statistical Learning I &amp; II) providing the core foundations of statistical inference for data science.<br>
+It covers both <strong>frequenti…</strong><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Oct 1, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355058939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<a href="../../academic/sapienza/data-mining.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/adm.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Algorithmic Methods of Data Mining and Laboratory
+</h5>
+<div class="card-text listing-description delink">
+This course introduces the <strong>main algorithmic techniques of data mining</strong>, with applications to semistructured and unstructured data (text, transactions, graphs, information…<br><strong></strong><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sep 23, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355013570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
+<a href="../../academic/sapienza/fundamentals-ds.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/sapienza/images/fds.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fundamentals of Data Science
+</h5>
+<div class="card-text listing-description delink">
+This course introduces the <strong>foundational tools of data science</strong>, combining machine learning, statistical modeling, and network science.<br>
+Students learn how to treat data as a…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sep 23, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div> ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/sapienza/</guid>
+  <pubDate>Thu, 02 Oct 2025 08:19:51 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/sapienza/sapienza_banter.png" medium="image" type="image/png" height="72" width="144"/>
+</item>
+<item>
+  <title>University of Naples Federico II</title>
+  <link>https://emanueleiacca.github.io/academic/federico/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>I completed my <strong>Bachelor’s Degree in Statistics for Business and Society</strong> at the University of Naples Federico II (final grade <strong>107/110</strong>, July 24, 2024).<br>
+The program built a solid foundation in statistics, econometrics, time series, machine learning, and business analytics.</p>
+<p>👉 <strong>Study plan (official PDF):</strong><br>
+<a href="https://www.scienzepolitiche.unina.it/wp-content/uploads/2023/09/Piano-di-Studi-L41-Statistica-per-limpresa-e-la-societa%CC%80-AA-2023-2024.pdf">View online</a></p>
+<hr>
+</section>
+<section id="thesis" class="level2">
+<h2 class="anchored" data-anchor-id="thesis">Thesis</h2>
+<p><strong>Deep Reinforcement Learning for Incomplete Information Games (Blackjack and Poker)</strong><br>
+<a href="https://emanueleiacca.github.io/emanueleiaccarino.github.io/pubblications/BlackJack%20and%20Poker/">Read online</a></p>
+<hr>
+</section>
+<section id="documents" class="level2">
+<h2 class="anchored" data-anchor-id="documents">Documents</h2>
+<ul>
+<li><strong>Exams + Grades (PDF)</strong> — <a href="files/esami-con-voto.pdf">Open</a> <a href="files/esami-con-voto.pdf" download="">· Download</a><br>
+</li>
+<li><strong>Exams + Dates (PDF)</strong> — <a href="files/esami-e-date.pdf">Open</a> <a href="files/esami-e-date.pdf" download="">· Download</a></li>
+<li><strong>List of Exams (PDF)</strong> — <a href="files/Lista esami.pdf">Open</a> <a href="files/Lista esami.pdf" download="">· Download</a></li>
+</ul>
+<blockquote class="blockquote">
+<p>Tip: i link “Open” aprono il PDF nel browser; il link “Download” forza lo scaricamento.</p>
+</blockquote>
+<hr>
+</section>
+<section id="key-learning-areas" class="level2">
+<h2 class="anchored" data-anchor-id="key-learning-areas">Key learning areas</h2>
+<ul>
+<li><strong>Mathematics &amp; Probability</strong> • <strong>Statistical Inference</strong> • <strong>Econometrics &amp; Time Series</strong><br>
+</li>
+<li><strong>Statistical Learning &amp; Data Mining</strong> • <strong>SQL/R/Python/SAS</strong> • <strong>Business &amp; Finance</strong></li>
+</ul>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1709247600000" data-listing-file-modified-sort="1759392515383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
+<a href="../../academic/federico/sport-analytics.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/federico/images/sport.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sport Analytics
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:academic/federico/sport-analytics.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1709247600000" data-listing-file-modified-sort="1759392529053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+<a href="../../academic/federico/statistical-consulting.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/federico/images/sc.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Statistical Consulting
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:academic/federico/statistical-consulting.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1759391404070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
+<a href="../../academic/federico/econometrics.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/federico/images/gretl.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Time Series Analysis for Economics and Finance
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:academic/federico/econometrics.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1759392536085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<a href="../../academic/federico/multivariate-analysis.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/federico/images/mult.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Multivariate Analysis and Statistical Learning
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:academic/federico/multivariate-analysis.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1759391476380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+<a href="../../academic/federico/survey-sampling.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://emanueleiacca.github.io/academic/federico/images/survey.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Social Statistics and Survey Sampling
+</h5>
+<div class="card-text listing-description delink">
+<!-- desc(5A0113B34292)[max=175]:academic/federico/survey-sampling.html -->
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mar 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div> ]]></description>
+  <guid>https://emanueleiacca.github.io/academic/federico/</guid>
+  <pubDate>Thu, 02 Oct 2025 08:19:51 GMT</pubDate>
+  <media:content url="https://emanueleiacca.github.io/academic/federico/fed.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

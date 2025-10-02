@@ -1,0 +1,40 @@
+---
+title: "Data-Driven Economics"
+subtitle: "Sapienza University of Rome · M.Sc. in Data Science"
+date: 2025-03-01
+page-layout: full
+image: images/dd.png
+---
+
+## Overview
+This course introduces the **theoretical and practical foundations of econometric analysis**.  
+It covers regression models (linear and non-linear), estimation and inference procedures, and the analysis of both **cross-sectional** and **longitudinal data**.  
+
+👉 [Complete course information](https://corsidilaurea.uniroma1.it/it/course/33519/attendance/lesson/57c6368b-1013-445e-b969-8964718eb224/1/2/1b4939f2-963d-454d-a21e-88c0ca96889a?parent_activity_uid=a8ba92ed-c021-4722-af2a-ac2c63bc93fb)  
+
+---
+
+## Main objectives
+- Learn the basics of **simple and multiple regression models**  
+- Apply econometric models to analyze empirical economic problems  
+- Understand both **linear and non-linear models**  
+- Develop skills to establish causal relationships between economic variables  
+- Gain practical experience through laboratory sessions using real data  
+
+---
+
+## Learning outcomes
+- Ability to design and estimate econometric models for empirical applications  
+- Critical evaluation of empirical studies in economics and management  
+- Communication of econometric results to both technical and non-technical audiences  
+- Independent capability to perform empirical analyses considering uncertainty and risk  
+
+---
+
+## My work in this course
+- **Notes & Materials**  
+  - [Complete notes](https://github.com/emanueleiacca/Data-Science-From-Scratch/tree/main/DD)  
+
+- **Final project**  
+  - [The Impact of Marijuana Legalization on Opioid Overdose Deaths](https://github.com/emanueleiacca/The-Impact-of-Marijuana-Legalization-on-Opioid-Overdose-Deaths)  
+

@@ -1,0 +1,38 @@
+---
+title: "Multivariate Analysis and Statistical Learning"
+subtitle: "University of Naples Federico II · B.Sc. in Statistics for Business and Society"
+date: 2023-03-01
+page-layout: full
+image: images/mult.png
+---
+
+## Overview
+This course provided a **first introduction to supervised and unsupervised learning** from a statistical perspective.  
+The emphasis was on the **theoretical foundations**, with many demonstrations of key results in machine learning and classical multivariate methods.  
+
+The course also introduced **R programming** as a practical tool for implementing models and running analyses, culminating in a final project.  
+
+---
+
+## Main objectives
+- Understand the basics of **supervised learning** (e.g., linear models, discriminant analysis, QDA, LDA)  
+- Explore **unsupervised learning** (clustering, exploratory data analysis)  
+- Develop skills in applying theoretical results to practical datasets  
+- Learn to use **R and RStudio** for statistical modeling and data exploration  
+
+---
+
+## Learning outcomes
+- Ability to implement and interpret **fundamental machine learning algorithms**  
+- Strong theoretical background with proofs and demonstrations of ML concepts  
+- First exposure to **statistical computing in R**  
+- Capacity to critically evaluate methods through both theory and practice  
+
+---
+
+## My work in this course
+- **Final Project**  
+  - [Predicting House Sale Prices on the Ames Dataset (RStudio)](https://github.com/emanueleiacca/predict-sale_price-on-ames-dataset-in-R)  
+
+- **Notes & Exercises**  
+  - Personal notes with detailed proofs and theoretical derivations in **statistical learning**  

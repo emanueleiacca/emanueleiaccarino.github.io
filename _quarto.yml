@@ -17,7 +17,7 @@ website:
       - href: index.qmd
         text: home
       - about.qmd
-      - href: academic.qmd
+      - href: academic/index.qmd
         text: academic
 
       - href: projects.qmd

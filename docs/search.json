@@ -42,18 +42,214 @@
     "text": "This project introduces a Python library for community detection, focused on performance optimization, modularity, and transparency.\nCompared to NetworkX’s implementations, the custom methods deliver faster execution and flexible configuration, while ensuring traceability through detailed logs.\nImplemented algorithms\n- Girvan-Newman: configurable betweenness calculation (BFS, Dijkstra) and component detection (recursive vs. iterative DFS)\n- Spectral Clustering: optimized eigenvalue/eigenvector computation for faster convergence\n- Louvain Method: mathematical approximation yielding extreme performance gains\nKey results\n- Girvan-Newman: execution time up to 38% faster with identical communities\n- Spectral Clustering: 92% faster than pre-implemented versions, communities preserved\n- Louvain: millions of times faster, with a small trade-off in modularity\nView project on GitHub\n\n\n\nCustom, optimized community detection methods vs. standard implementations"
   },
   {
-    "objectID": "projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/index.html",
-    "href": "projects/Bayesian Survival Analysis of Veteran Lung Cancer Patients/index.html",
-    "title": "Bayesian Survival Analysis of Veteran Lung Cancer Patients",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emanuele Iaccarino",
     "section": "",
-    "text": "source code\n\nThis project applies Bayesian survival analysis to the Veteran’s Administration Lung Cancer dataset, focusing on parametric accelerated failure time (AFT) models.\nThe work compares exponential and Weibull AFT models using MCMC estimation in JAGS, with model fit assessed via the Deviance Information Criterion (DIC).\nPosterior predictive checks and parameter recovery experiments are used to evaluate calibration and identifiability, while results are contrasted with frequentist survival models such as Cox PH and parametric AFT.\nKey findings include the superior fit of the Weibull model, significant effects of cell type on survival, and good calibration under posterior predictive validation.\n\n\n\nComparison of Bayesian posterior predictive survival curves with Kaplan–Meier estimates"
+    "text": "Hi there, I’m Emanuele Iaccarino.\nNumbers have always been my way of making sense of the world — turning ideas into structures, spotting patterns in the noise, and breaking problems into steps I could work through. For a long time I saw this as nothing more than my own way of thinking. Only later did I realize that this mindset is exactly what lies at the heart of data science, and that following this path wasn’t really a choice but the most natural direction forward.\nThat realization shaped my journey. What started as curiosity grew into building models, working with messy data, and uncovering the stories hidden inside. It became not just something I enjoyed, but something I wanted to dedicate myself to fully. Data science didn’t arrive in my life as a plan — it arrived as the recognition of what I had been doing all along.\nEven this website reflects that story. I built it with Quarto, the modern framework born from RStudio, where I first learned to bring statistics, code, and storytelling together. Using the same ecosystem here feels natural — a continuation of the roots that shaped me, now powering the place where I share what I’m building today."
   },
   {
-    "objectID": "academic.html",
-    "href": "academic.html",
-    "title": "my academic journey",
+    "objectID": "academic/sapienza/statistical-learning.html",
+    "href": "academic/sapienza/statistical-learning.html",
+    "title": "Statistical Machine Learning",
     "section": "",
-    "text": "Bayesian Survival Analysis of Veteran Lung Cancer Patients\n\n\na Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBreast Cancer Classification with Deep Learning\n\n\nA deep learning pipeline for classifying mammographic images from the CBIS dataset, leveraging preprocessing and transfer learning.\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nChurn Analysis on Banking Dataset\n\n\nPredicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity Detection Algorithms — Self-Implemented and Optimized\n\n\nA Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over NetworkX.\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeep Reinforcement Learning for Incomplete Information Card Games (BlackJack and Poker)\n\n\nApplication of RL and DRL algorithms to strategic decision-making in Blackjack and Poker, exploring uncertainty and incomplete information.\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment\n\n\nAnalysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.\n\n\n\n\n\n\nOct 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models\n\n\nEconometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of Medical Care Abandonment in Italy\n\n\na research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSQL Parser Data Pipeline\n\n\nA Python library for parsing and interpreting complex SQL queries, designed for BigQuery workflows and adaptable to other SQL dialects.\n\n\n\n\n\n\nApr 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSnake with Curriculum Learning\n\n\nTraining an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques\n\n\nImplementation and comparative study of reinforcement learning algorithms in Unity ML environments, with case studies on WallJump and SoccerTwos.\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\nabout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\npubblications\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This course introduces the theory and methodology of statistical machine learning, focusing on error bounds, performance guarantees, and the design of successful learning algorithms.\nIt bridges theoretical foundations, methodology, and practical implementation, exploring a wide range of learning models and their applications.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-learning.html#overview",
+    "href": "academic/sapienza/statistical-learning.html#overview",
+    "title": "Statistical Machine Learning",
+    "section": "",
+    "text": "This course introduces the theory and methodology of statistical machine learning, focusing on error bounds, performance guarantees, and the design of successful learning algorithms.\nIt bridges theoretical foundations, methodology, and practical implementation, exploring a wide range of learning models and their applications.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-learning.html#main-objectives",
+    "href": "academic/sapienza/statistical-learning.html#main-objectives",
+    "title": "Statistical Machine Learning",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nUnderstand the statistical properties of machine learning algorithms\n\nLearn to identify when models work and when they fail\n\nExplore error bounds and performance guarantees\n\nCombine theory with practical aspects in R, Keras, and TensorFlow"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-learning.html#learning-outcomes",
+    "href": "academic/sapienza/statistical-learning.html#learning-outcomes",
+    "title": "Statistical Machine Learning",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nKnowledge of main ML methodologies and paradigms, with their strengths and weaknesses\n\nAbility to design and select models for applied problems\n\nSkills to assess both empirical and theoretical performance\n\nDevelopment of a critical mindset for evaluating learning paradigms\n\nCommunication of methods and results through reports and presentations"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-learning.html#my-work-in-this-course",
+    "href": "academic/sapienza/statistical-learning.html#my-work-in-this-course",
+    "title": "Statistical Machine Learning",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nHackathon project\n\nSmart Urban Sustainability (SUS) Hackathon\n\n🏆 Achieved 1st place (LinkedIn announcement)\n\nFinal project\n\nPrediction of Medical Care Abandonment in Italy"
+  },
+  {
+    "objectID": "academic/sapienza/fundamentals-ds.html",
+    "href": "academic/sapienza/fundamentals-ds.html",
+    "title": "Fundamentals of Data Science",
+    "section": "",
+    "text": "This course introduces the foundational tools of data science, combining machine learning, statistical modeling, and network science.\nStudents learn how to treat data as a strategic asset, moving from data representation and preprocessing to model design, training, and evaluation.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/fundamentals-ds.html#overview",
+    "href": "academic/sapienza/fundamentals-ds.html#overview",
+    "title": "Fundamentals of Data Science",
+    "section": "",
+    "text": "This course introduces the foundational tools of data science, combining machine learning, statistical modeling, and network science.\nStudents learn how to treat data as a strategic asset, moving from data representation and preprocessing to model design, training, and evaluation.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/fundamentals-ds.html#main-objectives",
+    "href": "academic/sapienza/fundamentals-ds.html#main-objectives",
+    "title": "Fundamentals of Data Science",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nUnderstand the core principles of machine learning foundations (regression, classification, neural networks, CNNs, transformers, multimodal ML)\n\nExplore complex networks and network science (network properties, generative models, community detection)\n\nPractice hands-on Python programming for data analysis and modeling"
+  },
+  {
+    "objectID": "academic/sapienza/fundamentals-ds.html#learning-outcomes",
+    "href": "academic/sapienza/fundamentals-ds.html#learning-outcomes",
+    "title": "Fundamentals of Data Science",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nAbility to design and evaluate discriminative and generative models\n\nTranslate complex phenomena into formal ML and network frameworks\n\nCommunicate results through visualizations, metrics, and project presentations\n\nDevelop autonomy to extend skills to computer vision, network science, and advanced ML"
+  },
+  {
+    "objectID": "academic/sapienza/fundamentals-ds.html#my-work-in-this-course",
+    "href": "academic/sapienza/fundamentals-ds.html#my-work-in-this-course",
+    "title": "Fundamentals of Data Science",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nNotes & Exercises\n\nHomework 01\n\nHomework 02\n\nNotes & Deep Learning topics\n\nFinal project\n\nBreast Cancer Classification"
+  },
+  {
+    "objectID": "academic/sapienza/data-driven-economics.html",
+    "href": "academic/sapienza/data-driven-economics.html",
+    "title": "Data-Driven Economics",
+    "section": "",
+    "text": "This course introduces the theoretical and practical foundations of econometric analysis.\nIt covers regression models (linear and non-linear), estimation and inference procedures, and the analysis of both cross-sectional and longitudinal data.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/data-driven-economics.html#overview",
+    "href": "academic/sapienza/data-driven-economics.html#overview",
+    "title": "Data-Driven Economics",
+    "section": "",
+    "text": "This course introduces the theoretical and practical foundations of econometric analysis.\nIt covers regression models (linear and non-linear), estimation and inference procedures, and the analysis of both cross-sectional and longitudinal data.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/data-driven-economics.html#main-objectives",
+    "href": "academic/sapienza/data-driven-economics.html#main-objectives",
+    "title": "Data-Driven Economics",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nLearn the basics of simple and multiple regression models\n\nApply econometric models to analyze empirical economic problems\n\nUnderstand both linear and non-linear models\n\nDevelop skills to establish causal relationships between economic variables\n\nGain practical experience through laboratory sessions using real data"
+  },
+  {
+    "objectID": "academic/sapienza/data-driven-economics.html#learning-outcomes",
+    "href": "academic/sapienza/data-driven-economics.html#learning-outcomes",
+    "title": "Data-Driven Economics",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nAbility to design and estimate econometric models for empirical applications\n\nCritical evaluation of empirical studies in economics and management\n\nCommunication of econometric results to both technical and non-technical audiences\n\nIndependent capability to perform empirical analyses considering uncertainty and risk"
+  },
+  {
+    "objectID": "academic/sapienza/data-driven-economics.html#my-work-in-this-course",
+    "href": "academic/sapienza/data-driven-economics.html#my-work-in-this-course",
+    "title": "Data-Driven Economics",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nNotes & Materials\n\nComplete notes\n\nFinal project\n\nThe Impact of Marijuana Legalization on Opioid Overdose Deaths"
+  },
+  {
+    "objectID": "academic/federico/survey-sampling.html",
+    "href": "academic/federico/survey-sampling.html",
+    "title": "Social Statistics and Survey Sampling",
+    "section": "",
+    "text": "This course focused on the theoretical foundations of survey sampling and social statistics.\nStudents learned the principles of designing and analyzing surveys, with attention to sampling techniques, treatment of missing data, and the evaluation of social and economic indicators.\nThe perspective was strongly theoretical, but included practical projects to apply sampling methods to real-world social and economic issues."
+  },
+  {
+    "objectID": "academic/federico/survey-sampling.html#overview",
+    "href": "academic/federico/survey-sampling.html#overview",
+    "title": "Social Statistics and Survey Sampling",
+    "section": "",
+    "text": "This course focused on the theoretical foundations of survey sampling and social statistics.\nStudents learned the principles of designing and analyzing surveys, with attention to sampling techniques, treatment of missing data, and the evaluation of social and economic indicators.\nThe perspective was strongly theoretical, but included practical projects to apply sampling methods to real-world social and economic issues."
+  },
+  {
+    "objectID": "academic/federico/survey-sampling.html#main-objectives",
+    "href": "academic/federico/survey-sampling.html#main-objectives",
+    "title": "Social Statistics and Survey Sampling",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nUnderstand the foundations of survey sampling (simple random sampling, stratified sampling, cluster sampling)\n\nLearn methods for handling missing data and ensuring data quality\n\nApply survey methods to real-world social and economic datasets\n\nExplore composite indicators (e.g. Human Development Index, Agenda 2030 goals)\n\nGain hands-on experience with R for survey data analysis"
+  },
+  {
+    "objectID": "academic/federico/survey-sampling.html#learning-outcomes",
+    "href": "academic/federico/survey-sampling.html#learning-outcomes",
+    "title": "Social Statistics and Survey Sampling",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nAbility to design surveys and sampling plans for social research\n\nEvaluate statistical methodologies for robustness and representativeness\n\nApply different imputation techniques for missing data (mean, median, regression, KNN, MICE, random forest, interpolation, etc.)\n\nCritically interpret Agenda 2030 indicators in social and economic contexts\n\nCommunicate findings clearly through reports and presentations"
+  },
+  {
+    "objectID": "academic/federico/survey-sampling.html#my-work-in-this-course",
+    "href": "academic/federico/survey-sampling.html#my-work-in-this-course",
+    "title": "Social Statistics and Survey Sampling",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nTreating Missing Data in R\n\nRepository\n\nExplored and compared imputation methods (mean, regression, KNN, MICE, random forest, interpolation, etc.) on financial datasets\n\nComposite Indicators and HDI\n\nRepository\n\nStudied normalization methods for composite indicators and replicated analysis from Mazzocchi and Pareto\n\nFinal Project – Agenda 2030 (SDG 8)\n\nRepository\n\nAnalyzed Goal 8 of Agenda 2030 (Decent Work and Economic Growth) using UNSTATS data\n\nExplored missing data imputation, GDP-based clustering, HDI analysis, unemployment cycles, and domestic material consumption\n\nDeveloped insights into the impact of macroeconomic variables on sustainable development"
+  },
+  {
+    "objectID": "academic/federico/sport-analytics.html",
+    "href": "academic/federico/sport-analytics.html",
+    "title": "Sport Analytics",
+    "section": "",
+    "text": "A practice-oriented course on applied analytics in sport, guided by a professor active in the field with extensive publications (LinkedIn profile).\nThe emphasis was on hands-on modeling with real datasets (wearables, GPS/RPE, match events), turning methods from ML and statistics into actionable performance insights for athletes and teams."
+  },
+  {
+    "objectID": "academic/federico/sport-analytics.html#overview",
+    "href": "academic/federico/sport-analytics.html#overview",
+    "title": "Sport Analytics",
+    "section": "",
+    "text": "A practice-oriented course on applied analytics in sport, guided by a professor active in the field with extensive publications (LinkedIn profile).\nThe emphasis was on hands-on modeling with real datasets (wearables, GPS/RPE, match events), turning methods from ML and statistics into actionable performance insights for athletes and teams."
+  },
+  {
+    "objectID": "academic/federico/sport-analytics.html#main-objectives",
+    "href": "academic/federico/sport-analytics.html#main-objectives",
+    "title": "Sport Analytics",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nWork with wearables & tracking data (Apple Watch, Fitbit, GPS/RPE) for monitoring and prediction.\n\nBuild supervised (classification/regression) and unsupervised (clustering) models for sport problems.\n\nApply boosting, hyperparameter tuning, ensembling, and address class imbalance.\n\nTranslate metrics (HSR, ACWR, monotony, strain) into load management decisions and injury-risk flags.\n\nCommunicate findings through interactive dashboards and clear, coach-facing visuals."
+  },
+  {
+    "objectID": "academic/federico/sport-analytics.html#learning-outcomes",
+    "href": "academic/federico/sport-analytics.html#learning-outcomes",
+    "title": "Sport Analytics",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nEnd-to-end pipeline skills: data cleaning → feature engineering → modeling → evaluation → reporting.\n\nFamiliarity with XGBoost/CatBoost, Optuna, and time-series workload metrics (acute load, monotony, strain).\n\nAbility to analyze team dynamics using Social Network Analysis on passing graphs.\n\nPractical judgment on model reliability, labeling pitfalls, and external validity in sport contexts."
+  },
+  {
+    "objectID": "academic/federico/sport-analytics.html#my-work-in-this-course",
+    "href": "academic/federico/sport-analytics.html#my-work-in-this-course",
+    "title": "Sport Analytics",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nWearables: EDA & Predictive Modeling\n\nClassification of user activities and regression of calorie expenditure with XGBoost;\n\nSleep-quality regression and correlation analysis; discussion on dataset labeling caveats.\n\nRepo: Consumer Wearables & Sleep → https://github.com/emanueleiacca/Consumer-Wearables-and-Monitoring-Sleep-EDA-and-predictive-modeling\n\n\n\nRPE/GPS & High-Speed Running (HSR)\n\nWeekly acute load, sessions, monotony, strain; interactive season-long plots.\n\nACWR (RA vs EWMA) with color-coded risk bands; match vs training rate (per-minute normalization).\n\nRepo: RPE–GPS–HSR Dataset → https://github.com/emanueleiacca/Sport-Analytics-RPE-GPS-High-Speed-Running-Dataset-\n\n\n\nTeam Tactics via Social Network Analysis (SNA)\n\nFirst/second-half passing networks; degree / eigenvector / betweenness / PageRank centralities.\n\nTactical shifts and substitutions reflected in network structure.\n\nRepo: SNA on Football Match → https://github.com/emanueleiacca/Social-Network-Analysis-on-football-match\n\n\n\nLeague Table Prediction\n\nCatBoost with feature engineering and Optuna tuning to forecast Turkish league standings.\n\nMetrics (accuracy, precision, recall, F1) and comparison to actual table.\n\nRepo: Predict Turkish League Table → https://github.com/emanueleiacca/Predict-LeagueTable-TurkishLeague\n\n\n\nIndependent case study (inspired by the course)\n\nNapoli 2022–23 season analysis (R, web scraping from fbref): xG vs goals, formations, PCA on shooting,\npassing clusters, player-level insights.\n\nRepo: Napoli Championship Analysis → https://github.com/emanueleiacca/Napoli-Championship-2022-23-Analysis"
+  },
+  {
+    "objectID": "academic/federico/sport-analytics.html#tech-tools",
+    "href": "academic/federico/sport-analytics.html#tech-tools",
+    "title": "Sport Analytics",
+    "section": "Tech & tools",
+    "text": "Tech & tools\n\nPython (pandas, scikit-learn, XGBoost, CatBoost, Optuna, networkx, plotly/matplotlib)\n\nR (rvest, dplyr, ggplot2, FactoMineR, factoextra)\n\nInteractive reporting with HTML exports and dashboards for coach-ready communication."
+  },
+  {
+    "objectID": "academic/federico/index.html",
+    "href": "academic/federico/index.html",
+    "title": "University of Naples Federico II",
+    "section": "",
+    "text": "I completed my Bachelor’s Degree in Statistics for Business and Society at the University of Naples Federico II (final grade 107/110, July 24, 2024).\nThe program built a solid foundation in statistics, econometrics, time series, machine learning, and business analytics.\n👉 Study plan (official PDF):\nView online"
+  },
+  {
+    "objectID": "academic/federico/index.html#overview",
+    "href": "academic/federico/index.html#overview",
+    "title": "University of Naples Federico II",
+    "section": "",
+    "text": "I completed my Bachelor’s Degree in Statistics for Business and Society at the University of Naples Federico II (final grade 107/110, July 24, 2024).\nThe program built a solid foundation in statistics, econometrics, time series, machine learning, and business analytics.\n👉 Study plan (official PDF):\nView online"
+  },
+  {
+    "objectID": "academic/federico/index.html#thesis",
+    "href": "academic/federico/index.html#thesis",
+    "title": "University of Naples Federico II",
+    "section": "Thesis",
+    "text": "Thesis\nDeep Reinforcement Learning for Incomplete Information Games (Blackjack and Poker)\nRead online"
   },
   {
     "objectID": "about.html",
@@ -77,11 +273,200 @@
     "text": "My passion\nLong before I ever wrote my first line of code, I grew up surrounded by ceramics — a family tradition where patience, detail, and creativity were part of everyday life. For me, clay was never just a material: it was something alive, something that teaches you to slow down, to experiment, and to accept that not everything comes out perfect on the first try.\nOver time I started creating my own pieces, and that experience shaped me just as much as any formal education. Ceramics taught me that beauty and meaning come from process as much as from outcome, and that even small imperfections can add character and authenticity.\nThat artistic background is still a big part of who I am. It keeps me connected to tradition, but also gives me perspective: the ability to see beyond function, to value form and story, and to treat what I build — in any context — as something that should carry both purpose and personality.\nAnd if you ever hire me as a data scientist, there’s a good chance you’ll also get a piece of my artwork on your desk — a small reminder that numbers and creativity aren’t so far apart after all.\n\n Take a look at my work here:\njg1w6f-ii.myshopify.com\n\n\n\n Recognition\nRegional Council of Campania — Award for Excellence in Production, 2021.\n\n\n\n\n Exhibitions of my artworks\nCeramic “Vesuvian cherry tomato horn” on Abramovich’s yacht\nA unique piece displayed on the yacht of Roman Abramovich, former Chelsea president.\n\n\nExhibitions across the Sorrento and Amalfi Peninsula\nCelebrating the traditions of my homeland through ceramic works.\n\n\n\n\n Media\nRegional cooking shows\nMy San Gennaro ceramic sculpture featured on local TV programs dedicated to Campania’s cuisine.\n\n\nFootball talk shows\nBringing the color and symbolism of Naples’ tradition into national football discussions."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Emanuele Iaccarino",
+    "objectID": "academic/federico/econometrics.html",
+    "href": "academic/federico/econometrics.html",
+    "title": "Time Series Analysis for Economics and Finance",
     "section": "",
-    "text": "Hi there, I’m Emanuele Iaccarino.\nNumbers have always been my way of making sense of the world — turning ideas into structures, spotting patterns in the noise, and breaking problems into steps I could work through. For a long time I saw this as nothing more than my own way of thinking. Only later did I realize that this mindset is exactly what lies at the heart of data science, and that following this path wasn’t really a choice but the most natural direction forward.\nThat realization shaped my journey. What started as curiosity grew into building models, working with messy data, and uncovering the stories hidden inside. It became not just something I enjoyed, but something I wanted to dedicate myself to fully. Data science didn’t arrive in my life as a plan — it arrived as the recognition of what I had been doing all along.\nEven this website reflects that story. I built it with Quarto, the modern framework born from RStudio, where I first learned to bring statistics, code, and storytelling together. Using the same ecosystem here feels natural — a continuation of the roots that shaped me, now powering the place where I share what I’m building today."
+    "text": "The course introduces the principles and standard techniques of time series analysis applied to economics and finance.\nStudents learn how to analyze, interpret, and forecast key economic and financial variables, using both univariate and multivariate models.\nA strong emphasis is placed on connecting statistical results with underlying economic theories.\n👉 Professor’s page and course info"
+  },
+  {
+    "objectID": "academic/federico/econometrics.html#overview",
+    "href": "academic/federico/econometrics.html#overview",
+    "title": "Time Series Analysis for Economics and Finance",
+    "section": "",
+    "text": "The course introduces the principles and standard techniques of time series analysis applied to economics and finance.\nStudents learn how to analyze, interpret, and forecast key economic and financial variables, using both univariate and multivariate models.\nA strong emphasis is placed on connecting statistical results with underlying economic theories.\n👉 Professor’s page and course info"
+  },
+  {
+    "objectID": "academic/federico/econometrics.html#main-objectives",
+    "href": "academic/federico/econometrics.html#main-objectives",
+    "title": "Time Series Analysis for Economics and Finance",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nUnderstand the statistical issues in modeling and forecasting economic and financial variables\n\nApply univariate and multivariate time series techniques\n\nUse specialized statistical software (Gretl) for dynamic modeling\n\nCritically evaluate empirical results in light of economic theory"
+  },
+  {
+    "objectID": "academic/federico/econometrics.html#learning-outcomes",
+    "href": "academic/federico/econometrics.html#learning-outcomes",
+    "title": "Time Series Analysis for Economics and Finance",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nKnowledge of linear regression generalizations for dynamic data\n\nAbility to apply:\n\nFiltering and Moving Averages\n\nSeasonal adjustment methods\n\nForecasting techniques\n\nGARCH and conditional heteroskedasticity models\n\nIntroduction to multivariate models and cointegration\n\nCapability to harmonize datasets, manage different data sources, and use statistical software with autonomy"
+  },
+  {
+    "objectID": "academic/federico/econometrics.html#tools-used",
+    "href": "academic/federico/econometrics.html#tools-used",
+    "title": "Time Series Analysis for Economics and Finance",
+    "section": "Tools used",
+    "text": "Tools used\n\nGretl (specialized statistical software for econometric and time series analysis)\n\nApplication of econometric theory to real macroeconomic and financial datasets"
+  },
+  {
+    "objectID": "academic/federico/econometrics.html#my-work-in-this-course",
+    "href": "academic/federico/econometrics.html#my-work-in-this-course",
+    "title": "Time Series Analysis for Economics and Finance",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nExtensive notes on time series methods and forecasting approaches\n\nHands-on practice with Gretl, including model fitting, seasonal adjustment, and forecasting exercises\n\nFinal applied project analyzing macroeconomic variables with time series techniques"
+  },
+  {
+    "objectID": "academic/federico/multivariate-analysis.html",
+    "href": "academic/federico/multivariate-analysis.html",
+    "title": "Multivariate Analysis and Statistical Learning",
+    "section": "",
+    "text": "This course provided a first introduction to supervised and unsupervised learning from a statistical perspective.\nThe emphasis was on the theoretical foundations, with many demonstrations of key results in machine learning and classical multivariate methods.\nThe course also introduced R programming as a practical tool for implementing models and running analyses, culminating in a final project."
+  },
+  {
+    "objectID": "academic/federico/multivariate-analysis.html#overview",
+    "href": "academic/federico/multivariate-analysis.html#overview",
+    "title": "Multivariate Analysis and Statistical Learning",
+    "section": "",
+    "text": "This course provided a first introduction to supervised and unsupervised learning from a statistical perspective.\nThe emphasis was on the theoretical foundations, with many demonstrations of key results in machine learning and classical multivariate methods.\nThe course also introduced R programming as a practical tool for implementing models and running analyses, culminating in a final project."
+  },
+  {
+    "objectID": "academic/federico/multivariate-analysis.html#main-objectives",
+    "href": "academic/federico/multivariate-analysis.html#main-objectives",
+    "title": "Multivariate Analysis and Statistical Learning",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nUnderstand the basics of supervised learning (e.g., linear models, discriminant analysis, QDA, LDA)\n\nExplore unsupervised learning (clustering, exploratory data analysis)\n\nDevelop skills in applying theoretical results to practical datasets\n\nLearn to use R and RStudio for statistical modeling and data exploration"
+  },
+  {
+    "objectID": "academic/federico/multivariate-analysis.html#learning-outcomes",
+    "href": "academic/federico/multivariate-analysis.html#learning-outcomes",
+    "title": "Multivariate Analysis and Statistical Learning",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nAbility to implement and interpret fundamental machine learning algorithms\n\nStrong theoretical background with proofs and demonstrations of ML concepts\n\nFirst exposure to statistical computing in R\n\nCapacity to critically evaluate methods through both theory and practice"
+  },
+  {
+    "objectID": "academic/federico/multivariate-analysis.html#my-work-in-this-course",
+    "href": "academic/federico/multivariate-analysis.html#my-work-in-this-course",
+    "title": "Multivariate Analysis and Statistical Learning",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nFinal Project\n\nPredicting House Sale Prices on the Ames Dataset (RStudio)\n\nNotes & Exercises\n\nPersonal notes with detailed proofs and theoretical derivations in statistical learning"
+  },
+  {
+    "objectID": "academic/federico/statistical-consulting.html",
+    "href": "academic/federico/statistical-consulting.html",
+    "title": "Statistical Consulting",
+    "section": "",
+    "text": "This was a practice-oriented course designed to expose students to real-world problems in Machine Learning and Artificial Intelligence.\nUnlike other highly theoretical courses, it emphasized hands-on experimentation, creative problem-solving, and direct engagement with algorithms applied to real datasets.\nThe professor gave students space to explore and often encouraged deeper dives into more advanced topics, which strongly influenced my academic trajectory and motivated my decision to pursue further studies in Rome."
+  },
+  {
+    "objectID": "academic/federico/statistical-consulting.html#overview",
+    "href": "academic/federico/statistical-consulting.html#overview",
+    "title": "Statistical Consulting",
+    "section": "",
+    "text": "This was a practice-oriented course designed to expose students to real-world problems in Machine Learning and Artificial Intelligence.\nUnlike other highly theoretical courses, it emphasized hands-on experimentation, creative problem-solving, and direct engagement with algorithms applied to real datasets.\nThe professor gave students space to explore and often encouraged deeper dives into more advanced topics, which strongly influenced my academic trajectory and motivated my decision to pursue further studies in Rome."
+  },
+  {
+    "objectID": "academic/federico/statistical-consulting.html#main-objectives",
+    "href": "academic/federico/statistical-consulting.html#main-objectives",
+    "title": "Statistical Consulting",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nLearn to apply machine learning algorithms in practice rather than only studying their theory\n\nGain first-hand experience with clustering methods and supervised learning techniques\n\nExplore boosting algorithms, hyperparameter tuning, and ensemble methods\n\nDevelop critical problem-solving skills for tackling imbalanced data and real-world complexity"
+  },
+  {
+    "objectID": "academic/federico/statistical-consulting.html#learning-outcomes",
+    "href": "academic/federico/statistical-consulting.html#learning-outcomes",
+    "title": "Statistical Consulting",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nAbility to implement and tune supervised and unsupervised algorithms\n\nUnderstand the role of boosting and ensembling in improving performance\n\nApply modern tools for model optimization (e.g., Optuna for hyperparameter tuning)\n\nExperiment with data augmentation techniques, including GANs for synthetic data generation\n\nTranslate Kaggle-like competition setups into structured learning experiences"
+  },
+  {
+    "objectID": "academic/federico/statistical-consulting.html#my-work-in-this-course",
+    "href": "academic/federico/statistical-consulting.html#my-work-in-this-course",
+    "title": "Statistical Consulting",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nExploratory projects\n\nRAG Chatbot – Local PDF QA\n\nAnimal Emotion Recognition via LiveCam\n\nFinal Project\n\nAnalysis on Churn Banking Dataset\n\nEnsemble of boosting algorithms with hyperparameter tuning (Optuna)\n\nCost-sensitive learning to handle data imbalance\n\nSynthetic data generation with GANs"
+  },
+  {
+    "objectID": "academic/index.html",
+    "href": "academic/index.html",
+    "title": "Academic Journey",
+    "section": "",
+    "text": "Welcome! This page organizes my coursework by university.\nOpen any card to see program highlights and individual course pages.\n\n\n\n\n\n\nTip\n\n\n\nHow it works\nKeep one folder per university (sapienza/, federico-ii/, deusto/, nautico/) with an index.qmd inside.\nAdd one .qmd per course in that folder—everything will list here automatically.\n\n\n\nUniversities included\n\nSapienza University of Rome — M.Sc. in Data Science (2024–present)\n\nUniversity of Naples Federico II — B.Sc. in Statistics for Business and Society (2021–2024)\n\nUniversidad de Deusto (Erasmus) — Computer Engineering (2023)\n\nI.T.N. Nino Bixio — Mechanical & Naval Engineering (2015–2021)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSapienza University of Rome\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUniversity of Naples Federico II\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Driven Economics\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Machine Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Methods for Data Science\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithmic Methods of Data Mining and Laboratory\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSport Analytics\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Consulting\n\n\n\n\n\n\n\n\n\nMar 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime Series Analysis for Economics and Finance\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nMultivariate Analysis and Statistical Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nSocial Statistics and Survey Sampling\n\n\n\n\n\n\n\n\n\nMar 1, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "academic/sapienza/data-mining.html",
+    "href": "academic/sapienza/data-mining.html",
+    "title": "Algorithmic Methods of Data Mining and Laboratory",
+    "section": "",
+    "text": "This course introduces the main algorithmic techniques of data mining, with applications to semistructured and unstructured data (text, transactions, graphs, information networks).\nStudents gain both theoretical foundations of data mining and practical experience using programming tools for analysis.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/data-mining.html#overview",
+    "href": "academic/sapienza/data-mining.html#overview",
+    "title": "Algorithmic Methods of Data Mining and Laboratory",
+    "section": "",
+    "text": "This course introduces the main algorithmic techniques of data mining, with applications to semistructured and unstructured data (text, transactions, graphs, information networks).\nStudents gain both theoretical foundations of data mining and practical experience using programming tools for analysis.\n👉 Complete course information"
+  },
+  {
+    "objectID": "academic/sapienza/data-mining.html#main-objectives",
+    "href": "academic/sapienza/data-mining.html#main-objectives",
+    "title": "Algorithmic Methods of Data Mining and Laboratory",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nLearn algorithmic techniques for data mining in diverse domains\n\nDevelop competence with graph mining, search engines, and unsupervised learning\n\nAcquire hands-on skills with coding and data exploration"
+  },
+  {
+    "objectID": "academic/sapienza/data-mining.html#learning-outcomes",
+    "href": "academic/sapienza/data-mining.html#learning-outcomes",
+    "title": "Algorithmic Methods of Data Mining and Laboratory",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nAbility to analyze and process unstructured and network data\n\nApply algorithmic methods to extract knowledge from complex datasets\n\nCombine theoretical understanding with programming practice"
+  },
+  {
+    "objectID": "academic/sapienza/data-mining.html#my-work-in-this-course",
+    "href": "academic/sapienza/data-mining.html#my-work-in-this-course",
+    "title": "Algorithmic Methods of Data Mining and Laboratory",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nNotes & Materials\n\nIntroduction Topics, Search Engine, Unsupervised Learning, Graphs\n\nProjects\n\nHomework 1\n\nHomework 2\n\nHomework 3\n\nHomework 4\n\nHomework 5"
+  },
+  {
+    "objectID": "academic/sapienza/index.html",
+    "href": "academic/sapienza/index.html",
+    "title": "Sapienza University of Rome",
+    "section": "",
+    "text": "Program highlights\n- Machine Learning & Deep Learning\n- Statistical Modeling & Bayesian Analysis\n- Big Data & Cloud Computing\n- Reinforcement Learning\n- Data Mining & Exploration\nBelow you’ll find the individual courses — each as its own page — that I completed as part of this program.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData-Driven Economics\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Machine Learning\n\n\n\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Methods for Data Science\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgorithmic Methods of Data Mining and Laboratory\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Data Science\n\n\n\n\n\n\n\n\n\nSep 23, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-methods-ds.html",
+    "href": "academic/sapienza/statistical-methods-ds.html",
+    "title": "Statistical Methods for Data Science",
+    "section": "",
+    "text": "This is a two-semester course (Fundamentals of Statistical Learning I & II) providing the core foundations of statistical inference for data science.\nIt covers both frequentist and Bayesian paradigms, with applications in estimation, hypothesis testing, model checking, and forecasting.\n👉 Complete course information – Part I\n👉 Complete course information – Part II"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-methods-ds.html#overview",
+    "href": "academic/sapienza/statistical-methods-ds.html#overview",
+    "title": "Statistical Methods for Data Science",
+    "section": "",
+    "text": "This is a two-semester course (Fundamentals of Statistical Learning I & II) providing the core foundations of statistical inference for data science.\nIt covers both frequentist and Bayesian paradigms, with applications in estimation, hypothesis testing, model checking, and forecasting.\n👉 Complete course information – Part I\n👉 Complete course information – Part II"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-methods-ds.html#main-objectives",
+    "href": "academic/sapienza/statistical-methods-ds.html#main-objectives",
+    "title": "Statistical Methods for Data Science",
+    "section": "Main objectives",
+    "text": "Main objectives\n\nBuild and analyze probabilistic models for observed phenomena\n\nLearn estimation, hypothesis testing, model validation, and forecasting\n\nCompare frequentist vs Bayesian approaches\n\nApply simulation-based methods: Bootstrap, Monte Carlo, MCMC\n\nDevelop statistical computation skills in R, JAGS, OpenBUGS, Stan"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-methods-ds.html#learning-outcomes",
+    "href": "academic/sapienza/statistical-methods-ds.html#learning-outcomes",
+    "title": "Statistical Methods for Data Science",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\n\nUnderstand both theory and practice of inference methods\n\nImplement inference tasks with probabilistic programming tools\n\nGain hands-on experience with Bayesian modeling (Monte Carlo, MCMC)\n\nCommunicate results effectively via reports, presentations, and visualizations\n\nBuild critical judgment to evaluate and contrast alternative strategies"
+  },
+  {
+    "objectID": "academic/sapienza/statistical-methods-ds.html#my-work-in-this-course",
+    "href": "academic/sapienza/statistical-methods-ds.html#my-work-in-this-course",
+    "title": "Statistical Methods for Data Science",
+    "section": "My work in this course",
+    "text": "My work in this course\n\nNotes & Materials\n\nComplete notes for both semesters\n\nProjects\n\nPart I: Final Project SDS1\n\nPart II: Bayesian Survival Analysis of Veteran Lung Cancer Patients"
   },
   {
     "objectID": "projects/Churn Analysis on Banking Dataset/index.html",
@@ -109,7 +494,7 @@
     "href": "projects.html",
     "title": "projects",
     "section": "",
-    "text": "Bayesian Survival Analysis of Veteran Lung Cancer Patients\n\n\na Bayesian survival modeling project comparing exponential and Weibull AFT models on the Veteran’s Lung Cancer dataset\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrediction of Medical Care Abandonment in Italy\n\n\na research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models\n\n\nEconometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity Detection Algorithms — Self-Implemented and Optimized\n\n\nA Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over…\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSnake with Curriculum Learning\n\n\nTraining an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nChurn Analysis on Banking Dataset\n\n\nPredicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSQL Parser Data Pipeline\n\n\nA Python library for parsing and interpreting complex SQL queries, designed for BigQuery workflows and adaptable to other SQL dialects.\n\n\n\n\n\n\nApr 1, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Prediction of Medical Care Abandonment in Italy\n\n\na research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models\n\n\nEconometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity Detection Algorithms — Self-Implemented and Optimized\n\n\nA Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over…\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSnake with Curriculum Learning\n\n\nTraining an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nChurn Analysis on Banking Dataset\n\n\nPredicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSQL Parser Data Pipeline\n\n\nA Python library for parsing and interpreting complex SQL queries, designed for BigQuery workflows and adaptable to other SQL dialects.\n\n\n\n\n\n\nApr 1, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "pubblications/Breast Cancer/index.html",
@@ -124,5 +509,19 @@
     "title": "Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques",
     "section": "",
     "text": "This study applies reinforcement learning (RL) to the Unity ML-Agents Toolkit, with case studies on WallJump and SoccerTwos.\nAlgorithms implemented include Imitation Learning, Proximal Policy Optimization (PPO), Soft Actor-Critic (SAC), and POCA, evaluated with TensorBoard monitoring.\nEnhancements explored:\n- Curriculum learning in WallJump for complex task training\n- Self-play in SoccerTwos for competitive multi-agent strategies\n- Hyperparameter tuning for improved stability and performance\nKey results:\n- SAC outperformed PPO in continuous-control environments (3DBall)\n- Curriculum learning accelerated convergence in WallJump\n- Self-play produced stronger agents in adversarial settings\n- Hyperparameter tuning critically influenced model robustness\nRead on ResearchGate\n\n\n\nUnity ML-Agents environments explored: WallJump and SoccerTwos"
+  },
+  {
+    "objectID": "academic/federico/index.html#documents",
+    "href": "academic/federico/index.html#documents",
+    "title": "University of Naples Federico II",
+    "section": "Documents",
+    "text": "Documents\n\nExams + Grades (PDF) — Open · Download\n\nExams + Dates (PDF) — Open · Download\nList of Exams (PDF) — Open · Download\n\n\nTip: i link “Open” aprono il PDF nel browser; il link “Download” forza lo scaricamento."
+  },
+  {
+    "objectID": "academic/federico/index.html#key-learning-areas",
+    "href": "academic/federico/index.html#key-learning-areas",
+    "title": "University of Naples Federico II",
+    "section": "Key learning areas",
+    "text": "Key learning areas\n\nMathematics & Probability • Statistical Inference • Econometrics & Time Series\n\nStatistical Learning & Data Mining • SQL/R/Python/SAS • Business & Finance"
   }
 ]
