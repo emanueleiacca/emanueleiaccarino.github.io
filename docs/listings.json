@@ -9,6 +9,14 @@
     ]
   },
   {
+    "listing": "/academic/deusto/index.html",
+    "items": [
+      "/academic/deusto/advanced-information-modeling.html",
+      "/academic/deusto/machine-learning.html",
+      "/academic/deusto/reinforcement-learning.html"
+    ]
+  },
+  {
     "listing": "/academic/federico/index.html",
     "items": [
       "/academic/federico/sport-analytics.html",
@@ -19,33 +27,8 @@
     ]
   },
   {
-    "listing": "/academic/index.html",
-    "items": [
-      "/academic/sapienza/cloud-computing.html",
-      "/academic/sapienza/index.html",
-      "/academic/sapienza/networking-big-data.html",
-      "/academic/sapienza/signal-processing.html",
-      "/academic/federico/index.html",
-      "/academic/deusto/index.html",
-      "/academic/nautico/index.html",
-      "/academic/sapienza/data-driven-economics.html",
-      "/academic/sapienza/statistical-learning.html",
-      "/academic/sapienza/data-mining.html",
-      "/academic/sapienza/fundamentals-ds.html",
-      "/academic/sapienza/statistical-methods-ds.html",
-      "/academic/federico/sport-analytics.html",
-      "/academic/federico/statistical-consulting.html",
-      "/academic/federico/econometrics.html",
-      "/academic/federico/multivariate-analysis.html",
-      "/academic/federico/survey-sampling.html"
-    ]
-  },
-  {
     "listing": "/academic/sapienza/index.html",
     "items": [
-      "/academic/sapienza/cloud-computing.html",
-      "/academic/sapienza/networking-big-data.html",
-      "/academic/sapienza/signal-processing.html",
       "/academic/sapienza/data-driven-economics.html",
       "/academic/sapienza/statistical-learning.html",
       "/academic/sapienza/data-mining.html",

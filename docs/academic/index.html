@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logo.jpg" rel="icon" type="image/jpeg">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,67 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Emanuele Iaccarino" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light">
 
@@ -215,7 +155,7 @@ window.Quarto = {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
       <h1 class="title">Academic Journey</h1>
-            <p class="subtitle lead">Main courses and programs across my academic career</p>
+            <p class="subtitle lead">Universities and the paths I followed</p>
                       </div>
   </div>
     
@@ -236,7 +176,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#universities-included" id="toc-universities-included" class="nav-link active" data-scroll-target="#universities-included">Universities included</a></li>
+  <li><a href="#sapienza-university-of-rome" id="toc-sapienza-university-of-rome" class="nav-link active" data-scroll-target="#sapienza-university-of-rome">🎓 Sapienza University of Rome</a></li>
+  <li><a href="#university-of-naples-federico-ii" id="toc-university-of-naples-federico-ii" class="nav-link" data-scroll-target="#university-of-naples-federico-ii">🎓 University of Naples Federico II</a></li>
+  <li><a href="#universidad-de-deusto-erasmus" id="toc-universidad-de-deusto-erasmus" class="nav-link" data-scroll-target="#universidad-de-deusto-erasmus">🎓 Universidad de Deusto (Erasmus)</a></li>
   </ul>
 </nav>
     </div>
@@ -247,420 +189,28 @@ window.Quarto = {
 
 
 
-<p>Welcome! This page organizes my <strong>coursework by university</strong>.<br>
-Open any card to see program highlights and individual course pages.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>How it works</strong><br>
-Keep one folder per university (<code>sapienza/</code>, <code>federico-ii/</code>, <code>deusto/</code>, <code>nautico/</code>) with an <code>index.qmd</code> inside.<br>
-Add one <code>.qmd</code> per course in that folder—everything will list here automatically.</p>
-</div>
-</div>
-<section id="universities-included" class="level3">
-<h3 class="anchored" data-anchor-id="universities-included">Universities included</h3>
-<ul>
-<li><strong>Sapienza University of Rome</strong> — M.Sc. in Data Science (2024–present)<br>
-</li>
-<li><strong>University of Naples Federico II</strong> — B.Sc. in Statistics for Business and Society (2021–2024)<br>
-</li>
-<li><strong>Universidad de Deusto (Erasmus)</strong> — Computer Engineering (2023)<br>
-</li>
-<li><strong>I.T.N. Nino Bixio</strong> — Mechanical &amp; Naval Engineering (2015–2021)</li>
-</ul>
-
+<section id="sapienza-university-of-rome" class="level2">
+<h2 class="anchored" data-anchor-id="sapienza-university-of-rome">🎓 Sapienza University of Rome</h2>
+<p><em>M.Sc. in Data Science (2024 – Present)</em></p>
+<p><img src="sapienza/sapienza_banter.png" class="img-fluid" style="width:100.0%"></p>
+<p>👉 <a href="../academic/sapienza/index.html">See full coursework →</a></p>
+</section>
+<section id="university-of-naples-federico-ii" class="level2">
+<h2 class="anchored" data-anchor-id="university-of-naples-federico-ii">🎓 University of Naples Federico II</h2>
+<p><em>B.Sc. in Statistics for Business and Society (2021 – 2024)</em></p>
+<p><img src="federico/fed.png" class="img-fluid" style="width:100.0%"></p>
+<p>👉 <a href="../academic/federico/index.html">See full coursework →</a></p>
+</section>
+<section id="universidad-de-deusto-erasmus" class="level2">
+<h2 class="anchored" data-anchor-id="universidad-de-deusto-erasmus">🎓 Universidad de Deusto (Erasmus)</h2>
+<p><em>Computer Engineering Exchange (2023)</em></p>
+<p><img src="images/deusto_banner.jpg" class="img-fluid" style="width:100.0%"></p>
+<p>👉 <a href="../academic/deusto/index.html">See full coursework →</a></p>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759353104243">
-<a href="../academic/sapienza/cloud-computing.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759356013674" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<a href="../academic/sapienza/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/sapienza/sapienza_banter.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sapienza University of Rome
-</h5>
-<div class="card-text listing-description delink">
-<strong>Program highlights</strong><br>
-- Machine Learning &amp; Deep Learning<br>
-- Statistical Modeling &amp; Bayesian Analysis<br>
-- Big Data &amp; Cloud Computing<br>
-- Reinforcement Learning<br>
-- Data Mining &amp;…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1759353118214">
-<a href="../academic/sapienza/networking-big-data.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1759353124487">
-<a href="../academic/sapienza/signal-processing.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1759393179389" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
-<a href="../academic/federico/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/federico/fed.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-University of Naples Federico II
-</h5>
-<div class="card-text listing-description delink">
-I completed my <strong>Bachelor’s Degree in Statistics for Business and Society</strong> at the University of Naples Federico II (final grade <strong>107/110</strong>, July 24, 2024).<br>
-The program built a…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1759353005988">
-<a href="../academic/deusto/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1759353015891">
-<a href="../academic/nautico/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1740783600000" data-listing-file-modified-sort="1759355891374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
-<a href="../academic/sapienza/data-driven-economics.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/sapienza/images/dd.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data-Driven Economics
-</h5>
-<div class="card-text listing-description delink">
-This course introduces the <strong>theoretical and practical foundations of econometric analysis</strong>.<br>
-It covers regression models (linear and non-linear), estimation and inference…<strong></strong><strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1740783600000" data-listing-file-modified-sort="1759355889025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="196">
-<a href="../academic/sapienza/statistical-learning.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/sapienza/images/sl.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Statistical Machine Learning
-</h5>
-<div class="card-text listing-description delink">
-This course introduces the <strong>theory and methodology of statistical machine learning</strong>, focusing on error bounds, performance guarantees, and the design of successful learning…<br><strong></strong><strong></strong><strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355058939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
-<a href="../academic/sapienza/data-mining.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/sapienza/images/adm.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Algorithmic Methods of Data Mining and Laboratory
-</h5>
-<div class="card-text listing-description delink">
-This course introduces the <strong>main algorithmic techniques of data mining</strong>, with applications to semistructured and unstructured data (text, transactions, graphs, information…<br><strong></strong><strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 23, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759355013570" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
-<a href="../academic/sapienza/fundamentals-ds.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/sapienza/images/fds.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fundamentals of Data Science
-</h5>
-<div class="card-text listing-description delink">
-This course introduces the <strong>foundational tools of data science</strong>, combining machine learning, statistical modeling, and network science.<br>
-Students learn how to treat data as a…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 23, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1759393235683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
-<a href="../academic/sapienza/statistical-methods-ds.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/sapienza/images/sds.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Statistical Methods for Data Science
-</h5>
-<div class="card-text listing-description delink">
-This is a <strong>two-semester course</strong> (Fundamentals of Statistical Learning I &amp; II) providing the core foundations of statistical inference for data science.<br>
-It covers both <strong>frequenti…</strong><strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sep 23, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="12" data-listing-date-sort="1709247600000" data-listing-file-modified-sort="1759392515383" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
-<a href="../academic/federico/sport-analytics.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/federico/images/sport.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Sport Analytics
-</h5>
-<div class="card-text listing-description delink">
-A practice-oriented course on <strong>applied analytics in sport</strong>, guided by a professor active in the field with extensive publications (LinkedIn profile).<br>
-The emphasis was on <strong>hands-…</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="13" data-listing-date-sort="1709247600000" data-listing-file-modified-sort="1759392529053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
-<a href="../academic/federico/statistical-consulting.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/federico/images/sc.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Statistical Consulting
-</h5>
-<div class="card-text listing-description delink">
-This was a <strong>practice-oriented course</strong> designed to expose students to <strong>real-world problems in Machine Learning and Artificial Intelligence</strong>.<br>
-Unlike other highly theoretical…<strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2024
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="14" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1759391404070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="247">
-<a href="../academic/federico/econometrics.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/federico/images/gretl.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Time Series Analysis for Economics and Finance
-</h5>
-<div class="card-text listing-description delink">
-The course introduces the <strong>principles and standard techniques of time series analysis</strong> applied to economics and finance.<br>
-Students learn how to analyze, interpret, and forecast…<strong></strong><br>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="15" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1759392536085" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
-<a href="../academic/federico/multivariate-analysis.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/federico/images/mult.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Multivariate Analysis and Statistical Learning
-</h5>
-<div class="card-text listing-description delink">
-This course provided a <strong>first introduction to supervised and unsupervised learning</strong> from a statistical perspective.<br>
-The emphasis was on the <strong>theoretical foundations</strong>, with many…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="16" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1759391476380" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
-<a href="../academic/federico/survey-sampling.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../academic/federico/images/survey.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Social Statistics and Survey Sampling
-</h5>
-<div class="card-text listing-description delink">
-This course focused on the <strong>theoretical foundations of survey sampling and social statistics</strong>.<br>
-Students learned the principles of designing and analyzing surveys, with…<br>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2023
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

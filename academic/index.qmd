@@ -1,37 +1,30 @@
 ---
 title: "Academic Journey"
-subtitle: "Main courses and programs across my academic career"
-listing:
-  contents:
-    - sapienza
-    - federico
-    - deusto
-    - nautico
-  feed: true
-  sort: "date desc"
-  type: grid
-  grid-item-border: true
-  grid-item-align: left
-  max-description-length: 175
-  date-format: medium
-  sort-ui: false
-  filter-ui: false
+subtitle: "Universities and the paths I followed"
 page-layout: full
 title-block-banner: true
-image: sapienza_banter.png
 ---
 
-Welcome! This page organizes my **coursework by university**.  
-Open any card to see program highlights and individual course pages.
+## 🎓 Sapienza University of Rome  
+*M.Sc. in Data Science (2024 – Present)*  
 
-::: callout-tip
-**How it works**  
-Keep one folder per university (`sapienza/`, `federico-ii/`, `deusto/`, `nautico/`) with an `index.qmd` inside.  
-Add one `.qmd` per course in that folder—everything will list here automatically.
-:::
+![](sapienza/sapienza_banter.png){width=100%}
 
-### Universities included
-- **Sapienza University of Rome** — M.Sc. in Data Science (2024–present)  
-- **University of Naples Federico II** — B.Sc. in Statistics for Business and Society (2021–2024)  
-- **Universidad de Deusto (Erasmus)** — Computer Engineering (2023)  
-- **I.T.N. Nino Bixio** — Mechanical & Naval Engineering (2015–2021)
+👉 [See full coursework →](sapienza/index.qmd)
+
+
+## 🎓 University of Naples Federico II  
+*B.Sc. in Statistics for Business and Society (2021 – 2024)*  
+
+![](federico/fed.png){width=100%}
+
+👉 [See full coursework →](federico/index.qmd)
+
+
+## 🎓 Universidad de Deusto (Erasmus)  
+*Computer Engineering Exchange (2023)*  
+
+![](images/deusto_banner.jpg){width=100%}
+
+👉 [See full coursework →](deusto/index.qmd)
+

@@ -1,0 +1,34 @@
+---
+title: "Reinforcement Learning"
+subtitle: "Universidad de Deusto"
+page-layout: full
+title-block-banner: true
+image: images/rl.png
+date: 2023-09-01
+---
+
+## 📘 Overview  
+
+This course explored both **classical RL algorithms** (MDPs, Monte Carlo, SARSA, Q-Learning) and **modern deep RL techniques** (policy gradients, DQN, PPO, SAC).  
+A strong emphasis was placed on **experimentation and projects**, from implementing tabular methods to building agents in complex environments.  
+Trends such as **imitation learning, multi-agent systems, Curriculum learning and offline RL** were also introduced.  
+
+👉 [Official Teaching Guide (Deusto)](https://gaude.deusto.es/doa/consultaPublica/look%5bconpub%5dMostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=en.GB&_anoAcademico=2025&_codAsignatura=145645)
+
+---
+
+## 🔗 Related Projects & Publications  
+
+- **Frozen Lake with Tabular Algorithms**  
+  Repo: [Frozen Lake RL](https://github.com/emanueleiacca/Reinforcement-Learning-Frozen-Lake-env-with-Tabular-Algorithms)  
+  Paper: [Frozen Lake study](https://emanueleiacca.github.io/emanueleiaccarino.github.io/pubblications/Frozen%20Lake/)  
+  [ResearchGate](https://www.researchgate.net/publication/377272613_Exploring_and_Optimizing_Reinforcement_Learning_Algorithms_in_the_Frozen_Lake_environment_in_Deterministic_and_Stochastic_env_and_hyperparameters_optimization_through_Optuna)  
+
+- **Snake with Curriculum Learning**  
+  Repo: [Snake-with-Curriculum-Learning](https://github.com/emanueleiacca/Snake-with-Curriculum-Learning)  
+  Project page: [Curriculum Learning Snake](https://emanueleiacca.github.io/emanueleiaccarino.github.io/projects/Snake%20with%20Curriculum%20Learning/)  
+
+- **Unity ML-Agents — Soccer & Wall Jump**  
+  Repo: [SoccerGame](https://github.com/emanueleiacca/SoccerGame)  
+  Paper: [Unity ML Agents: Wall Jump & SoccerTwos](https://emanueleiacca.github.io/emanueleiaccarino.github.io/pubblications/Unity%20ML%20Agents/)  
+  [ResearchGate](https://www.researchgate.net/publication/377273320_Unity_ML_Agents_Wall_Jump_and_SoccerTwos_environment_using_Reinforcement_Learning_RL_tecnique)  

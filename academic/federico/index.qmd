@@ -43,3 +43,6 @@ The program built a solid foundation in statistics, econometrics, time series, m
 ## Key learning areas
 - **Mathematics & Probability** • **Statistical Inference** • **Econometrics & Time Series**  
 - **Statistical Learning & Data Mining** • **SQL/R/Python/SAS** • **Business & Finance**
+
+---
+## Main Courses

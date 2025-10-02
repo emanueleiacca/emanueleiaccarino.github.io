@@ -16,11 +16,33 @@ title-block-banner: true
 image: sapienza_banter.png
 ---
 
-**Program highlights**  
-- Machine Learning & Deep Learning  
-- Statistical Modeling & Bayesian Analysis  
-- Big Data & Cloud Computing  
-- Reinforcement Learning  
-- Data Mining & Exploration  
+## 🎓 Master in Data Science  
 
-Below you’ll find the individual courses — each as its own page — that I completed as part of this program.
+- Study plan (official): <https://corsidilaurea.uniroma1.it/it/course/33519/study-plan?year=2024&code=32344>  
+
+### Registered Exams (Infostud extract)
+```{r}
+library(tibble)
+
+# Dati presi da Infostud (Esami registrati finora)
+df_sapienza <- tibble::tribble(
+ ~exam,                                                   ~cfu, ~grade,
+ "Statistical Methods in Data Science and Lab",             12,     30,
+ "Statistical Learning",                                     6,     30,
+ "Data Driven Economics",                                    6,     27,
+ "Fundamentals of Data Science and Lab",                     9,     27,
+ "Algorithmic Methods of Data Mining and Lab",               9,     28
+)
+```
+
+```{r}
+media_aritmetica <- mean(df_sapienza$grade)
+cat(sprintf("• Media aritmetica: %.1f/30\n", media_aritmetica))
+```
+
+```{r}
+media_ponderata  <- stats::weighted.mean(df_sapienza$grade, w = df_sapienza$cfu)
+cat(sprintf("• Media ponderata (per CFU): %.1f/30\n", media_ponderata))
+```
+
+## Courses

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Emanuele Iaccarino</title>
+<title>Universidad de Deusto – Emanuele Iaccarino</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/logo.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -71,14 +73,72 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -151,22 +211,146 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Universidad de Deusto</h1>
+            <p class="subtitle lead">Erasmus Program — Computer Engineering (2023)</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#erasmus-universidad-de-deusto" id="toc-erasmus-universidad-de-deusto" class="nav-link active" data-scroll-target="#erasmus-universidad-de-deusto">🎓 Erasmus @ Universidad de Deusto</a>
+  <ul class="collapse">
+  <li><a href="#modules-taken-exchange-upper-level" id="toc-modules-taken-exchange-upper-level" class="nav-link" data-scroll-target="#modules-taken-exchange-upper-level">Modules taken (exchange, upper-level)</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
+<section id="erasmus-universidad-de-deusto" class="level2">
+<h2 class="anchored" data-anchor-id="erasmus-universidad-de-deusto">🎓 Erasmus @ Universidad de Deusto</h2>
+<p><em>Computer Engineering — Exchange Program (2023)</em></p>
+<ul>
+<li>Study plan (official): <a href="https://www.deusto.es/en/home/study/courses/bachelors-degree/data-science-artificial-intelligence/study-plan" class="uri">https://www.deusto.es/en/home/study/courses/bachelors-degree/data-science-artificial-intelligence/study-plan</a></li>
+</ul>
+<section id="modules-taken-exchange-upper-level" class="level3">
+<h3 class="anchored" data-anchor-id="modules-taken-exchange-upper-level">Modules taken (exchange, upper-level)</h3>
+<ul>
+<li>Reinforcement Learning<br>
+</li>
+<li>Big Data Analytics<br>
+</li>
+<li>Business Intelligence<br>
+</li>
+<li>Advanced Databases<br>
+</li>
+<li>Machine Learning</li>
+</ul>
+<blockquote class="blockquote">
+<p>Focus: stepping from a statistics background into hands-on computer engineering—projects, systems, and RL practice—while improving communication in an international environment.</p>
+</blockquote>
 
 
-</main> <!-- /main -->
+
+</section>
+</section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1759395811256" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<a href="../../academic/deusto/advanced-information-modeling.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../academic/deusto/images/aim.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Advanced Information Modeling
+</h5>
+<div class="card-text listing-description delink">
+A core course focused on <strong>modern paradigms for information modeling and storage</strong>.<br>
+It introduced relational design and normalization, data warehouses, SQL optimization…<br><strong></strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1759395699730" data-listing-reading-time-sort="2" data-listing-word-count-sort="215">
+<a href="../../academic/deusto/machine-learning.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../academic/deusto/images/ml.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Machine Learning
+</h5>
+<div class="card-text listing-description delink">
+This course provided a comprehensive introduction to modern ML workflows: from <strong>data preparation and feature engineering</strong> to the evaluation of supervised and unsupervised…<br><br><strong></strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1693519200000" data-listing-file-modified-sort="1759395184338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="144">
+<a href="../../academic/deusto/reinforcement-learning.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../../academic/deusto/images/rl.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Reinforcement Learning
+</h5>
+<div class="card-text listing-description delink">
+This course explored both <strong>classical RL algorithms</strong> (MDPs, Monte Carlo, SARSA, Q-Learning) and <strong>modern deep RL techniques</strong> (policy gradients, DQN, PPO, SAC).<br>
+A strong emphasis…<strong></strong><br><strong></strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sep 1, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

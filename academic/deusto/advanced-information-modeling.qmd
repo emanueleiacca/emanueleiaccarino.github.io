@@ -1,0 +1,19 @@
+---
+title: "Advanced Information Modeling"
+subtitle: "Universidad de Deusto"
+page-layout: full
+title-block-banner: true
+image: images/aim.png
+---
+
+## 📘 Overview  
+
+A core course focused on **modern paradigms for information modeling and storage**.  
+It introduced relational design and normalization, data warehouses, SQL optimization, distributed databases, and NoSQL approaches.  
+The emphasis was on **theory and laboratory practice**, requiring hands-on database design and experimentation with secure, efficient query systems.  
+
+👉 [Official Teaching Guide (Deusto)](https://gaude.deusto.es/doa/consultaPublica/look%5bconpub%5dMostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=en.GB&_anoAcademico=2025&_codAsignatura=145610)
+
+---
+
+📌 *This was one of the most demanding courses during my Erasmus and academic career, with a strong technical and theoretical component that pushed me to deepen my understanding of database systems.*

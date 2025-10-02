@@ -1,0 +1,35 @@
+---
+title: "Machine Learning"
+subtitle: "Universidad de Deusto"
+page-layout: full
+title-block-banner: true
+image: images/ml.png
+---
+
+## 📘 Machine Learning  
+
+This course provided a comprehensive introduction to modern ML workflows: from **data preparation and feature engineering** to the evaluation of supervised and unsupervised models.  
+We covered classification (SVM, decision trees, random forests, naïve Bayes), regression (linear, RANSAC, Theil-Sen, Huber, ensembles), clustering (K-Means, DBSCAN, Gaussian Mixtures), and model interpretability techniques.  
+The methodology strongly combined **theory and practice**, including hands-on projects and model optimization.  
+
+👉 [Official Teaching Guide (Deusto)](https://gaude.deusto.es/doa/consultaPublica/look%5bconpub%5dMostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=en.GB&_anoAcademico=2025&_codAsignatura=145614)
+
+---
+
+## 🔗 Related Projects & Applications  
+
+- **Health Risk Prediction (Classification: Smoking/Drinking)**  
+  Repo: [Smoking-Drinking-analysis](https://github.com/emanueleiacca/Smoking-Drinking-analysis)  
+  Applied multiple classifiers (Decision Trees, Random Forests, Naïve Bayes, SVM, SGD, AdaBoost, LightGBM, XGBoost) with **Optuna hyperparameter tuning** to predict lifestyle risk factors.  
+
+- **Craigslist Used Cars (Regression)**  
+  Repo: [Used-Cars-Price-Kaggle](https://github.com/emanueleiacca/Used-Cars-Price-Kaggle)  
+  Implemented and optimized regression models (Linear, Random Forest, Polynomial, SVM, SGD) and **ensemble methods** with Optuna, achieving strong predictive performance on ~200k car listings.  
+
+- **Mall Customer Segmentation (Clustering)**  
+  Repo: [Mall-Customer-Segmentation-Data-Kaggle](https://github.com/emanueleiacca/Mall-Customer-Segmentation-Data-Kaggle)  
+  Performed unsupervised clustering (K-Means, DBSCAN, Gaussian Mixtures, Agglomerative, OPTICS, BIRCH), combined with PCA for visualization. Compared clustering approaches to optimize segmentation strategies.  
+
+---
+
+📌 *This course was pivotal for consolidating my skills in ML: not only implementing algorithms but also performing critical evaluation, tuning, and applying them to real-world datasets.*
