@@ -24,7 +24,7 @@ title-block-banner: true
 ## 🎓 Universidad de Deusto (Erasmus)  
 *Computer Engineering Exchange (2023)*  
 
-![](images/deusto_banner.jpg){width=100%}
+![](images/deusto/deusto.png){width=100%}
 
 👉 [See full coursework →](deusto/index.qmd)
 
