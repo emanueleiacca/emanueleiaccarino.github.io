@@ -1,8 +1,8 @@
 ---
-title: "pubblications"
+title: "publications"
 subtitle: "selected academic and research contributions" 
 listing:
-  contents: pubblications
+  contents: publications
   feed: true
   sort: "date desc"
   type: grid
