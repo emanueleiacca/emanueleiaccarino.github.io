@@ -83,13 +83,13 @@ Strengthened multitasking, clear communication with kitchen staff, and teamwork 
 ## 🎓 Education  
 
 - **M.Sc. in Data Science** — Sapienza University of Rome (2024–Present)  
-  👉 [See coursework](sapienza/index.qmd)  
+  👉 [See coursework](academic/sapienza/index.qmd)  
 
 - **B.Sc. in Statistics for Business and Society** — University of Naples Federico II (2021–2024)  
-  👉 [See coursework](federico/index.qmd)  
+  👉 [See coursework](academic/federico/index.qmd)  
 
 - **Erasmus in Computer Engineering** — Universidad de Deusto (2023)  
-  👉 [See coursework](deusto/index.qmd)  
+  👉 [See coursework](academic/deusto/index.qmd)  
 
 - **High School Diploma in Mechanical and Naval Engineering** — Istituto Tecnico Nautico Nino Bixio (2015–2021)  
 

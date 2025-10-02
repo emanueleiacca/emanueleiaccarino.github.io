@@ -1,35 +1,57 @@
+project:
+  type: website
+  output-dir: docs
+
 website:
-  title: "E. IACCARINO"   # short to avoid truncation
+  title: "E. Iaccarino"
+  # reader-mode: true
+  # repo-url: https://github.com/emanueleiacca/emanueleiacca.github.io
+  # repo-actions: [edit, issue]
   site-url: https://emanueleiacca.github.io/
-  favicon: images/logo.jpg
+  favicon: images/logo.jpg   # <- update path if needed
   navbar:
-    title: E. IACCARINO
-    logo: images/logo.jpg
+    title: E. Iaccarino
+    logo: images/logo.jpg # <- update or remove if you don't have a logo
     logo-alt: "Emanuele Iaccarino personal mark"
     right:
       - href: index.qmd
-        text: HOME
-      - href: about.qmd
-        text: ABOUT
+        text: home
+      - about.qmd
       - href: academic/index.qmd
-        text: ACADEMIC
+        text: academic
       - href: projects.qmd
-        text: PROJECTS
-      - href: publications.qmd    # if the page is actually spelled this way keep it; otherwise rename the file and use publications.qmd
-        text: PUBLICATIONS
+        text: projects
+      - href: publications.qmd
+        text: publications
       - href: awards-certifications.qmd
-        text: AWARDS & CERTS
+        text: awards & certifications
       - href: cv.qmd
         text: CV
-      - text: CONTACT
+
+      - text: get in touch!
         menu:
+      
           - icon: linkedin
-            text: LINKEDIN
+            text: LinkedIn
             href: https://www.linkedin.com/in/emanuele-iaccarino-a4298b27b/
             target: _blank
           - icon: envelope
-            text: EMAIL
+            text: email
             href: mailto:emanueleiaccarino.ei@gmail.com
       - icon: github
         href: https://github.com/emanueleiacca
         target: _blank
+
+  page-footer:
+    background: light
+    left: "© 2025 Emanuele Iaccarino"
+    right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/emanueleiacca){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
+format:
+  html:
+    page-layout: full
+    sidebar: false
+    theme:
+      - styles.scss         
+    mainfont: Nunito
+    toc: true

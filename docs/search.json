@@ -1,21 +1,21 @@
 [
   {
-    "objectID": "pubblications.html",
-    "href": "pubblications.html",
-    "title": "pubblications",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "publications",
     "section": "",
     "text": "Deep Reinforcement Learning for Incomplete Information Card Games (BlackJack and Poker)\n\n\nApplication of RL and DRL algorithms to strategic decision-making in Blackjack and Poker, exploring uncertainty and incomplete information.\n\n\n\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nBreast Cancer Classification with Deep Learning\n\n\nA deep learning pipeline for classifying mammographic images from the CBIS dataset, leveraging preprocessing and transfer learning.\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques\n\n\nImplementation and comparative study of reinforcement learning algorithms in Unity ML environments, with case studies on WallJump and SoccerTwos.\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment\n\n\nAnalysis of RL algorithms in deterministic and stochastic Frozen Lake environments, with hyperparameter optimization via Optuna.\n\n\n\n\n\n\nOct 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "pubblications/Frozen Lake/index.html",
-    "href": "pubblications/Frozen Lake/index.html",
+    "objectID": "publications/Frozen Lake/index.html",
+    "href": "publications/Frozen Lake/index.html",
     "title": "Exploring and Optimizing Reinforcement Learning Algorithms in the Frozen Lake Environment",
     "section": "",
     "text": "This project evaluates reinforcement learning algorithms in the Frozen Lake environment, under both deterministic and stochastic settings.\nAlgorithms studied include Monte Carlo, Sarsa, Expected Sarsa, Q-Learning, and Double Q-Learning.\nA key focus is hyperparameter optimization with Optuna, applied to Q-Learning to improve learning efficiency.\nKey results:\n- Q-Learning and Double Q-Learning performed robustly in stochastic scenarios\n- Discount rate and learning rate were critical for convergence and stability\n- Optuna tuning enhanced Q-Learning’s efficiency across environments\n- Findings provide guidance for RL applications in grid-world tasks\nRead full-text on ResearchGate\n\n\n\nExploring deterministic and stochastic Frozen Lake environments with RL"
   },
   {
-    "objectID": "pubblications/BlackJack and Poker/index.html",
-    "href": "pubblications/BlackJack and Poker/index.html",
+    "objectID": "publications/BlackJack and Poker/index.html",
+    "href": "publications/BlackJack and Poker/index.html",
     "title": "Deep Reinforcement Learning for Incomplete Information Card Games (BlackJack and Poker)",
     "section": "",
     "text": "This thesis explores reinforcement learning (RL) and deep reinforcement learning (DRL) techniques in Blackjack and Poker, two games of incomplete information that require complex strategy under uncertainty.\nMethods include Deep Q-Networks (DQN), Counterfactual Regret Minimization (CFR), Deep Monte Carlo (DMC), and Neural Fictitious Self-Play (NFSP), evaluated for their ability to handle stochasticity, hidden information, and strategic adaptation.\nKey results:\n- DQN learns structured Blackjack strategies effectively\n- CFR and NFSP excel in Poker, adapting to incomplete information\n- DMC achieves robust convergence in high-dimensional state spaces\n- DRL methods demonstrate potential for superhuman performance in competitive card games\nRead full-text on ResearchGate\n\n\n\nDeep reinforcement learning applied to Blackjack and Poker"
@@ -44,7 +44,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Emanuele Iaccarino",
+    "title": "E. Iaccarino",
     "section": "",
     "text": "Hi there, I’m Emanuele Iaccarino.\nNumbers have always been my way of making sense of the world — turning ideas into structures, spotting patterns in the noise, and breaking problems into steps I could work through. For a long time I saw this as nothing more than my own way of thinking. Only later did I realize that this mindset is exactly what lies at the heart of data science, and that following this path wasn’t really a choice but the most natural direction forward.\nThat realization shaped my journey. What started as curiosity grew into building models, working with messy data, and uncovering the stories hidden inside. It became not just something I enjoyed, but something I wanted to dedicate myself to fully. Data science didn’t arrive in my life as a plan — it arrived as the recognition of what I had been doing all along.\nEven this website reflects that story. I built it with Quarto, the modern framework born from RStudio, where I first learned to bring statistics, code, and storytelling together. Using the same ecosystem here feels natural — a continuation of the roots that shaped me, now powering the place where I share what I’m building today."
   },
@@ -679,15 +679,15 @@
     "text": "Prediction of Medical Care Abandonment in Italy\n\n\na research project using machine learning to identify individuals most at risk of forgoing necessary healthcare services\n\n\n\n\n\n\nJul 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarijuana Legalization and Opioid Mortality: A Causal Analysis Using DiD and IV Models\n\n\nEconometric study of the effects of recreational cannabis legalization on opioid and cocaine mortality, using Difference-in-Differences, IV, and Event Studies.\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCommunity Detection Algorithms — Self-Implemented and Optimized\n\n\nA Python library implementing and optimizing community detection algorithms (Girvan-Newman, Spectral Clustering, Louvain) with significant performance improvements over…\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSnake with Curriculum Learning\n\n\nTraining an RL agent to play Snake using Stable Baselines3, with curriculum learning to progressively increase difficulty.\n\n\n\n\n\n\nOct 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nChurn Analysis on Banking Dataset\n\n\nPredicting customer churn in the banking sector using boosting algorithms, Optuna optimization, and interpretable ML techniques.\n\n\n\n\n\n\nMay 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nSQL Parser Data Pipeline\n\n\nA Python library for parsing and interpreting complex SQL queries, designed for BigQuery workflows and adaptable to other SQL dialects.\n\n\n\n\n\n\nApr 1, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "pubblications/Breast Cancer/index.html",
-    "href": "pubblications/Breast Cancer/index.html",
+    "objectID": "publications/Breast Cancer/index.html",
+    "href": "publications/Breast Cancer/index.html",
     "title": "Breast Cancer Classification with Deep Learning",
     "section": "",
     "text": "This project develops a deep learning pipeline for mammogram classification using the CBIS-DDSM dataset, addressing preprocessing, augmentation, and model training challenges in medical imaging.\nTechniques include ROI extraction, intensity maps, gradient transformations, and custom data augmentation (ROI overlay, geometric transformations, blended cropping). Pretrained CNNs were fine-tuned through transfer learning, achieving state-of-the-art performance among public baselines.\nKey results:\n- Preprocessing improved convergence and accuracy\n- Transfer learning boosted generalization performance\n- Augmentation strategies reduced overfitting\n- Demonstrated potential for scalable and reproducible breast cancer diagnostics\nRead full-text on ResearchGate\n\n\n\nDeep learning for mammogram classification using the CBIS dataset"
   },
   {
-    "objectID": "pubblications/Unity ML Agents/index.html",
-    "href": "pubblications/Unity ML Agents/index.html",
+    "objectID": "publications/Unity ML Agents/index.html",
+    "href": "publications/Unity ML Agents/index.html",
     "title": "Unity ML Agents: Wall Jump and SoccerTwos Environment using Reinforcement Learning Techniques",
     "section": "",
     "text": "This study applies reinforcement learning (RL) to the Unity ML-Agents Toolkit, with case studies on WallJump and SoccerTwos.\nAlgorithms implemented include Imitation Learning, Proximal Policy Optimization (PPO), Soft Actor-Critic (SAC), and POCA, evaluated with TensorBoard monitoring.\nEnhancements explored:\n- Curriculum learning in WallJump for complex task training\n- Self-play in SoccerTwos for competitive multi-agent strategies\n- Hyperparameter tuning for improved stability and performance\nKey results:\n- SAC outperformed PPO in continuous-control environments (3DBall)\n- Curriculum learning accelerated convergence in WallJump\n- Self-play produced stronger agents in adversarial settings\n- Hyperparameter tuning critically influenced model robustness\nRead on ResearchGate\n\n\n\nUnity ML-Agents environments explored: WallJump and SoccerTwos"
