@@ -35,7 +35,7 @@ The site showcases my academic journey, professional experience, research, and p
 
 ## 🛠️ Usage
 
-- **View Online:** [https://emanueleiacca.github.io/emanueleiaccarino.github.io/]([https://emanueleiaccarino.github.io/](https://emanueleiacca.github.io/emanueleiaccarino.github.io/))  
+- **View Online:** [https://emanueleiacca.github.io/emanueleiaccarino.github.io/](https://emanueleiacca.github.io/emanueleiaccarino.github.io/)
 - **Build Locally:**
   1. Install [Quarto](https://quarto.org/)
   2. Run `quarto preview` to serve the site locally
